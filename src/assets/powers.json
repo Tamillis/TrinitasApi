@@ -1,0 +1,5762 @@
+[
+    {
+        "name": "Action Surge",
+        "oldName": "Action Surge",
+        "tag": [
+            "combat",
+            "utility",
+            "powerful"
+        ],
+        "preq": [
+            "Fortitude +1"
+        ],
+        "desc": "You can push yourself beyond your normal limits for a moment. After your Action, you can take one additional Action.\n\nOnce you use this Power, you must finish a Short Rest before you can use it again.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Agile Defence",
+        "oldName": "Agile Defence",
+        "tag": [
+            "combat",
+            "defensive"
+        ],
+        "preq": [
+            "Accuracy +1",
+            "Dexterity +1"
+        ],
+        "desc": "Your ability to precisely and rapidly control the twists and bends your body makes, makes you harder to hit. When not wearing Stiff or Heavy armour, your Defence Stat is replaced by your agility, the average of your Accuracy and Dexterity, when calculating Defence.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Ancestors of Stone",
+        "oldName": "Ancestors of Stone",
+        "tag": [
+            "combat",
+            "damage-reduction",
+            "defensive",
+            "racial",
+            "spell-like"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "As an Action you make your flesh turn as hard as stone. For 1 minute you Concentrate as if on a spell, and while concentrating you have resistance to non-magical physical damage and a +2 Bonus to Armour.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Aptitude",
+        "tag": [
+            "roll-effecting",
+            "universal",
+            "powerful"
+        ],
+        "preq": [
+            "After 6 Powers",
+            "Once every 6th Power"
+        ],
+        "desc": "The value of your Bonus is increased to +3. You can take this Power two more times, increasing your Bonus to +4 and then +5.",
+        "repeatable": true,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Arcane Apprentice",
+        "oldName": "Arcane Aptitude",
+        "tag": [
+            "cantrip",
+            "spellcasting",
+            "universal",
+            "core"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "You have become a student of arcane study, learning to wield a handful of magic innately.\n\nYou know two cantrips of your choice from the Arcane Sphere. You know 1 Magnitude I spell of your choice (except spells with a gold cost) from the Arcane Sphere, which you can cast your Intelligence number of times per Long Rest without expending Mana.\n\nIntelligence is your Magic Statistic for this magic, and use a wand as a Spellcasting Focus.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Arcane Recovery",
+        "oldName": "Arcane Recovery",
+        "tag": [
+            "recovery",
+            "universal",
+            "utility",
+            "core"
+        ],
+        "preq": [
+            "Arcane Spellcasting"
+        ],
+        "desc": "You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a Short Rest, you can choose expended Mana Reserve to recover. The Reserve can have a combined value that is equal to your highest available Magnitude.\n\nFor example, if you have Mana III, you can recover three Magnitude I Reserve (1 + 1 + 1), or one Magnitude II Reserve and one Magnitude I Reserve (2 + 1), or one Magnitude III Reserve.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Arcane Savant",
+        "oldName": "Savant",
+        "tag": [
+            "exploration",
+            "skill"
+        ],
+        "preq": [
+            "Arcane Spellcasting",
+            "Intelligence +1"
+        ],
+        "desc": "Choose a spell school (Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy or Transmuation). The gold and time you must spend to copy a spell of that school into your spellbook is halved. In addition, when you make skill checks to do with this branch of magic, you do so as if you had Proficiency. If you would have Proficiency anyway, you do so with Expertise.\n\nYou can take this Power again, but you must choose a different spell school each time.",
+        "repeatable": true,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Arcane Spellcasting",
+        "oldName": "Arcane Spellcasting",
+        "tag": [
+            "spellcasting",
+            "universal",
+            "powerful"
+        ],
+        "preq": [
+            "Intelligence +1",
+            "A spellbook",
+            "Mana"
+        ],
+        "desc": "You are an arcane practitioner, a mage studied enough to manipulate mana into complex spell effects that allow you to bend reality all of your own will. You keep a repertoire of spells in a carefully curated Spellbook that is your Spell Source. You can use an Arcane Focus as a Spellcasting Focus.\n\n**Magic Statistic** - your Intelligence\n\n**Source** - Your spellbook, which you keep your spells encoded in. You can Copy the book, Transcribe found spells into it and Invent entirely new spells. See [Trinitas Magic](\/trinitas\/magic) for rules on how to use a spellbook. Your spellbook starts containing six Magnitude I spells of your choice from the Arcane Sphere.\n\n**Spellbook Rituals** - you can cast Ritual spells without preparing them first if they're in your spellbook.\n\n**Initial Cantrips** - You know three cantrips of your choice from the Arcane Sphere.\n\n**Prepared Spells** - You can Prepare a number of arcane spells by spending time studying your spellbook and memorizing the incantations and gestures you use. Choose a number of spells from your spellbook equal to your Intelligence + your Bonus to Prepare at the end of each Long Rest.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Arcane Ward",
+        "oldName": "Arcane Ward",
+        "tag": [
+            "combat",
+            "defensive",
+            "temporary-health"
+        ],
+        "preq": [
+            "Arcane Spellcasting"
+        ],
+        "desc": "You can amply and redirect threads of your defensive magic around yourself for greater protection. Whenever you cast an Abjuration spell of Magnitude I or higher, you can simultaneously create a magical ward on yourself or an ally that you can see within 30ft. The ward gives Temporary Health equal to your Bonus + your Intelligence.\n\nWhen you reapply the ward, the original fades.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Armour Expert",
+        "tag": [
+            "combat",
+            "defensive",
+            "core"
+        ],
+        "preq": [
+            "Strength +1"
+        ],
+        "desc": "While you are wearing armour, your armour's Defence value increases by 1. This does not include armour bonuses like Shields or Helmets.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Awakened Mind",
+        "oldName": "Awakened Mind",
+        "tag": [
+            "exploration",
+            "utility",
+            "sense"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "Your alien knowledge gives you the ability to touch the minds of other characters. You can telepathically speak to any character you can see within 30ft of you. You need to share a language with the character for it to understand your telepathic utterances, but you don't need to share a language to share emotions, images and impressions. Additionally, your maximum Intelligence is now 6, and your Intelligence increases by 1 but your Charisma decreases by 1 (to a minimum of -3).",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": -1,
+            "int": 1
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 6
+        }
+    },
+    {
+        "name": "Bardic Inspiration",
+        "oldName": "Bardic Inspiration",
+        "tag": [
+            "combat",
+            "social",
+            "utility",
+            "powerful"
+        ],
+        "preq": [
+            "Charisma +1"
+        ],
+        "desc": "You can inspire others through stirring words, song and music. You can use your Bonus Action to choose one other character within 60ft of you who can hear you, and give them one Bardic Inspiration die: a d4.\n\nOnce before the next Short Rest, the character can use up the die and roll it to add the number rolled to one Check or Save they make: after rolling the d20 but before hearing the result. A character can have only one Bardic Inspiration die at a time.\n\nYou can use this Power your Charisma number of times per Long Rest.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Blind Fighting",
+        "oldName": "Blind Fighting",
+        "tag": [
+            "combat",
+            "exploration",
+            "offensive",
+            "utility",
+            "sense"
+        ],
+        "preq": [
+            "Perception +3"
+        ],
+        "desc": "Honing during combat and other experiences have sharpened your instincts and perception greatly.\n\nYou gain the benefits of blindsight within a range of 10ft of you:\n- You can sense anything that isn't behind total cover or is Hidden\n- You ignore the Blinded and Deafened Conditions\n- You ignore the effects of darkness and obscuration\n- You can see invisible characters",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Bountiful Luck",
+        "oldName": "Bountiful Luck",
+        "tag": [
+            "roll-effecting",
+            "universal",
+            "utility"
+        ],
+        "preq": [
+            "Lucky"
+        ],
+        "desc": "Your people have extraordinary luck, which you have learned to mystically lend to your companions whenever you see them falter. You're not sure how you do it, you just wish it, and it happens. Surely a sign of fortune's favour.\n\nWhen an ally you can see within 30ft of you rolls a 1 on the d20 for an attack roll, an ability check, or a saving throw, you can use your Bonus Action to let the ally reroll the die. The ally must use the new roll, even if it is a 1.\n\nWhen you use this Power, you cant benefit from Lucky or use Bountiful Luck next Round.",
+        "repeatable": true,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Bullrush",
+        "oldName": "Bullrush",
+        "tag": [
+            "combat",
+            "movement",
+            "temporary-health"
+        ],
+        "preq": [
+            "Strength +1"
+        ],
+        "desc": "As a Bonus Action, you can move up to your Speed toward an enemy can see or hear. You also gain Temporary Health equal to your Strength. You can use this Power your Strength number of times per Long Rest.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Camouflage",
+        "oldName": "Natural Camouflage",
+        "tag": [
+            "exploration",
+            "roll-effecting"
+        ],
+        "preq": [
+            "Stealth Skill"
+        ],
+        "desc": "Through appearance, magic or specialist equipment, you can effectively hide in plain sight.\n\nAs an Action, you can try to hide by pressing yourself up against a solid surface or going prone, holding very still. \n\nYou have Advantage on Stealth checks as long as you remain there without moving or taking Actions. Once you move or take an action or bonus action, you must camouflage yourself again to gain this benefit.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Commander Tactics",
+        "oldName": "Commander Tactics",
+        "tag": [
+            "combat",
+            "utility",
+            "focus",
+            "core"
+        ],
+        "preq": [
+            "Intelligence +1"
+        ],
+        "desc": "You gain the following Tactical Actions:\n\n- **Bait and Switch** - as an Attack or Action, when you're within 5ft of an Engaged ally character, you can spend 1 Focus to switch places with that character, provided you spend at least 5 ft of movement. This movement doesn't provoke an Attack of Opportunity. You are now Engaged with that ally's enemy, and any attack they were about to make on your ally is directed at yourself instead.\n- **Call the Shot** - As an Action, direct one of your allys to strike. Choose an ally who can see or hear you. That character can immediately make one weapon attack for free. You can choose to spend 1 Focus, and Call the Shot as a Bonus Action instead of an Action.\n- **Distract** - as a Bonus Action when you hit a character with a weapon attack, you can distract them, giving your allies an opening. The next Attack roll against the target this Round has Advantage.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Cunning Action",
+        "oldName": "Cunning Action",
+        "tag": [
+            "combat",
+            "movement",
+            "utility",
+            "core"
+        ],
+        "preq": [
+            "Dexterity +3"
+        ],
+        "desc": "Your quick thinking and agility allow you to move and act quickly. You can take the Discern, Disarm, Dodge, Hide, or Parry actions as Bonus Actions instead.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Cursed",
+        "oldName": "Cursed",
+        "tag": [
+            "roll-effecting",
+            "universal"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "When you roll a 20 on an attack roll, ability check, or saving throw, you must reroll the die and use the new result, including if it is a 20. When this happens, you gain a \"Token of Misfortune\".\n\nThankfully this misfortune has a habit of spreading, even to your enemies. You can spend a Token of Misfortune to turn one successful attack roll, skill check or saving throw of an enemy you can see within 60ft into a failure.\n\nAfter a Long Rest you have 2 Tokens of Misfortune, resetting any from before.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Danger Sense",
+        "oldName": "Danger Sense",
+        "tag": [
+            "background",
+            "combat",
+            "exploration",
+            "roll-effecting",
+            "sense",
+            "utility"
+        ],
+        "preq": [
+            "Perception +1"
+        ],
+        "desc": "You gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger. \n\nYou have Advantage on Reflex Saves against effects that you can see, such as traps and spells. To gain this benefit, you can't be Blinded \/ Deafened, or Incapacitated.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Darkvision",
+        "oldName": "Darkvision",
+        "tag": [
+            "exploration",
+            "racial",
+            "sense",
+            "utility"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "You can see in Dim Light within 60ft of you as if it were Bright Light, and in darkness as if it were dim light. You can't discern colour in darkness, only shades of grey.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Divine Acolyte",
+        "oldName": "Blessed",
+        "tag": [
+            "spellcasting",
+            "universal",
+            "utility",
+            "core"
+        ],
+        "preq": [
+            "Faith +1"
+        ],
+        "desc": "You have become a devotee of a divine faith, learning to wield a handful of magic innately.\n\nYou know two cantrips of your choice from the Divine Sphere. You know 1 Magnitude I spell of your choice (except spells with a gold cost) from the Divine Sphere, which you can cast your Faith number of times per Long Rest without expending Mana.\n\nFaith is your Magic Statistic for this magic, and use a holy symbol as a Spellcasting Focus.\n",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Divine Domain",
+        "oldName": "Divine Domain",
+        "tag": [
+            "spell-like",
+            "universal",
+            "powerful"
+        ],
+        "preq": [
+            "Once every 4th Power"
+        ],
+        "desc": "You immerse yourself in exemplifying the ways of your Faith, and your piety is rewarded with the following:\n\n**Channel Divinity** - You gain the ability to channel divine energy directly from your deity, using that energy to fuel Miracles: starting with \"Turn Dark Creatures\".\n\nSome Miracles require you to 'Channel Divinity' as an Action or Bonus Action. You can Channel Divinity a number of times equal to your Faith, to a minimum of once. You must finish a Long Rest to regain your uses of Channel Divinity.\n\nSome Miracles require saving throws, which are against 8 + your Faith + your Bonus.\n\n**Turn Dark Creatures** \u2013 As an Action, you present your holy symbol and speak a prayer censuring the target of your faith's ire (choose one of: aberrations, demons, fiends, fell, or undead). Each character of that creature type that can see or hear you within 30ft of you must make a Willpower Save. If a character fails its save, it is \"Turned\" for 1 minute or until it takes any damage.\n\nA \"Turned\" character must spend its Rounds trying to use the Move action to get as far away from you as it can, and it can't willingly move to a space within 30ft of you. If it cannot, it uses the Dodge Action.\n\n**Domain Spells** - Choose 2 Divine Sphere spells you have the Magnitude to cast that represent your faith, they are now Innate Spells for you and no longer count against your number of prepared spells.\n\nWhen you take this Power again, you can choose an additional Domain Spells.\n\n",
+        "repeatable": true,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Divine Sense",
+        "oldName": "Divine Sense",
+        "tag": [
+            "exploration",
+            "sense",
+            "social"
+        ],
+        "preq": [
+            "Faith +1"
+        ],
+        "desc": "The presence of strong evil registers on your senses like a noxious odour, and powerful good rings like heavenly music in your ears. \n\nAs an Action, you can open your awareness to detect such forces. Until the end of the Round, you know the direction of any Dark Creature (aberrations, demons, fiends, fell, or undead) within 60ft of you that is not behind total cover. You know the type of any character whose presence you sense. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as if with the Hallow spell.\n\nYou can use this Power your Faith number of times per Long Rest.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Divine Smite",
+        "oldName": "Divine Smite",
+        "tag": [
+            "combat",
+            "offensive",
+            "spellcasting"
+        ],
+        "preq": [
+            "Divine Spellcasting"
+        ],
+        "desc": "When you hit a character with a weapon attack, you can expend one Reserve of Mana to deal radiant damage to the target, in addition to the weapon's damage. The extra radiant damage is 1d8 for each point of Mana reserve, to a maximum of 5d8.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Divine Spellcasting",
+        "oldName": "Divine Spellcasting",
+        "tag": [
+            "spellcasting",
+            "universal",
+            "powerful"
+        ],
+        "preq": [
+            "Faith +0",
+            "Mana"
+        ],
+        "desc": "As a conduit for divine power, you can cast divine spells. You must have Faith to use this power. If your Faith dips below 0, you no longer benefit from this Power or any that requires it until your Faith is restored. You can brandish a holy symbol in lieu of material components that don't have a gold cost for your Divine spells.\n\n**Magic Statistic** - your Faith + your Bonus\n\n**Cantrips** - You know three cantrips of your choice from the Divine Sphere spell list.\n\n**Prepared Spells** - You prepare the list of Divine Sphere spells that are available for you to cast that day, choosing freely from a spell list selected from the Divine Sphere by your diety. When you do so, choose a number of spells equal to your Bonus + your Faith. The spells must be of a Magnitude for which you have Mana Reserve. You can change your list of prepared spells when you finish a Long Rest. Preparing a new list of Divine Sphere spells requires time spent in prayer and meditation: at least 1 minute per Magnitude for each spell on your list.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Draconic Language",
+        "oldName": "Draconic Language",
+        "tag": [
+            "roll-effecting",
+            "social"
+        ],
+        "preq": [
+            "Charisma +1"
+        ],
+        "desc": "You have gained a full understanding of the ur-language of Dragons. You are able to Speak in Draconic, the Words of Creation, and every utterance carries your will behind it with greater weight. \n\nYou gain Proficiency in Languages (Draconic).\n\nOnce per Short Rest, you can make a Charisma check with Advantage. When you do so, you speak Draconic, and yet any who hear you understand what it is you say.",
+        "repeatable": false,
+        "skills": [
+            {
+                "skill": "Languages (one)",
+                "stat": "Intelligence",
+                "custom": true,
+                "knowledge": true
+            }
+        ],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Draconic Touch",
+        "oldName": "Draconic Bloodline",
+        "tag": [
+            "health",
+            "defensive",
+            "combat",
+            "racial",
+            "background"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "Your heritage includes some draconic influence. You may trace your descent back to a mighty sorcerer of ancient times who made a bargain with a dragon, or one of your great grand parents could have been a dragon in a guise. You gain the following benefits:\n\n- You count as having the Draconic Ancestry for prerequisite purposes.\n- As magic flows through your body, it causes physical traits of your dragon ancestors to emerge. Your Health increases by 2 and increases by 2 again whenever you gain Health from another Power.\n- Parts of your skin are covered by a thin sheen of dragon-like scales. You have Natural Armour of 2.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Duellist",
+        "oldName": "Duellist",
+        "tag": [
+            "combat",
+            "offensive",
+            "fighting-style"
+        ],
+        "preq": [
+            "Dexterity +1"
+        ],
+        "desc": "When wielding a one-handed melee weapon or a pistol, and no other weapons, you gain your Bonus to damage rolls.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Elemental Affinity",
+        "oldName": "Draconic Affinity",
+        "tag": [
+            "combat",
+            "damage-reduction",
+            "defensive",
+            "offensive"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "Through elemental heritage, bestowal or other path, you've gained affinity for a type of energy.\n\nChoose one of: Acid, Cold, Fire, Lightning, Poison or Thunder.\n\nWhen you cast a spell that deals damage of that type, add your Magic Statistic to one damage roll of that spell. You have Resistance to that damage type.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Expertise",
+        "oldName": "Expertise",
+        "tag": [
+            "skill",
+            "universal"
+        ],
+        "preq": [
+            "After 3 Powers",
+            "Once every 3rd Power",
+            "Intelligence +1",
+            "core"
+        ],
+        "desc": "Choose two skills with which you are proficient. You now have Expertise in those skills.\n\nIf you take this Power again, you choose two others of your proficienct Skills to gain Expertise in.",
+        "repeatable": true,
+        "skills": [
+            {
+                "skill": "Any",
+                "stat": "Any"
+            },
+            {
+                "skill": "Any",
+                "stat": "Any"
+            }
+        ],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Extra Attack",
+        "oldName": "Extra Attack",
+        "tag": [
+            "combat",
+            "offensive",
+            "powerful"
+        ],
+        "preq": [
+            "One of Accuracy +3 OR Dexterity +3",
+            "After 6 Powers"
+        ],
+        "desc": "You can attack twice, instead of once, whenever you take the Attack Action on your turn to make a weapon attack that uses Accuracy (if you have +3 in Accuracy or more), or Dexterity (if you have +3 in Dexterity or more).",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Extra Native Language",
+        "oldName": "Extra Native Language",
+        "tag": [
+            "racial",
+            "social"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "You were raised in an environment that required you to become bilingual, and you've gained an aptitude for languages. You know one more Native Language, and you learn other languages at twice the usual rate.",
+        "repeatable": true,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Favoured Enemy",
+        "oldName": "Favoured Enemy",
+        "tag": [
+            "combat",
+            "exploration",
+            "roll-effecting",
+            "skill",
+            "utility"
+        ],
+        "preq": [
+            "Charisma +1"
+        ],
+        "desc": "You have significant experience studying, tracking, hunting, and even talking to a certain type of enemy. Choose a group of favoured enemies:\n\n - Outsiders - aberrations, celestials, constructs, demons, fiends, jurors and sprites\n - Unnatural Creatures - elementals, fell, fey, machines, monstrosities and undead\n - Natural Creatures - beasts, oozes and plants (funghi are 'plants')\n - Legendary Creatures - dragons and giants\n - Two races of Humanoid - such as 'gnolls and orcs', or 'elves and humans'\n\nYou gain the following benefits with regards to your favoured enemies:\n- you gain your Bonus to damage rolls with weapon attacks against them\n- you have Advantage on Survival checks to track them, Observation checks to spot them when they're Hidden, and on any Knowledge skill checks to recall information about them\n- you gain the Languages (one) skill for them (or reasonable alternative)\n\nYou can take this Power two more times, choosing two further enemy types and a language each time.",
+        "repeatable": true,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Fey Ancestry",
+        "oldName": "Fey Ancestry",
+        "tag": [
+            "exploration",
+            "racial",
+            "roll-effecting",
+            "social"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "By ancient decree, your blood has been severed from the realm of dreams and cannot sleep. You have Advantage on Saves against being Charmed, and magic can't put you to sleep. \n\nInstead of sleeping, you meditate deeply, remaining conscious but unobservant. After resting in this way for 4 hours, you gain the same benefit another Character would from 8 hours of sleep.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Fey Magic",
+        "oldName": "Fey Teleportation",
+        "tag": [
+            "combat",
+            "movement",
+            "spell-like",
+            "universal",
+            "utility"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "You gain the following spells, casting them as spells or spell-like abilities. You can cast each once without expending Mana or Materials per Long Rest.\n\nYou learn the Friends cantrip. You also learn the Speak with Animals and Misty Step spells.\n\nCharisma is your Magic Stat for these spells.\n",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Field Alchemy",
+        "oldName": "Field Alchemy",
+        "tag": [
+            "combat",
+            "utility",
+            "powerful"
+        ],
+        "preq": [
+            "Intelligence +1",
+            "Alchemy Skill"
+        ],
+        "desc": "You are an expert at manipulating alchemy for use in combat and in the field.\n\n**Formula Book** - An alchemist keeps meticulous formulas for every item they can create. You have a book of formulas. This formula book contains the formulas for four low-grade alchemical items of your choice. You can copy formula you find into your formula book, spending 50gp per grade on the necessary experimentation and resources. If you take this power again, you invent 2 new formula of your choice including those of a grade above what you already have, and add them directly to your book.\n\n **Field Alchemy** - You've learned how to quickly and reliably produce alchemical products even while out in the field. At the end of a Long Rest, you spend some time to create unstable alchemical items that can be used over the course of the day, and you ignore material requirements. Each item must be in your formula book. These items remain potent for 24 hours or until your next Long Rest, whichever comes first, unless the item has an even shorter shelf life, in which case that is kept.\n\nYou can Craft a number of alchemical items whose grade totals up to 4 + your Intelligence. If you take this Power again, add 4 to this value.\n\n**Acid Vial** - In addition to your formulas and Field Alchemy, you can prepare and throw the alchemical item 'Acid Vial' as an Attack Action. This tiny glass flask contains volatile chemicals that can be used offensively in a pinch. The glass vial, when thrown like a bomb, deals 1d6 acid damage to a target within 20ft, or 60ft at Disadvantage, and 1 Scatter acid damage to any character within 5ft of the target if the attack roll would hit them.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Finder's High Magic",
+        "oldName": "Finder's High Magic",
+        "tag": [
+            "exploration",
+            "spell-like",
+            "spellcasting"
+        ],
+        "preq": [
+            "Finder's Magic",
+            "Perception +3"
+        ],
+        "desc": "You improve your ability in Finder's Magic. You can cast each spell once without expending Mana or Materials per Long Rest.\n\nYou learn the Locate Animals or Plants and Locate Person spells. Additionally, once per Long Rest you can divine a location; you create an Invisible, intangible sensor which you can see and hear through at a location you have visited before that is on this plane of existence.\n\nPerception is your Magic Stat for these spells.\n",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Finder's Magic",
+        "oldName": "Finder's Magic",
+        "tag": [
+            "combat",
+            "exploration",
+            "offensive",
+            "spell-like",
+            "utility"
+        ],
+        "preq": [
+            "Perception +1"
+        ],
+        "desc": "You gain the following spells, casting them as spells or spell-like abilities. You can cast each once without expending Mana or Materials per Long Rest.\n\nYou learn the True Strike cantrip. You also learn the Hunter's Mark and Locate Object spells.\n\nPerception is your Magic Stat for these spells.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Fleet",
+        "oldName": "Fleet of Foot",
+        "tag": [
+            "exploration",
+            "movement",
+            "racial"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "By foot, claw or wing, you're swifter than others. Increase your Speed by 10ft and your Travel Speed by 1 mile.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Foresighted Defence",
+        "oldName": "Foresighted Defence",
+        "tag": [
+            "combat",
+            "defensive",
+            "defence-recalc"
+        ],
+        "preq": [
+            "Intelligence +1",
+            "Perception +1"
+        ],
+        "desc": "Your ability to read and predict your foes makes you harder to hit. \n\nWhen not wearing stiff or heavy armour or using a shield, your Defence is calculated from your \"Foresight\" (Perception + Intelligence):\n\nDefence = Base Defence + Foresight + Armour",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Giant's Magic",
+        "oldName": "Duergar Magic",
+        "tag": [
+            "universal",
+            "utility",
+            "spell-like"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "You gain the following spells, casting them as spells or spell-like abilities. You can cast each once without expending Mana or Materials per Long Rest.\n\nYou learn the Shillelagh cantrip. You also learn the Enhance Ability and Enlarge\/Reduce spells.\n\nWillpower is your Magic Stat for these spells.\n",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Gnostic Miracle",
+        "oldName": "Gnostic Miracle",
+        "tag": [
+            "miracle",
+            "skill"
+        ],
+        "preq": [
+            "Divine Domain"
+        ],
+        "desc": "In a moment of divine revelation, you become Proficient and gain Expertise in two Language Skills of your choice. You also become Proficient and gain Expertise in one of the following skills: Arcana, History, Nature, or Religion.\n\nYou can use your Channel Divinity to tap into a divine well of knowledge. As an Action, you choose one Skill and gain Proficiency in it for 10 minutes.\n",
+        "repeatable": false,
+        "skills": [
+            [
+                {
+                    "skill": "Arcana",
+                    "stat": "Intelligence",
+                    "knowledge": true
+                },
+                {
+                    "skill": "History",
+                    "stat": "Intelligence",
+                    "knowledge": true
+                },
+                {
+                    "skill": "Nature",
+                    "stat": "Intelligence",
+                    "knowledge": true
+                },
+                {
+                    "skill": "Religion",
+                    "stat": "Intelligence",
+                    "knowledge": true
+                }
+            ],
+            {
+                "skill": "Languages (one)",
+                "stat": "Intelligence",
+                "custom": true,
+                "knowledge": true
+            },
+            {
+                "skill": "Languages (one)",
+                "stat": "Intelligence",
+                "custom": true,
+                "knowledge": true
+            }
+        ],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Grappler",
+        "oldName": "Grappler",
+        "tag": [
+            "combat",
+            "offensive",
+            "background",
+            "fighting-style"
+        ],
+        "preq": [
+            "Dexterity +1"
+        ],
+        "desc": "You've developed the skills necessary to excel in close-quarters grappling. You gain the following benefits:\n\n- When you hit a character with an Unarmed or Improvised Strike, you can use a Bonus Action to attempt to Grapple the target.\n- You can use any non-Heavy weapon to attack the Character you are grappling\n- You have Advantage on attack rolls against a character you are grappling.\n- You can use your Action to try to Stun the character grappled by you. To do so, make another grapple check. If you succeed, they are Stunned for the Round.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Great Weapon Fighting",
+        "oldName": "Great Weapon Fighting",
+        "tag": [
+            "combat",
+            "offensive",
+            "fighting-style",
+            "roll-effecting"
+        ],
+        "preq": [
+            "Strength +3"
+        ],
+        "desc": "When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with the heavy and two-handed or versatile properties, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. You must be wielding the weapon in two hands to gain this benefit.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Greater Breath Weapon",
+        "oldName": "Greater Breath Weapon",
+        "tag": [
+            "combat",
+            "offensive",
+            "racial"
+        ],
+        "preq": [
+            "Draconic Ancestry"
+        ],
+        "desc": "You were born with a deeper connection to your draconic ancestry. Your Breath Weapon gains the following improvements:\n\n- You do an additional 1d10 damage, if your Breath Weapon does damage\n- The DC is calculated by 8 + your Fortitude + your Expertise\n- The area, if a 5ft by 30ft line, is now a 5ft by 45ft line, or if a 15ft cone, is now a 20ft cone",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Grudge Bearer",
+        "oldName": "Grudge Bearer",
+        "tag": [
+            "background",
+            "combat",
+            "dwarf",
+            "exploration",
+            "racial",
+            "roll-effecting",
+            "utility",
+            "tuskman"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "You have a deep hatred for a particular kind of creature. Choose your foes, a type of creature to bear the burden of your wrath: aberrations, beasts, celestials, constructs, dragons, demons, elementals, fell, fey, fiends, giants, lycanthropes, monstrosities, oozes, plants, sprites or undead. Alternatively, you can select two races of humanoid (such as gnolls and orcs). You gain the following benefits:\n\n- During the first round of any combat against your chosen foes, your attack rolls against any of them have Advantage.\n- When any of your chosen foes makes an opportunity attack against you, it makes the attack roll with Disadvantage.\n- You have Advantage on Arcana, History, Nature, Occultism or Religion Checks to recall information about your chosen foes.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Hale Defence",
+        "oldName": "Hale Defence",
+        "tag": [
+            "combat",
+            "defensive",
+            "defence-recalc"
+        ],
+        "preq": [
+            "Fortitude +2"
+        ],
+        "desc": "Your steadfast ability to take hits sees you through.\n\nWhen not wearing stiff (excluding Hide Armour) or heavy armour, your Defence is calculated from your Fortitude:\n\nDefence = Base Defence + Fortitude + Armour\n\nYou can use a shield and still gain this benefit.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Healer",
+        "oldName": "Healer",
+        "tag": [
+            "background",
+            "combat",
+            "healing",
+            "core"
+        ],
+        "preq": [
+            "Medicine"
+        ],
+        "desc": "You are an able physician, allowing you to mend wounds quickly and get your allies back in the fight. You gain the following benefits:\n\n- When you use a healer's kit to stabilize a dying character, that character also regains 1 health.\n- As an action. you can spend one use of a healer's kit to tend to a character and restore 1d6 + 4 health to it. The character can't regain health from this Power again until it finishes a long rest.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Health Increase",
+        "oldName": "Health Increase",
+        "tag": [
+            "exploration",
+            "health",
+            "stat",
+            "powerful"
+        ],
+        "preq": [
+            "After 3 Powers",
+            "Once every 4th Power"
+        ],
+        "desc": "Increase your Health by your Fortitude + Willpower (to a minimum increase of 1) to your Health total. If you increase or decrease your Fortitude or Willpower at other times in the game, recalculate your Health Bonus from Health Increase using the new values.\n\nAdditionally, when you Recover, you recover an additional amount of Health equal to your Fortitude + Willpower (to a minimum of 1).",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Heavy Attack",
+        "oldName": "Heavy Attack",
+        "tag": [
+            "combat",
+            "offensive",
+            "powerful"
+        ],
+        "preq": [
+            "Strength +3",
+            "After 6 Powers"
+        ],
+        "desc": "Whenever you take the Attack Action on your turn to make a weapon attack that uses Strength, you double the damage dice of the weapon.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Hider's High Magic",
+        "oldName": "Hider's High Magic",
+        "tag": [
+            "universal",
+            "spell-like",
+            "utility"
+        ],
+        "preq": [
+            "Hider's Magic"
+        ],
+        "desc": "You improve your ability in Hider's Magic. You can cast each spell once without expending Mana or Materials per Long Rest.\n\nYou learn the Blindness \/ Deafness and Invisibility spells. Additionally, once per Long Rest you can hide yourself from magical scrying for 8 hours. You can't be targeted by any Divination spell or perceived through magical scrying sensors.\n\nIntelligence is your Magic Stat for these spells.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Hider's Magic",
+        "oldName": "Svirfneblin Magic",
+        "tag": [
+            "universal",
+            "utility",
+            "spell-like"
+        ],
+        "preq": [
+            "Intelligence +1"
+        ],
+        "desc": "You gain the following spells, casting them as spells or spell-like abilities. You can cast each once without expending Mana or Materials per Long Rest.\n\nYou learn the Guidance cantrip. You also learn the Disguise Self and Blur spells.\n\nIntelligence is your Magic Stat for these spells.\n",
+        "repeatable": true,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Hypnotic Gaze",
+        "oldName": "Hypnotic Gaze",
+        "tag": [
+            "combat",
+            "crowd-control",
+            "spell-like"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "Your soft words and enchanting gaze can magically enthral another character. \n\nAs an Action, choose a character that can see you and is within your reach. The target must succeed on a Willpower Save against your passive Charisma or be Incapacitated and visibly dazed, entranced by your gaze.\n\nOn following Rounds, you can use your Action to maintain this effect, extending its duration until the end of the Round. However, the effect ends if you move more than 5ft away from the character, if the character can neither see nor hear you, or if the character takes damage.\n\nOnce the effect ends, or if the character succeeds on its initial Save against this effect, you can't use this Power on that character again until you finish a Long Rest.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Improved Bardic Inspiration",
+        "oldName": "Improved Bardic Inspiration",
+        "tag": [
+            "combat",
+            "social",
+            "utility"
+        ],
+        "preq": [
+            "Charisma +3",
+            "After 6 Powers"
+        ],
+        "desc": "You can use the Bardic Inspiration Power a number of times equal to your Charisma + your Bonus per Long Rest.\n\nYour Bardic Inspiration die increases from a d4 to a d8.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Improved Focus",
+        "oldName": "Improved Focus",
+        "tag": [
+            "combat",
+            "utility",
+            "focus"
+        ],
+        "preq": [
+            "Willpower +2"
+        ],
+        "desc": "You train your focus to be unwavering in the heat of combat, and unending throughout the day.\n\nYour Focus pool now totals your Willpower + your Expertise.\n\nOnce per Short Rest, as a Bonus Action, you can regain Focus equal to your Willpower.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Improved Ki",
+        "oldName": "Improved Ki",
+        "tag": [
+            "combat",
+            "ki",
+            "utility",
+            "offensive",
+            "defensive",
+            "crowd-control"
+        ],
+        "preq": [
+            "After 6 Powers",
+            "Ki"
+        ],
+        "desc": "Increase the number of Ki Points you have access to by your Bonus. Your Ki save DC is also increased by your Bonus.\n\nYou also gain the following Ki Actions:\n- **Fast Throw** - you spend 2 Ki Points to make a Ranged Weapon Attack with a weapon that has the thrown property as a Bonus Action. You can draw the weapon as part of this attack.\n- **Great Leap** - when you take the Move Action, you can spend a Ki Point to Jump the entire length of the movement. If you are still in the air at the end of the move, you start Falling from that point.\n- **Flow State** - you spend 2 Ki Points to add your Bonus to your Defence for the Round.\n- **Stunning Strike** - When you hit a character with an Unarmed Strike, you can spend 2 Ki Points to make them make a Ki Save. If they fail, they are Stunned. If they succeed, they are Sluggish.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Improved Primal Shapeshifting",
+        "oldName": "Unleashed Wild Shape",
+        "tag": [
+            "combat",
+            "exploration",
+            "utility"
+        ],
+        "preq": [
+            "After 3 Powers",
+            "Once every 4th Power",
+            "Wild Shape",
+            "Willpower +3"
+        ],
+        "desc": "You dive more deeply into the power of the animal wild, and you gain the following benefits:\n\n- Increase Challenge Rating limit of your Wild Shape by 1\/2, to a maximum of 3\n- Increase the number of hours you can stay in Wild Shape by 1, to a maximum of 6\n- Choose one category: flying speed, burrowing speed, swimming speed, dragon, elemental, fell, fey, giant, lycanthrope, monstrosity, ooze, plant. You can now Wild Shape into a creature that has this kind of movement that belongs to a category you can Wild Shape into, or belongs to the new category, that you have studied, as with normal Wild Shape.",
+        "repeatable": true,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Inspiring Leader",
+        "oldName": "Inspiring Leader",
+        "tag": [
+            "social",
+            "combat",
+            "temporary-health"
+        ],
+        "preq": [
+            "Charisma +1"
+        ],
+        "desc": "You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly characters (which can include yourself) within 30ft of you who can see or hear you and who can understand you. \n\nEach character gains Temporary Health equal to your Bonus + your Charisma. \n\nYou cannot use this Power again until you have finished a Short Rest.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Intimidating Visage",
+        "oldName": "Intimidating Visage",
+        "tag": [
+            "racial",
+            "skill",
+            "social"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "Your visage is naturally intimidating and when angered, you radiate menace. \n\nYou gain Proficiency in the Intimidation skill. \n\nAs an Action, you can \"Threaten\" a character within reach of you. They make a Willpower Save vs 8 + your Charisma + your Bonus, or are Frightened of you for 1 minute. If the frightened target takes any damage, they can repeat the Save, ending the effect on itself on a success.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Jack of All Trades",
+        "oldName": "Jack of All Trades",
+        "tag": [
+            "background",
+            "exploration",
+            "skill",
+            "core"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "You can add half your Bonus, rounded down, to any Checks you make that doesn't already include a Bonus.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Keen Senses",
+        "oldName": "Keen Senses",
+        "tag": [
+            "background",
+            "exploration",
+            "racial",
+            "sense"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "One of your senses is more accute than the average human's. Choose one of the senses (sight, hearing, touch, taste, smell or psychic). When using this sense, treat your Perception as 1 higher, to a maximum of 6.\n\nYou can take this Power again for different senses.",
+        "repeatable": true,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Ki",
+        "oldName": "Ki",
+        "tag": [
+            "combat",
+            "defensive",
+            "movement",
+            "offensive",
+            "crowd-control",
+            "powerful"
+        ],
+        "preq": [
+            "Willpower +1"
+        ],
+        "desc": "Your mindful training allows you to control and focus your body's life force: ki.\n\n**Ki Points** - Your access to this energy is represented by a number of Ki Points equal to your Willpower. You regain all spent Ki points during a Short Rest by spending 30 minutes meditating.\n\n**Ki Actions**:\n- **Quick Jab** - spend 1 Ki Point to make an Unarmed Strike as a Bonus Action with Advantage.\n- **Deft Dodge** - Spend 1 Ki Point to take the Dodge Action as a Bonus Action with proficiency.\n- **Sudden Speed** - Spend 1 Ki Point to take the Move Action as a Bonus Action, and your jump distance is doubled for the Round.\n- **Fold Foe** - When you hit a character with an Unarmed Strike, spend 1 Ki Point to make them make a Ki Save. If they fail, you can make them Prone or move them 10ft in a direction of your choice.\n\n**Ki Save** - the save DC for certain Ki Actions is 8 + your Willpower.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Lay on Hands",
+        "oldName": "Lay on Hands",
+        "tag": [
+            "combat",
+            "healing"
+        ],
+        "preq": [
+            "Faith +1"
+        ],
+        "desc": "Your blessed touch can heal wounds. You have a pool of healing energy that replenishes when you take a long rest. With that pool, you can restore a total amount of Health equal to your Faith x 5.\n\nAs an Action, you can touch a character and draw energy from the pool to restore an amount of Health to that character, up to the maximum amount remaining in your pool.\n\nAlternatively, you can expend 5 Health from your pool of healing to cure the target of one Disease or remove the Poisoned condition from it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending Health separately for each one.\n\nThis Power has no effect on Undead, Constructs or Machines.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Learned",
+        "oldName": "Learned",
+        "tag": [
+            "background",
+            "exploration",
+            "skill",
+            "utility"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "When you make an Arcana, History, Nature, Occultism or Religion check, you can choose to do so at Advantage.\n\nYou can use this Power your Bonus number of times per Long Rest.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Leatherlung Tactics",
+        "oldName": "Leatherlung Tactics",
+        "tag": [
+            "combat",
+            "offensive",
+            "healing",
+            "utility",
+            "focus"
+        ],
+        "preq": [
+            "Charisma +1"
+        ],
+        "desc": "You gain the following Tactical Actions:\n\n- **Menace** - as an Action, you can attempt to intimidate a character that can see or hear you. You must make a Charisma check vs their passive Willpower. On a success, the target is Frightened of you until the end of the Round.\n- **Rally** - as a Bonus Action you can bolster the resolve of one of your allies. When you do so, choose an ally who can see or hear you. They gain temporary Health equal to your Charisma (to a minimum of 1). When you have used Rally on an ally, you cannot use Rally on the same ally until you both finish a Long Rest.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Life Restoring Miracle",
+        "oldName": "Disciple of Life",
+        "tag": [
+            "healing",
+            "miracle"
+        ],
+        "preq": [
+            "Divine Domain"
+        ],
+        "desc": "Your healing spells are miraculously more effective. Whenever you use a spell to restore Health to a Character, the Character regains additional Health equal to your Faith + your Bonus.\n\nYou do not need to Channel Divinity to benefit from this Miracle.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Lightning Reflexes",
+        "oldName": "Lightning Reflexes",
+        "tag": [
+            "combat",
+            "focus",
+            "utility"
+        ],
+        "preq": [
+            "Dexterity +1"
+        ],
+        "desc": "You gain your Bonus to Initiative Contests. Additionally, when you spend 1 Focus to Boost Initiative rolls, you instead add your Bonus x d6 to the roll.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Long-Limbed",
+        "oldName": "Long-Limbed",
+        "tag": [
+            "racial",
+            "combat",
+            "utility"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "When you make a melee attack, your reach for it is 5ft greater than normal.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Lucky",
+        "oldName": "Lucky",
+        "tag": [
+            "background",
+            "roll-effecting",
+            "universal",
+            "powerful"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die. You must use the new result, even if it is a 1.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Luminator's Magic",
+        "oldName": "Luminator's Magic",
+        "tag": [
+            "background",
+            "cantrip",
+            "exploration",
+            "spell-like"
+        ],
+        "preq": [
+            "Mana"
+        ],
+        "desc": "You gain the following spells, casting them as spells or spell-like abilities. You can cast each once without expending Mana or Materials per Long Rest.\n\nYou learn the Dancing Lights cantrip. You also learn the Faerie Fire and Darkness spells.\n\nCharisma is your Magic Stat for these spells.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Magical Tinkering",
+        "oldName": "Magical Tinkering",
+        "tag": [
+            "combat",
+            "exploration",
+            "utility"
+        ],
+        "preq": [
+            "Engineering",
+            "Intelligence +1"
+        ],
+        "desc": "You've learned how to invest a spark of magic into mundane objects. To use this Power, you use thieves' tools or artisan's tools to modify a Tiny nonmagical object as an Action and give it one of the following magical properties of your choice:\n\n - The object sheds bright light in a 5ft radius and dim light for an additional 5ft.\n - Whenever tapped by a character, the object emits a recorded message that can be heard up to 10ft away. You utter the message when you bestow this property on the object, and the recording can be no more than 6 seconds long.\n - The object continuously emits your choice of an odour or a nonverbal sound (wind, waves, chirping, or the like). The chosen phenomenon is perceivable up to 10ft away.\n - A static visual effect appears on one of the object's surfaces. This effect can be a picture, up to 25 words of text, lines and shapes, or a mixture of these elements, as you like.\n\nThe chosen property lasts indefinitely. As an action, you can touch the object and end the property early. You can bestow magic on multiple objects, touching one object each time you use this Power, though a single object can only bear one property at a time. The maximum number of objects you can affect with this Power at one time is equal to your Intelligence. If you try to exceed your maximum, the oldest property immediately ends, and then the new property applies.\n\nAdditionally, if you have the Arcane Spellcasting Power, you may use your thieves' or artisan's tools as a spellcasting focus.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Major Mutation",
+        "oldName": "Major Mist Mutation",
+        "tag": [
+            "cantrip",
+            "combat",
+            "defensive",
+            "exploration",
+            "movement",
+            "offensive",
+            "skill",
+            "stat",
+            "utility"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "You have several major mutations warping and twisting your body in many locations, which have a collective effect. The effect of these mutations is not only to make you look like the horror that peasants tell tales of to frighten their children, but one of the following (choose one):\n\n- **Bulging Skin-Bursting Muscles** - you ignore the heavy property of weapons, you gain Proficiency in Athletics, and your Strength and Maximum Strength are increased by 1\n- **Pawed digitigrade Hooves and Tail** - your movement speed increases by 10ft, you gain Proficiency in Acrobatics, and your Dexterity and Maximum Dexterity are increased by 1\n- **Armoured Shell and Scales** - you gain Natural Armour of 4. You are resistant to Slashing damage, and you gain Proficiency in Fortitude Saves.\n- **Headful of Mismatched Eyes** - you can cast Detect Magic once per Long Rest as a 1 minute ritual without need Mana or Materials. You gain Proficiency in Observation, and your Perception and Maximum Perception is increased by 1.\n- **Hypnotic Bioluminescence** - you know the Friends cantrip, using your Charisma to cast the spell, you gain Proficiency in Persuasion, and your Charisma and Maximum Charisma is increased by 1.\n\nIf you suffer this Power again, choose a different effect.",
+        "repeatable": true,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Mana",
+        "oldName": "Mana",
+        "tag": [
+            "spellcasting",
+            "universal",
+            "powerful"
+        ],
+        "preq": [
+            "Once every 3rd Power"
+        ],
+        "desc": "You're able to tap into a well of mystical energy within yourself known to practitioners as Mana. \n\nYour Mana comes in a Reserve, of which 'points' are at a certain Magnitude. Higher Magnitude Reserve can always be used at a lower Magnitude, though it still only counts as 1 point. A spell is cast with one point of a Reserve of Mana.\n\nEach rank in this Power grants a spread of points of Reserve. \n\nYour Reserve replenishes after a Long Rest.\n\nAdditionally, as you gain mana your natural aptitude for magic increases. You gain bonus Cantrips according to the Bonus Cantrips column, choosing them from the spell sphere lists you have access to or from; Druidcraft, Prestidigitation or Thaumaturgy.\n\n| Rank | Bonus Cantrips | Mag. I | Mag. II | Mag. III | Mag. IV | Mag. V |\n| --- | -------------- | ------ | ------- | -------- | ------- | ------ |\n| 1 | 0              | 2      | -       | -        | -       | -      |\n| 2 | 1              | 3      | 1       | -        | -       | -      |\n| 3 | 1              | 4      | 2       | 1        | -       | -      |\n| 4 | 1              | 4      | 3       | 2        | 1       | -      |\n| 5 | 2              | 4      | 3       | 3        | 2       | 1      |\n| 6 | 2              | 4      | 3       | 3        | 3       | 2      |\n| 7 | 3              | 4      | 3       | 3        | 3       | 3      |",
+        "repeatable": true,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Mana Manipulation",
+        "oldName": "Mana Manipulation",
+        "tag": [
+            "recovery",
+            "resource",
+            "spellcasting",
+            "universal"
+        ],
+        "preq": [
+            "Mana"
+        ],
+        "desc": "You can use your advanced control over magic to manipulate the levels of mana in your own body. By focusing your mind you can break down the bands of power within into discrete points of mana, that you can reassemble as you need.\n\nAs an Action you:\n- you can convert Reserves of mana of a given Magnitude and gain a number of 'Mana Points' equal to the Magnitude's rank for each Reserve. E.g. you convert 2 reserve of Magnitude III, that's 6 'Mana Points'.\n- You then must transform all Mana Points into points of Reserve of certain Magnitudes.\n\nThe Creating Reserve table below shows the conversion from Mana Points back to Mana Reserve. Any Reserve you create with this Power vanishes when you finish a Long Rest.\n\n| Creating Reserve |                     |\n| ---------------- | ------------------- |\n| **Magnitude**    | **Mana Point Cost** |\n| I                | 2                   |\n| II               | 3                   |\n| III              | 5                   |\n| IV               | 6                   |\n| V                | 7                   |",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Martial Arts",
+        "oldName": "Martial Arts",
+        "tag": [
+            "combat",
+            "offensive",
+            "powerful"
+        ],
+        "preq": [
+            "Unarmed Fighting Skill",
+            "Dexterity +1"
+        ],
+        "desc": "Your practice of martial arts gives you mastery of combat styles that use Unarmed Strikes and \"Martial Arts Weapons\": weapons which don't have the Ranged, Two-Handed or Heavy properties and with which you already have Proficiency. \n\nYou gain the following benefits while you are unarmed or wielding only martial arts weapons and you aren't wearing stiff or heavy armour or wielding a shield:\n\n- You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and martial arts weapons\n- You can roll a d6 in place of the normal damage dice of your unarmed strike or martial arts weapon. The damage type is unchanged.\n- When you hit with an Attack Action with an unarmed strike or a martial arts weapon, you can chain one more unarmed strike as a Bonus Action. For example, if you take the Attack Action and hit with a quarterstaff with which you are proficient, you can also make an unarmed kick as a Bonus Action.\n- Your unarmed and martial arts weapon Attacks contain the Block I and Parry (Bludgeoning) properties if they didn't already.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Meta Magic",
+        "oldName": "Meta Magic",
+        "tag": [
+            "meta-magic",
+            "spellcasting"
+        ],
+        "preq": [
+            "Arcane Spellcasting"
+        ],
+        "desc": "You've learned to invest more power into spells to manipulate them on the fly. You gain two 'Meta-magic' options of your choice, if you meet the requirements, and you can choose two new meta-magic options when take this Power again. Meta Magic options are at [Trinitas Magic](\/Trinitas\/magic#meta-magic).\n\nUnless otherwise stated, a spell can have any number of different meta-magic effects applied to it at a time, but each effect can only be applied once.",
+        "repeatable": true,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Mistal Magic",
+        "oldName": "Everchanging Nature",
+        "tag": [
+            "spell-like",
+            "universal",
+            "utility"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "You gain the following spells, casting them as spells or spell-like abilities. You can cast each once without expending Mana or Materials per Long Rest.\n\nYou learn the Eldritch Blast cantrip. You also learn the Arms of the Dark Star and Alter Self spells.\n\nFortitude is your Magic Stat for these spells.\n",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Natural Air Magic",
+        "oldName": "Natural Air Magic",
+        "tag": [
+            "cantrip",
+            "exploration",
+            "spell-like"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "You gain the following spells, casting them as spells or spell-like abilities. You can cast each once without expending Mana or Materials per Long Rest.\n\nYou learn the Shocking Grasp cantrip. You also learn the Feather Fall and Levitate spells.\n\nWillpower is your Magic Stat for these spells.\n",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Natural Earth Magic",
+        "oldName": "Natural Earth Magic",
+        "tag": [
+            "exploration",
+            "utility",
+            "spell-like"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "You gain the following spells, casting them as spells or spell-like abilities. You can cast each once without expending Mana or Materials per Long Rest.\n\nYou learn the Blade Ward cantrip. You also learn the Entangle and Spike Growth spells.\n\nFortitude is your Magic Stat for these spells.\n",
+        "repeatable": true,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Natural Explorer",
+        "oldName": "Natural Explorer",
+        "tag": [
+            "combat",
+            "exploration",
+            "roll-effecting",
+            "utility",
+            "background"
+        ],
+        "preq": [
+            "Perception +1",
+            "Once every 4th Power"
+        ],
+        "desc": "You are a master of navigating two types of natural environment, and you react with swift and decisive action when attacked in such regions. Choose two types of favoured terrain: boreal, aquatic, deserts, woods, jungles, plains, mountains, swamps, or underground. When in such terrain you have the following benefits:\n\n- You ignore difficult natural terrain of that environment.\n- Your first Attack in a combat has Advantage.\n- You have Advantage on tracking and other knowledge related Checks against Natural Creatures in this terrain\n- Verdance is one higher for you in your terrain, if you have Primal Spellcasting (up to a maximum of 6).\n\nWhile travelling in your favoured terrain, your group gains the following benefits:\n\n- Difficult terrain doesn't slow your group's travel, and your group can move stealthily at a normal pace.\n- Your group can't become lost except by magical means.\n- Your group remain alert to danger and cannot be Surprised.\n- If your group forage 1 ration, you instead gain 2.\n\nWhen you retake this Power, choose two new favoured terrain types.",
+        "repeatable": true,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Natural Fire Magic",
+        "oldName": "Natural Fire Magic",
+        "tag": [
+            "exploration",
+            "racial",
+            "spell-like"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "You gain the following spells, casting them as spells or spell-like abilities. You can cast each once without expending Mana or Materials per Long Rest.\n\nYou learn the Produce Flame cantrip. You also learn the Burning Hands and Flame Blade spells.\n\nFortitude is your Magic Stat for these spells.\n",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Natural Illusionist",
+        "oldName": "Natural Illusionist",
+        "tag": [
+            "universal",
+            "utiltiy",
+            "defensive",
+            "spell-like"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "You gain the following spells, casting them as spells or spell-like abilities. You can cast each once without expending Mana or Materials per Long Rest.\n\nYou learn the Minor Illusion cantrip. You also learn the Silent Image and Mirror Image spells.\n\nIntelligence is your Magic Stat for these spells.\n",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Natural Water Magic",
+        "oldName": "Natural Water Magic",
+        "tag": [
+            "universal",
+            "utility",
+            "spell-like"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "You gain the following spells, casting them as spells or spell-like abilities. You can cast each once without expending Mana or Materials per Long Rest.\n\nYou learn the Acid Splash cantrip. You also learn the Create or Destroy Water and Water Walk spells.\n\nWillpower is your Magic Stat for these spells.\n",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Nimble",
+        "oldName": "Squat and Nimble",
+        "tag": [
+            "combat",
+            "exploration",
+            "movement",
+            "roll-effecting"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "Your nimble frame grants the following benefits:\n- You can move through the space of any character that is of a size larger than yours.\n- You have Advantage on Checks to escape being Grappled\n- When being Grappled, your Passive Fortitude includes your Expertise.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Occult Spellcasting",
+        "tag": [
+            "spellcasting",
+            "universal",
+            "powerful"
+        ],
+        "preq": [
+            "Mana"
+        ],
+        "desc": "An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with occultish magic. This font of magic, whatever its origin, fuels your spells. The power of your magic relies on your body's ability to conjure, fuel and guide this magic, rather than any specific learning. You can use an arcane focus as a spellcasting focus for your sorcerer spells.\n\n**Magic Statistic**. You use a different Stat depending on the school of the spell that you cast.\n\n- For Abjuration, Conjuration and Divination spells, your Magic Statistic is your Fortitude\n- For Illusion and Transmutation spells, your Magic Statistic is your Reflexes\n- For Enchantment, Evocation and Necromancy spells, your Magic Statistic is your Willpower\n\n**Cantrips** - You know four cantrips of your choice from the Occult Sphere spell list.\n\n**Innate Spells** - You know two Magnitude I spells of your choice from the Occult Sphere spell list as Innate Spells. When you gain a rank in the Mana Power, you learn one more Occult Sphere spell of a Magnitude which you have Reserve for, also as an Innate Spell.\n\nAdditionally, when you gain a rank in Mana, you can choose one of the Innate Occult Sphere Spells you know and replace it with another from the Occult Sphere spell list, which also must be of a Magnitude for which you have Reserve.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Pact Magic",
+        "oldName": "Pact Magic",
+        "tag": [
+            "spellcasting",
+            "universal",
+            "powerful"
+        ],
+        "preq": [
+            "Every 4th Power"
+        ],
+        "desc": "You have made a Pact with a powerful being. In return for being their pawn, they invest in you powerful magic that you can cast, channelling their magic through you. Unlike typical Spellcasting, this magic is not your own, and you barely have control of it.\n\nYour Patron determines the Magic Sphere and Magic Stat you use. Your list of spells from that Sphere is added to from Emblematic Spells, and reduced by Anathema Spells (if any) of that Patron. Choose one Patron from the table below:\n\n| **Patron** | Sphere | Magic Stat |  Emblematic Spells | Anathema Spells |\n| --- | --- | --- | --- | --- |\n| Celestial | Divine | Faith | Eldritch Blast (radiant), Blade Ward, Burning Hands, Faerie Fire, Sleep, Flame Blade, Fortune's Favour, See Invisibility, Call Lightning, Fear, Fly| - |\n| Fiend | Occult | Charisma | Eldritch Blast, Vicious Mockery, (other spells) | No idea mate |\n| Great Old One| Occult | Intelligence | Eldritch Blast, Empathy, *, **, **, Immovable Object, Conjure Barrage, Hunger of Hadar | Friends, Cure Wounds, Protection from Good and Evil, Aid, Lesser Restoration, Catnap, Revivify|\n\n**Cantrips** - You know two cantrips of your choice from those available to your Patron.\n\n**Stipend** - Your Patron provides you a Stipend with which you can cast spells a number of times at a Magnitude. You always casts spells at this magnitude. Stipend is not Mana, and cannot be used in Mana-requiring Powers. However, you may cast spells from your Patronage with your own Mana Reserve, if you have any.\n\n**Communion** - you have a method of remote communication with your Patron. When you Commune during a Short Rest, your Stipend is replenished. When you Commune during Downtime, your Patron may allow you to change one, some or all of your Innate Spells up to the Magnitude you have the Stipend to cast, or one, some or all your Patron Invocations, if you have any.\n\n**Known Innate Spells** - Choose a number of spells from the Spell List of your Patron equal to your Magic Stat + your Bonus (to a minimum of 1). These are Innate Spells for you. If these Stats increase, you may choose more spells during your next Communion.\n\nWhen you take this Power again, you make a deeper Pact with your Patron in exchange for more a greater Stipend. For each Rank of this Power, your Stipend is:\n\n| Rank | Stipend Charges | Stipend Magnitude |\n| --- | --- | --- |\n| I | 2 | I |\n| II | 2 | II |\n| III | 3 | III |\n| IV | 3 | IV |\n| V | 4 | V |\n",
+        "repeatable": true,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Polyglot",
+        "oldName": "Polyglot",
+        "tag": [
+            "social",
+            "skill"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "Your Proficiency with languages makes picking up others a breeze. \n\nYou gain Proficiency in three Languages. Additionally, learning languages now takes even less time for you, and if you encounter a language you do not know, you can still attempt communication at Disadvantage.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Portent",
+        "oldName": "Portent",
+        "tag": [
+            "roll-effecting",
+            "universal"
+        ],
+        "preq": [
+            "Perception +1"
+        ],
+        "desc": "Your mind has been opened to the fabric of fate: glimpses of the future begin to press in on your awareness. \n\nWhen you finish a Long Rest, roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or stat check made by you or a character that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per Round.\n\nEach foretelling roll can be used only once. When you finish a Long Rest, you lose any unused foretelling rolls.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Powerful Cantrips",
+        "oldName": "Powerful Cantrips",
+        "tag": [
+            "combat",
+            "offensive",
+            "powerful",
+            "spellcasting",
+            "cantrip"
+        ],
+        "preq": [
+            "Spellcasting - one of",
+            "After 6 Powers"
+        ],
+        "desc": "Whenever you take the Attack action on your turn to cast a cantrip spell, you Enhance its effect, if the cantrip has an enhanced effect. If not, you double the damage dice of the cantrip. If the cantrip has no Enhance description and does not deal damage, this Power has no effect.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Primal Acolyte",
+        "oldName": "Druidic Apprentice",
+        "tag": [
+            "universal",
+            "spellcasting",
+            "utility",
+            "core"
+        ],
+        "preq": [
+            "Nature"
+        ],
+        "desc": "You have become a follower of nature, learning to wield a handful of magic innately.\n\nYou know two cantrips of your choice from the Primal Sphere. You know 1 Magnitude I spell of your choice (except spells with a gold cost) from the Primal Sphere, which you can cast your Bonus number of times per Long Rest without expending Mana.\n\nVerdance is your Magic Statistic for this magic, as detailed in the [Verdance Table](\/pedd\/magic#verdance-table).",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Primal Sect",
+        "oldName": "Secrets of the Land",
+        "tag": [
+            "exploration",
+            "recovery",
+            "spellcasting",
+            "utility"
+        ],
+        "preq": [
+            "Primal Spellcasting"
+        ],
+        "desc": "Your magic is influenced by the druidic practices, mysterious rites and primal secrets of a sect that you bind yourself to, even as you carry its power wherever you go.\n\n**Sect Spells** - Choose 2 Primal sphere spells you can cast that represent the sect that you bound yourself to, they are now Innate Spells for you.\n\n**Natural Recovery** - You can regain some of your magical energy by sitting in meditation and communing with nature. During a Short Rest, you choose expended Mana to recover up to a third of your rank in the Mana Power, rounded up. If you're Rank 3 in Mana, you recover Rank 1 Mana, that is to say 2 Magnitude I points. If you're Rank 7 in Mana, you recover Rank 2 Mana: 4 Magnitude I points and 2 Magnitude II points. You can't use this Power again until you finish a Long Rest.\n\nWhen you take this Power again, you gain the benefit of Sect Spells. You can take this Power 2 more times, up to 3 times.",
+        "repeatable": true,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Primal Shapeshifting",
+        "oldName": "Primal Shapeshift",
+        "tag": [
+            "combat",
+            "exploration",
+            "movement",
+            "sense",
+            "spell-like",
+            "utility",
+            "powerful"
+        ],
+        "preq": [
+            "Primal Spellcasting",
+            "Willpower +1"
+        ],
+        "desc": "You can use your Action to magically assume the shape of a Beast that you have learned before (typically through a day of unobtrusive observation), such as an Ape, Black Bear, Crocodile, Reef Shark or Warhorse.\n\n- You can use this Power a number of times equal to your Willpower. You regain expended uses when you finish a Long Rest.\n- You can transform into any Beast that has a Challenge Rating of 1\/2 (this system is due to be replaced with a WIP) or lower that doesn't have a flying, burrowing or swimming speed.\n- You can stay in a wild shape for 1 hour. You then revert to your normal form unless you expend another use of this Power. You can revert to your normal form earlier by using a Bonus Action. You automatically revert if you fall unconscious, drop to 0 Health, or die.\n\nWhile you are transformed, the following rules apply:\n\n- Your Accuracy, Perception, Strength, and Dexterity statistics, and therefore Reflexes and Fortitude, are replaced by those of the Beast. You retain your Intelligence, Charisma and Willpower statistics.\n- You retain all of your proficiencies, in addition to gaining those of the Beast. Your Bonus is unchanged.\n- When you transform, you assume the beast's full Health. When you revert to your normal form, you return to the Health value you had before you transformed. However, if you revert as a result of dropping to 0 Health, any excess damage carries over to your normal form. For example, if you take 10 damage in a form that has only 1 Health left, you revert and take 9 damage.\n- Your ability to speak or take any action that requires hands (etc.) is limited to the capabilities of your form, meaning you cannot cast any spells with Verbal or Somatic components. Transforming doesn't break your Concentration on a spell you've already cast, however, although it may prevent you from taking actions that are part of a spell that you've already cast if they would require a human mouth, hands, etc.\n- You retain the benefit of any Powers and can use them if the new form is physically capable of doing so. However, as your senses are replaced, you can't use any of your special senses, such as darkvision, unless your new form also has them.\n- You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the GM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Primal Spellcasting",
+        "tag": [
+            "spellcasting",
+            "universal",
+            "powerful"
+        ],
+        "preq": [
+            "Mana",
+            "Perception +1"
+        ],
+        "desc": "Your connection to nature allows you to weave the power of the local environment into primal magic. You can use a druidic focus as a spellcasting focus for your Primal spells.\n\n**Magic Statistic** - the current Verdance of where you are + your Bonus.\n\n| Verdance | Barren | Poor | Middling | Rich | Abundant|\n|---|---|---|---|---|---|\n|Boreal|-1|0|1|2|4|\n|Deeps|-1|0|1|2|4|\n|Deserts|-1|0|1|2|4|\n|Jungles|1|2|3|4|5|\n|Plains|0|1|2|3|4|\n|Mountains|-1|0|1|2|4|\n|Shallows|1|2|3|4|5|\n|Swamps|0|1|2|3|4|\n|Underground|-1|0|1|2|4|\n|Woods|0|1|2|3|4|\n\n**Cantrips** - You know two cantrips of your choice from the Primal Sphere.\n\n**Prepared Spells** - You prepare a list of primal spells that are available for you to cast each day. To do so, choose a number of spells equal to your Expertise from the Primal Sphere spell list. The spells must be of a Magnitude that you have the Reserve for. You can change your list of prepared spells when you finish a Long Rest. Preparing a new list of primal spells requires time spent communing with nature and absorbing the instincts and hidden wisdom needed to cast the spells.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Prodigy",
+        "oldName": "Prodigy",
+        "tag": [
+            "exploration",
+            "racial",
+            "skill"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "You have a knack for learning new things. You gain the following benefits:\n\n- You gain Proficiency in three Skills of your choice.\n- Choose one Skill in which you have Proficiency to upgrade to Expertise.\n- You learn skills at twice the usual rate.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Professional Artisan",
+        "oldName": "Professional Artisan",
+        "tag": [
+            "background",
+            "exploration",
+            "roll-effecting"
+        ],
+        "preq": [
+            "Engineering"
+        ],
+        "desc": "When not at Disadvantage, you can choose to spend at least 1 minute and not roll when making any Tool Set or Crafting check with which you are proficient and instead assume you rolled a 10, adding a Stat and any Bonus to that as normal. Any check that would normally take longer than 1 minute still does so.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Protective Fighter",
+        "oldName": "Protective Fighter",
+        "tag": [
+            "combat",
+            "defensive",
+            "roll-effecting"
+        ],
+        "preq": [
+            "Dexterity +1"
+        ],
+        "desc": "When a foe you can see attacks your ally that is within your reach, you can use your Bonus Action to impose Disadvantage on the attack roll. You must be wielding a Shield or a weapon with the Block property.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Psychic Sense",
+        "oldName": "Psychic Sense",
+        "tag": [
+            "human",
+            "racial",
+            "sense",
+            "universal",
+            "gnome",
+            "halfling",
+            "goblinoid",
+            "half-elf"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "You gain the Psychic sense. You can speak in a language you know telepathically to any character within 30ft of you and if you maintain the connection they may speak back. You can speak telepathically in this way to one character at a time.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Rage",
+        "oldName": "Rage",
+        "tag": [
+            "combat",
+            "damage-reduction",
+            "offensive",
+            "roll-effecting",
+            "utility",
+            "powerful"
+        ],
+        "preq": [
+            "Strength +1"
+        ],
+        "desc": "In battle, you fight with berserk ferocity. As a Bonus Action, you can begin \"Raging\".\n\nWhile Raging, you gain the following benefits and drawbacks:\n- You have advantage on Strength Checks and Fortitude Saves.\n- You cannot Concentrate on or cast spells.\n\nWhile Raging, you gain the following benefits if you aren't wearing Stiff or Heavy armour:\n- When you make a melee weapon attack using Strength, you gain your Bonus to the damage roll.\n- You have resistance to bludgeoning, piercing, and slashing damage.\n\nRaging lasts for 1 minute. It ends early if you are knocked unconscious or if the Round ends and you haven't attacked a hostile character or taken damage.\n\nYou can begin Raging your Bonus number of teams per Long Rest.",
+        "repeatable": true,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Ranger Magic",
+        "oldName": "Wood Elf Magic",
+        "tag": [
+            "universal",
+            "utility",
+            "spell-like"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "You gain the following spells, casting them as spells or spell-like abilities. You can cast each once without expending Mana or Materials per Long Rest.\n\nYou learn the Druidcraft cantrip. You also learn the Longstrider and Pass Without Trace spells.\n\nReflex is your Magic Stat for these spells.\n",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Reckless Attack",
+        "oldName": "Reckless Attack",
+        "tag": [
+            "combat",
+            "offensive",
+            "roll-effecting"
+        ],
+        "preq": [
+            "Strength +1"
+        ],
+        "desc": "You can throw aside all concern for defence to attack with fierce desperation. \n\nIf you decide to attack on your turn, you can decide to attack recklessly. Doing so gives you Advantage on melee weapon attack rolls using Strength during this Round, but attack rolls against you have Advantage during this Round.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Relentless Endurance",
+        "oldName": "Relentless Endurance",
+        "tag": [
+            "combat",
+            "healing"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "When you are reduced to 0 Health but not killed outright, once per Long Rest, you can drop to 1 Health instead. You still gain the Wounded Condition.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Resilient",
+        "oldName": "Resilient",
+        "tag": [
+            "background",
+            "combat",
+            "exploration",
+            "defensive",
+            "roll-effecting",
+            "core"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "You gain your Bonus on saving throws for your choice of Fortitude, Reflexes or Willpower. You can take this Power again, choosing a different Resistance each time.",
+        "repeatable": true,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Retractable Claws",
+        "oldName": "Hooked Claws",
+        "tag": [
+            "racial",
+            "combat",
+            "offensive"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "Your claws are natural weapons, with which you are always Proficient. They have the Light and Nonlethal properties. Additionally, when extended, the claws do not prevent you from grappling or shoving an enemy, using an item, or interacting with an object, but you cannot wield other weapons with that hand.\n\nExtending or retracting the claws requires a Bonus Action.\n\nIf you hit with them, you deal slashing damage equal to 1d4 + your Strength.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Rune Magic",
+        "oldName": "Rune Magic",
+        "tag": [
+            "spellcasting",
+            "universal",
+            "powerful"
+        ],
+        "preq": [
+            "Once every 3rd Power"
+        ],
+        "desc": "You know a number of ancient magical runes that you keep protected in a legend. You can add runes that you find in your adventures to your legend.\n\n**Imbue Object** - At the end of a Long Rest, choose a number of runes from your legend equal to your Bonus. You imbue them on objects that you carry or wear, through paint, chisel or other means. Each of these runes exudes power, providing a constant benefit to the bearer. If the object leaves the plane of existence you are on, it's effect ends. When you finish a Long Rest, any unused runes fade.\n\n**Expend Rune** - You may expend the power of a rune of an object you bear to cast the Spell that rune embodies. Each symbol Spell is cast at its minimum Magnitude, but requires no Mana or material components, and your Magic Statistic is your Bonus. When you do so, the rune fades and you no longer gain the passive benefit.\n\nWhen you take this Power you know 4 runes.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Savage Attacks",
+        "oldName": "Savage Attacks",
+        "tag": [
+            "combat",
+            "offensive"
+        ],
+        "preq": [
+            "Strength +1"
+        ],
+        "desc": "When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Savage Magic",
+        "oldName": "Savage Magic",
+        "tag": [
+            "combat",
+            "offensive",
+            "spellcasting"
+        ],
+        "preq": [
+            "Spellcasting"
+        ],
+        "desc": "When you score a critical hit with a spell attack, you can roll one of the spell's damage dice one additional time and add it to the extra damage of the critical hit.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Scrivener's Magic",
+        "oldName": "Scrivener's Magic",
+        "tag": [
+            "universal",
+            "utility",
+            "spell-like"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "You learn the magic of the learned scribe. You learn the Message cantrip. You also learn the Comprehend Languages and Illusory Script spells, each of which you can cast once without expending Mana or requiring components. You regain the ability to cast these two spells in this way when you finish a Long Rest. Intelligence is your Magic Statistic for all three spells.\n\nYou gain the following spells, casting them as spells or spell-like abilities. You can cast each once without expending Mana or Materials per Long Rest.\n\nYou learn the Message cantrip. You also learn the Comprehend Languages spell and Detect Thoughts, but only targeting a Character you can see in range and for the \"Read Thoughts\" Action.\n\nIntelligence is your Magic Stat for these spells.\n",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Seaborn",
+        "oldName": "Heritage of the Sea",
+        "tag": [
+            "combat",
+            "exploration",
+            "movement",
+            "racial"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "Adapted to life on the coasts and in the waters, you have a swimming speed of 30ft and can breathe underwater.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Second Wind",
+        "oldName": "Second Wind",
+        "tag": [
+            "combat",
+            "healing",
+            "utility",
+            "background",
+            "core"
+        ],
+        "preq": [
+            "Fortitude +1"
+        ],
+        "desc": "You have a limited well of stamina that you can draw on to shake harm off. On your turn, you can use a Bonus Action to regain Health equal to 1d10 + your Bonus.\n\nOnce you use this Power, you must finish a Short Rest before you can use it again.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Secondary Strike Specialist",
+        "oldName": "Two Weapon Fighting",
+        "tag": [
+            "combat",
+            "offensive",
+            "fighting-style"
+        ],
+        "preq": [
+            "Dexterity +1"
+        ],
+        "desc": "You learn a style of fighting popular with skirmishers, dashing around the field slicing at foes, or wielding to weapons at once to unleash a flurry of devastating blows.\n\nYou can make an Secondary Strike even if the weapon does not have the Light property, so long as you do not wield a weapon with the Heavy property. Additionally, you can add your attack Statistic to the damage roll of the Secondary Strike.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Secret Language",
+        "oldName": "Secret Language",
+        "tag": [
+            "exploration",
+            "skill"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "You know the secret language of a cloistered society, gang, network or other such group. You can speak the language and use it to leave coded messages, the medium varying significantly between secret languages. \n\nYou and others who know this language automatically spot and decipher such a message. Others who listen to or encounter encoded messages can't decipher the language without magic, instead only hearing or seeing something innocuous.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Skilled",
+        "oldName": "Skilled",
+        "tag": [
+            "exploration",
+            "skill",
+            "background",
+            "core"
+        ],
+        "preq": [
+            "Intelligence +1"
+        ],
+        "desc": "You gain proficiency in any three Skills of your choice.",
+        "repeatable": true,
+        "skills": [
+            {
+                "skill": "Any",
+                "stat": "Any"
+            },
+            {
+                "skill": "Any",
+                "stat": "Any"
+            },
+            {
+                "skill": "Any",
+                "stat": "Any"
+            }
+        ],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Skirmisher Tactics",
+        "oldName": "Skirmisher Tactics",
+        "tag": [
+            "combat",
+            "offensive",
+            "utility",
+            "focus",
+            "core"
+        ],
+        "preq": [
+            "Accuracy +1"
+        ],
+        "desc": "You gain the following Tactical Actions:\n\n- **Aim** - as an Attack or Action, you gain Advantage on your next weapon attack which must be a ranged or thrown weapon. You can choose to spend 1 Focus, and Aim as a Bonus Action.\n- **Run and Gun** - when you use your Action to Move, you can make 1 Ranged Weapon Attack as a Bonus Action at Disadvantage. You can spend 1 Focus to ignore the Disadvantage\n- **Quick Toss** - as a Bonus Action, you make a Ranged Weapon Attack with a weapon that has the thrown property at Disadvantage. You can draw the weapon as part of making this attack. You can spend 1 Focus to ignore the Disadvantage.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Sneak Attack",
+        "oldName": "Sneak Attack",
+        "tag": [
+            "combat",
+            "offensive",
+            "powerful"
+        ],
+        "preq": [
+            "Accuracy +1 OR Dexterity +1",
+            "Once every 4th Power"
+        ],
+        "desc": "You know how to strike subtly, exploiting a foe's distraction or sinking your weapon into their weak spots.\n\nWhen you have Advantage and hit a Character with a Weapon Attack using Accuracy or Dexterity, you can roll an extra 1d6 damage of your weapon's damage type to one Character you hit.\n\nWhen you take this Power again, increase the damage bonus by 1d6. You can take this Power 2 more times, for a total of 3 times.",
+        "repeatable": true,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Sniper",
+        "oldName": "Sniper",
+        "tag": [
+            "combat",
+            "offensive",
+            "fighting-style"
+        ],
+        "preq": [
+            "Accuracy +1"
+        ],
+        "desc": "When you make a Ranged Weapon Attack the range of the weapon is increased by 60ft, up to a maximum of its Long Range.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Song of Rest",
+        "oldName": "Song of Rest",
+        "tag": [
+            "background",
+            "exploration",
+            "recovery"
+        ],
+        "preq": [
+            "Musical Instruments",
+            "Willpower +1"
+        ],
+        "desc": "You can use soothing music or oration to help revitalize your wounded allies during a Short Rest. If you or any friendly characters who can hear your performance regain Health at the end of the Short Rest, each of them regains an extra Health equal to your Willpower.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Statistic Increase",
+        "oldName": "Statistic Increase",
+        "tag": [
+            "roll-effecting",
+            "universal",
+            "stat",
+            "powerful"
+        ],
+        "preq": [
+            "After 3 Powers",
+            "Once every 6th Power"
+        ],
+        "desc": "Training, experience and gumption have seen you improve in a fundamental way.\n\nIncrease one Statistic by +1, up to a maximum of your Stat's Maximum (by default 5).",
+        "repeatable": true,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Stealth Expert",
+        "oldName": "Naturally Stealthy",
+        "tag": [
+            "combat",
+            "exploration",
+            "movement",
+            "skill",
+            "core"
+        ],
+        "preq": [
+            "Stealth Skill"
+        ],
+        "desc": "You have trained extensively in the art of stealth, gaining the following actions:\n- You can attempt to hide even when you are only obscured by an object or character that is the same size as you, or by half or three-quarters cover.\n- When you are hidden from a character and miss it with a ranged weapon attack, making the attack doesn't reveal your position or end the Hidden condition.\n- Your speed is not reduced when moving while Hidden.\n\nAdditionally, you gain Expertise in Stealth.\n",
+        "repeatable": false,
+        "skills": [
+            {
+                "skill": "Stealth",
+                "stat": "Dexterity"
+            }
+        ],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Stubborn Defence",
+        "oldName": "Stubborn Defence",
+        "tag": [
+            "combat",
+            "defensive",
+            "defence-recalc"
+        ],
+        "preq": [
+            "Willpower +2"
+        ],
+        "desc": "Your wilful disregard and mind-over-matter attitude allows you to ignore some hits.\n\nWhen not wearing heavy armour or using a shield, your Defence is calculated from your Willpower:\n\nDefence = Base Defence + Willpower + Armour",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Tough",
+        "oldName": "Dwarven Toughness",
+        "tag": [
+            "health",
+            "racial",
+            "stat",
+            "universal",
+            "core"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "Your Health maximum increases by 2, and it increases by 2 again for every Power that increases Health.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 2,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Tough Hide",
+        "oldName": "Dragon Hide",
+        "tag": [
+            "combat",
+            "defensive",
+            "racial"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "You have scales, thick blubber or other tough hide. You gain Natural Armour of 4.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Tricky Tactics",
+        "oldName": "Tricky Tactics",
+        "tag": [
+            "combat",
+            "offensive",
+            "defensive",
+            "utility",
+            "focus",
+            "core"
+        ],
+        "preq": [
+            "Dexterity +1"
+        ],
+        "desc": "You gain the following Tactical Actions:\n\n- **Evasive Footwork** - when you take the Move action, you can spend 1 Focus and roll a d6. You add the number rolled to your Defence until you stop moving. So if you take the Move action in the following Round\/s, the bonus is carried forward.\n- **Feint** - as a Bonus Action, you can choose one character within 5ft of you as your target to Feint against. You then have Advantage on your next Attack roll against that character this Round.\n- **Goad** - as an Action, when a target Character that can see or hear you has an Intelligence Stat, you can attempt to goad the target into attacking you. You must make a Charisma check vs their passive Willpower. On a success, the target has Disadvantage on all attack rolls against targets other than you until the end of the Round.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Troglodyte",
+        "oldName": "Troglodyte",
+        "tag": [
+            "exploration",
+            "racial",
+            "roll-effecting",
+            "sense"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "You have excellent night vision, but sensitivity to sunlight.\n\n- Non-magical darkness is dim-light to you up to a range of 120ft.\n- Dim-light is bright light for you up to a range of 60ft.\n- Bright light is uncomfortable for you.\n- Direct or magical sunlight gives you Disadvantage on attack rolls and Perception checks that rely on sight when you, the target of the attack, or whatever you are trying to perceive is in it.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Uncanny Accuracy",
+        "oldName": "Elven Accuracy",
+        "tag": [
+            "combat",
+            "offensive",
+            "roll-effecting"
+        ],
+        "preq": [
+            "Accuracy +3"
+        ],
+        "desc": "You have uncanny aim with attacks that rely on precision rather than brute force.\n\nYour Bonus number of times per Long Rest, you can choose to make a ranged weapon attack or ranged spell attack with Advantage.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Unhindered Movement",
+        "oldName": "Unhindered Movement",
+        "tag": [
+            "combat",
+            "exploration",
+            "movement"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "When you are not wearing Stiff or Heavy armour, or wielding a shield, your Speed increases by 10ft.\n\nAdditionally, when you take the Move action, if you start and finish your movement on solid ground, you can move along or up vertical surfaces without falling and across liquids without sinking in.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Vampiric Bite",
+        "oldName": "Vampiric Bite",
+        "tag": [
+            "combat",
+            "healing",
+            "offensive"
+        ],
+        "preq": [
+            "Fortitude +1"
+        ],
+        "desc": "Through curse, inheritance or other esoteric power, you've gained the ability to drain life force.\n\nWhen you reduce an enemy to 0 Health with a melee attack, you can take a Bonus Action to drain their life force if they are in your reach. They automatically lose 1 Death Save and you gain Health back equal to your Fortitude + your Bonus.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Vanguard Tactics",
+        "oldName": "Vanguard Tactics",
+        "tag": [
+            "combat",
+            "offensive",
+            "utility",
+            "focus",
+            "core"
+        ],
+        "preq": [
+            "Strength +1"
+        ],
+        "desc": "You gain the following Tactical Actions:\n\n- **Charge** - when you use your Action to Move, moving at least 15ft or half your speed (whichever is lower), at the end of the Move you can make 1 Weapon Attack at Advantage as a Bonus Action. You can spend 1 Focus to add 1d6 damage to the attack.\n- **Hound** - When you hit a character that is 2 sizes larger than you or less with a weapon attack, you can forego damage to move the target 10ft in a direction of your choice without provoking attacks of opportunity.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Warding Flare Miracle",
+        "oldName": "Warding Flare",
+        "tag": [
+            "combat",
+            "miracle",
+            "offensive",
+            "roll-effecting",
+            "utility"
+        ],
+        "preq": [
+            "Divine Domain"
+        ],
+        "desc": "You gain the Light cantrip. If you already know this cantrip, you learn a different Divine Sphere cantrip of your choice.\n\nYou can Channel Divinity and interpose divine light between yourself and an attacking enemy. When you are attacked by a character within 30ft of you that you can see, you can use your Bonus Action and impose Disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can't be blinded is immune to this Miracle.\n\nYou can use this Miracle a number of times equal to your Faith (a minimum of once). You regain all expended uses when you finish a Rest.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Wild Magic Touch",
+        "oldName": "Wild Magic",
+        "tag": [
+            "roll-effecting",
+            "racial",
+            "universal"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "The wild forces of chaos that underlie the order of creation have touched your soul. You might have endured exposure to some form of raw magic, perhaps through a harrowing mistal encounter, or partaking in the fare of the fey, or perhaps you were marked by a demon's passions. However it came to be, this chaotic magic churns within you, waiting for any outlet.\n\n**Wild Magic Surge** - Your spellcasting can unleash surges of untamed magic. You roll a d20 immediately after you cast a spell of Magnitude I or higher for the first time in a Round. If you roll a 1, roll on the Wild Magic Surge table to create a magical effect. If that effect is a spell, it is too wild to be affected Meta Magic, if you're able, and if it normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration.\n\n**Tides of Chaos** - You can manipulate the forces of chance and chaos to gain Advantage on one attack roll, ability check, or saving throw. Once you do so, you must finish a Long Rest before using Tides of Chaos again. If you have a Wild Magic Surge, you regain the use of Tides of Chaos.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Winged",
+        "oldName": "Dragon Wings",
+        "tag": [
+            "exploration",
+            "movement",
+            "racial"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "You have fully functional flight wings. With your wings, you have a flying speed of 20ft if you aren't wearing heavy armour and aren't exceeding your carrying capacity.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Witching Apprentice",
+        "oldName": "Witching Apprentice",
+        "tag": [
+            "spellcasting",
+            "universal",
+            "utility",
+            "core"
+        ],
+        "preq": [
+            ""
+        ],
+        "desc": "You have become an initiate of occult lore, learning to wield a handful of magic innately.\n\nYou know two cantrips of your choice from the Occult Sphere. You know 1 Magnitude I spell of your choice (except spells with a gold cost) from the Occult Sphere, which you can cast your Willpower number of times per Long Rest without expending Mana.\n\nFortitude is your Magic Statistic for Abjuration, Conjuration and Divination spells of this magic.\n\nReflexes is your Magic Statistic for Illusion and Transmutation spells of this magic.\n\nWillpower is your Magic Statistic for Enchantment, Evocation and Necromancy spells of this magic.",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    },
+    {
+        "name": "Wuxia Arts",
+        "oldName": "Wuxia Arts",
+        "tag": [
+            "ki",
+            "spell-like",
+            "universal"
+        ],
+        "preq": [
+            "Ki"
+        ],
+        "desc": "You have trained ki to flow like the magic of spells, your style unfolding into a series of magic inducing martial art moves that create Spell-like effects \n\nDecide the theme of your school of wuxia, such as \u201cShadow\u201d, \u201cSun\u201d or \u201cWater\u201d, and choose a number spells as dictated in the table below that match that theme.\n\nIf the spell has material components with a gold value \/ sacrifice, you cannot take them, otherwise the material components are ignored.\n\nYou cast these spells with Ki Points, the cost is noted in the table.\n\n| Ki Points | Mag. | Number of Spells |\n| --- | --- | --- |\n| 0 | Cantrip | 1 |\n| 1 | I | 3 |\n| 2 | II | 2 |\n| 4 | III | 1 |\n",
+        "repeatable": false,
+        "skills": [],
+        "statChanges": {
+            "acc": 0,
+            "per": 0,
+            "str": 0,
+            "dex": 0,
+            "cha": 0,
+            "int": 0
+        },
+        "resistanceChanges": {
+            "ref": 0,
+            "fort": 0,
+            "will": 0
+        },
+        "secondaryStatChanges": {
+            "faith": 0,
+            "speed": 0,
+            "health": 0,
+            "armour": 0
+        },
+        "statMaxes": {
+            "acc": 5,
+            "per": 5,
+            "str": 5,
+            "dex": 5,
+            "cha": 5,
+            "int": 5
+        }
+    }
+]

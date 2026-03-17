@@ -1,0 +1,15 @@
+{
+  "name": "pedd-powers-api",
+  "version": "1.0.0",
+  "description": "Node.js port of the PEDD Powers Controller",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env app.js",
+    "dev": "node --watch --env-file=.env app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.3"
+  }
+}

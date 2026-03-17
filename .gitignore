@@ -1,0 +1,17 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Environment variables (CRITICAL)
+.env
+.env.test
+.env.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS Metadata
+.DS_Store
+Thumbs.db
