@@ -1,4 +1,4 @@
-# PEDD Powers API
+# Trinitas API
 
 A lightweight Node.js backend replacement for the equivalent PHP api used before. 
 
@@ -12,13 +12,13 @@ This project is also a chance to practice a modular Express.js server using midd
 
 1. **Clone & Install**
    ```bash
-   git clone <your-repo-url>
-   cd pedd-powers-api
+   git clone https://github.com/Tamillis/TrinitasApi.git
+   cd TrinitasApi
    npm install
    ```
 
 2. **Environment Configuration**
-   Create a `.env` file in the root:
+   Create a `.env` file in the root (use `.env.example` as a guide):
    ```env
    PORT=3000
    USER=my_username         # I plan on replacing this with a user system later, for now there is only one: me
@@ -70,7 +70,7 @@ Authorization: Bearer <jwt_token>
 Other than using Express, the focus of this project was organisation and "clean, extensible" design.
 
 - `/src/controllers`: Request/Response handling.
-- `/src/repositories`: File I/O and data persistence (Data Layer).
+- `/src/repositories`: File I/O and data persistence.
 - `/src/routes`: Route definitions and middleware mapping.
 - `/src/middleware`: JWT validation and Role-based access control.
 - `/src/contracts`: Functional DTOs for type-safe data handling and type-annotation definitions.
