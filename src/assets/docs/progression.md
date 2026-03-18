@@ -1,0 +1,22 @@
+In Trinitas, there are no classes or a system of levelling. There are no "levels".
+
+Characters are made from the three pillars: Race, Background and Role, with Role representing the *how* they tackle being the classic "adventurer". All three offer characters the chance to gain Powers, the specific abilities they possess to take special action in the world.
+
+### Powers
+Instead of levels and classes, there are "Powers". The intent is to allow for any combination of Powers to be allowed for all sorts of different and unique characters, with a more story-driven powers "In-Training" progression system, where characters discover, train in and then unleash Powers much more naturally as part of play and part of the story.
+
+A **Power** is an ability of a character to do something extraordinary beyond the day-to-day ken of your normal person. Whether that be to do something but better, do something that was otherwise impossible or grant access to something in addition to usual routes. Powers - as the name implies - empower you to adventure!
+
+### Powers In Training
+Progression in Trinitas is a dynamic and natural thing. Players and characters identify the next Power they wish to make theirs, and are said to be “in-training”. The GM and the player decide how much training, what kind, and any other prerequisites ought to be required for their game and setting, before the Power becomes active. A recommended practice is to, as a GM, have players "training" Powers that make sense to be slowly building up in the background, and after each monumental step in the story bring that Power online, as well as scatter Powers through their story, rewarding them almost like loot. The idea of this system is to encourage roleplay as well as mechanical progress acquisition, as well as literally empowering the beats of the story.
+
+> E.g. a player at the start of a campaign chapter declares that their character is training for the Blind Fighting Power. During the various rests and downtimes, they describe how their character puts on a blind-fold and trains themselves, sparring with their allies, grabbing arrows shot through the air, and hours spent meditating in the darkness. As they reach the climax of the chapter, slaying a great beast that has made its roost in an old temple, the GM describes how, during the last fight itself, all that training starts to click just when its needed most, and the character gains Blind Fighting. With the defeat of the beast, the GM describes how an emmissary of the God of this old temple descends, thanking them for helping clear even an old and forgotten place like this of evil, and offers to bestow a boon on the character. They then gain the Portent Power.
+
+The amount of time needed for a Power is thematic and not noted on the power itself: it depends on the pace of the game being played, your table's position on the arcade-to-simulation scale, and of course the Power itself. Many Powers also refer to being able to learn other Powers at an "increased rate". By default you can think of this as halving the amount of time, though again it depends on the table and style of play at hand.
+
+As a guide, think of two key bits of information: what is the intensitiy of the training required and how long should the trianing be. I envision 3 stages of intensity: a power that requires full time study (think like a 9-5 job), a power that requires part-time study (such as over the weekend), and powers that can be learnt in a hobby-like fashion, just an hour or so a day. Given that intensity, how long should each Power take? A day? A month? A year? The GM and table are encouraged to fluff this number as approriate to the Power, the character and the situation, and of course, for what is fun to play.
+
+One aspect of the intention behind the training design is that a character can have multiple powers "in training" at once, based on the different levels of intensity. There's no reason a character couldn't be training 9-5 on their body to earn the Statistic Increase Power with the goal of improving their Strength, whilst also drilling the weekends to hone their soothing music to train 'Song of Rest', and during a quiet hour each day work on their skills to be more 'Skilled'.
+
+### Ranks
+Some powers can be taken more than once, so you should note what "Rank" they are at; such as "Health Increase I" or "Health Increase IV", to show that they are technically two separate powers. Many rankable Powers describe differences that occur when the Power is taken more than once.

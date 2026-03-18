@@ -1,0 +1,122 @@
+[
+    {
+        "name": "First Aid",
+        "description": " deftly seeing to others’ hurts, the skill of practical medicinal actions",
+        "type": "skill"
+    },
+    {
+        "name": "Animal Handling",
+        "description": " understanding and being understood by animals, and riding them.",
+        "type": "skill"
+    },
+    {
+        "name": "Art",
+        "description": " playing music, singing, performing, painting",
+        "type": "skill"
+    },
+    {
+        "name": "Charm",
+        "description": " proper etiquette, pleasing performance, schmoozing etc.",
+        "type": "skill"
+    },
+    {
+        "name": "Crafting",
+        "description": " the act of making objects",
+        "type": "skill"
+    },
+    {
+        "name": "Deception",
+        "description": " your ability to lie, apply and wear disguises, impersonate etc.",
+        "type": "skill"
+    },
+    {
+        "name": "Search",
+        "description": " the act of investigation, spotting things hidden, as well as researching texts",
+        "type": "skill"
+    },
+    {
+        "name": "Insight",
+        "description": " reading people and discerning lies and motives",
+        "type": "skill"
+    },
+    {
+        "name": "Intimidation",
+        "description": " the art of browbeating",
+        "type": "skill"
+    },
+    {
+        "name": "Knowledge",
+        "description": " a kind of learning. When taking this skill, choose one like: Alchemy / Arcana / Culture / Engineering / History / Medicine / Nature / Occult / Religion. You can take multiple different instances of Knowledge.",
+        "type": "skill"
+    },
+    {
+        "name": "Logic",
+        "description": " skill of applying logical thinking and such philosophy, as well as Strategy and Tactics, and piecing together evidence",
+        "type": "skill"
+    },
+    {
+        "name": "Persuasion",
+        "description": " the skills of turning people around to your point of view",
+        "type": "skill"
+    },
+    {
+        "name": "Piloting",
+        "description": " your ability to drive carts, sail boats and navigate a map",
+        "type": "skill"
+    },
+    {
+        "name": "Subterfuge",
+        "description": "Skill in the arts of subtler crime: forgery, lockpicking, spying etc.",
+        "type": "skill"
+    },
+    {
+        "name": "Stealth",
+        "description": "The ability to hide and remain unnoticed, and construct camouflage.",
+        "type": "skill"
+    },
+    {
+        "name": "Wilderness",
+        "description": " your ability to survive the wild, including navigation, tracking, finding sustenance and shelter. Interacting with the natural world",
+        "type": "skill"
+    },
+    {
+        "name": "Blocking",
+        "description": "The ability to intercept strikes without harm",
+        "type": "combat"
+    },
+    {
+        "name": "Bludgeoning",
+        "description": "The skill of being particularly effective at beating people (and other targets) with sticks.",
+        "type": "combat"
+    },
+    {
+        "name": "Bowyer",
+        "description": "The ability to draw and fire a bow quickly and accurately.",
+        "type": "combat"
+    },
+    {
+        "name": "Duelling",
+        "description": "The skill-at-arms for various technical weapons like swords, tridents and war-axes.",
+        "type": "combat"
+    },
+    {
+        "name": "Firearms",
+        "description": "The knowledge and skill of using and maintaining firearms.",
+        "type": "combat"
+    },
+    {
+        "name": "Scrapping",
+        "description": "The ability to fight with hands, feet, knives and improvised weaponry.",
+        "type": "combat"
+    },
+    {
+        "name": "Spear Fighting",
+        "description": "Your aptness with a stick.",
+        "type": "combat"
+    },
+    {
+        "name": "Throwing",
+        "description": "Skill at throwing items accurately and powerfully",
+        "type": "combat"
+    }
+]

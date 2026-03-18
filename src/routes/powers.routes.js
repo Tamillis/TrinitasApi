@@ -1,14 +1,14 @@
 import { Router } from 'express';
 import { PowersController } from '../controllers/powers.controller.js';
-import { protect } from '../middleware/auth.middleware.js';
-import { authorise } from '../middleware/role.middleware.js';
+import { authorise, identify } from '../middleware/auth.middleware.js';
+import { checkRole } from '../middleware/role.middleware.js';
 import { log } from '../middleware/log.middleware.js';
 
 const router = Router();
 
-const adminOnly = [log, protect, authorise('admin')];
+const adminOnly = [identify, log, authorise, checkRole('admin')];
 
-router.get('/:name?', log, PowersController.get);
+router.get('/:name?', identify, log, PowersController.get);
 router.post('/', adminOnly, PowersController.post);
 router.put('/', adminOnly, PowersController.put);
 router.delete('/:name', adminOnly, PowersController.delete);

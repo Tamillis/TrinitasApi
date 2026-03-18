@@ -1,0 +1,58 @@
+### Variables
+@hostname = localhost
+@port = 4444
+@baseUrl = http://{{hostname}}:{{port}}/api
+@contentType = application/json
+
+# @name login
+POST {{baseUrl}}/auth/login
+Content-Type: {{contentType}}
+
+{
+    "username": "{{adminUser}}",
+    "password": "{{adminPass}}"
+}
+
+### Capture the token from the login response
+@authToken = {{login.response.body.token}}
+
+### Get All Powers
+GET {{baseUrl}}/powers
+
+### Get a Power
+GET {{baseUrl}}/powers/Second%20Wind
+Authorization: Bearer {{authToken}}
+
+### Create a Power
+POST {{baseUrl}}/powers
+Content-Type: {{contentType}}
+Authorization: Bearer {{authToken}}
+
+{
+    "name": "Ice Spike",
+    "damage": 45,
+    "type": "Elemental"
+}
+
+### Update a Power
+PUT {{baseUrl}}/powers
+Content-Type: {{contentType}}
+Authorization: Bearer {{authToken}}
+
+{
+    "oldName": "Ice Spike",
+    "name": "Ice Spike",
+    "damage": 99,
+    "type": "Cold"
+}
+
+### Delete a Power
+DELETE {{baseUrl}}/powers/Ice%20Spike
+Content-Type: {{contentType}}
+Authorization: Bearer {{authToken}}
+
+### Get a simple endpoint
+GET {{baseUrl}}/races
+
+### Get a document
+GET {{baseUrl}}/docs/core.md
