@@ -39,20 +39,41 @@ This project is also a chance to practice a modular Express.js server using midd
 
 ## Endpoints
 
-### Authentication
-| Method | Endpoint | Description |
-| --- | --- | --- |
-| `POST` | `/api/auth/login` | Returns a JWT token when given valid credentials. |
-| `GET` | `/api/auth/check` | Validates current session status. Bit of a holdover really. |
-
-### Powers
 | Method | Endpoint | Role | Description |
 | --- | --- | --- | --- |
-| `GET` | `/api/powers` | Standard | Fetch all powers. |
-| `GET` | `/api/powers/:name` | Standard | Fetch a specific power by name. |
+| **Auth** |
+| `POST` | `/api/auth/login` | - | Returns a JWT token when given valid credentials valid for 1 hour |
+| **Powers** |
+| `GET` | `/api/powers` | - | Fetch all powers. |
+| `GET` | `/api/powers/:name` | - | Fetch a specific power by name. |
 | `POST` | `/api/powers` | **Admin** | Create a new power. |
 | `PUT` | `/api/powers` | **Admin** | Update an existing power (uses `oldName`). |
 | `DELETE` | `/api/powers/:name` | **Admin** | Remove a power. |
+| **Assets** |
+| `GET` | `/api/backgrounds` | - | Fetch all backgrounds |
+| `GET` | `/api/equipment` | - | Fetch all equipment |
+| `GET` | `/api/packs` | - | Fetch all packs |
+| `GET` | `/api/races` | - | Fetch all races |
+| `GET` | `/api/skills` | - | Fetch all skills |
+| `GET` | `/api/spells` | - | Fetch all spells |
+| **Docs** |
+| `GET` | `/api/docs/{doc_name}.md` | - | Fetch the name markdown documnet. |
+
+### Documents
+- `appendices.md` - minor rules
+- `character-creation.md` - rules of character creation
+- `combat.md` - rules of combat
+- `core.md` - main rules including task resolution (dice rolls), character statistics and skills
+- `crafting.md` - WIP rules for crafting
+- `design-notes.md` - design notes blog I've haphazardly written over the years
+- `equipment.md` - rules for and lists of equipment
+- `introduction.md` - the introduction document for Trinitas
+- `magic.md` - the rules of magic, and lists of meta-magic, and invocations
+- `powers.md` - the rules for your role: powers and progression
+- `premade-characters.md` - a few example premade characters
+- `progression.md` - the rules of power progression
+- `spells.md` - the rules for spells
+- `stat-blocks.md` - the outline of a Trinitas stat block for non player characters, a few example stat blocs
 
 ---
 
