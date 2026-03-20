@@ -1,0 +1,494 @@
+[
+    {
+        "name": "Acolyte",
+        "desc": "You have spent your life in the service of a temple, god, divine-path or philosophy. You act as an intermediary between the realm of the holy and the mortal world, performing sacred rites and offering sacrifices in order to conduct worshipers into the presence of the divine. You and your adventuring companions can expect to receive free healing and care at places of your worship, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle.",
+        "stats": [
+            "Perception",
+            "Charisma"
+        ],
+        "skills": [
+            "Insight",
+            "Persuasion",
+            "Religion",
+            "Languages (one)",
+            "Observation",
+            "Clubs"
+        ],
+        "equipment": [
+            "a holy symbol (a gift to you when you entered your society)",
+            "a prayer book or equivalent",
+            "5 sticks of incense",
+            "vestments",
+            "a set of common clothes",
+            "a pouch containing 15gp"
+        ],
+        "suggestedPower": "Healer"
+    },
+    {
+        "name": "Charlatan",
+        "desc": "You have always had a way with people. You know what makes them tick, you can tease out their hearts' desires after a few minutes of conversation, and with a few leading questions you can read them like they were children's books. You have created a second identity that includes documentation, established acquaintances, and disguises that allow you to assume a persona. Additionally, you can forge documents including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy.",
+        "stats": [
+            "Charisma",
+            "Perception"
+        ],
+        "skills": [
+            "Persuasion",
+            "Deception",
+            "Sleight of Hand",
+            "Disguise",
+            "Culture",
+            "Charm"
+        ],
+        "equipment": [
+            "A set of fine clothes",
+            "a disguise kit",
+            "ten stoppered bottles filled with colored liquid",
+            "a set of weighted dice or a deck of marked cards",
+            "forged official documents or seals, such as the signet ring of an imaginary duke",
+            "a pouch containing 15gp"
+        ],
+        "suggestedPower": "Expert Skill"
+    },
+    {
+        "name": "Criminal",
+        "desc": "As an experienced criminal with a history of breaking the law, you have spent a lot of time among other criminals and still have contacts within the criminal underworld. You have a reliable and trustworthy contact who acts as your liaison to a network of other criminals. You know how to get messages to and from your contact, even over great distances through contacts such as local messengers, corrupt caravan masters, and seedy sailors.",
+        "stats": [
+            "Dexterity",
+            "Accuracy"
+        ],
+        "skills": [
+            "Deception",
+            "Intimidation",
+            "Sleight of Hand",
+            "Stealth",
+            "Slings & Thrown",
+            "Blades"
+        ],
+        "equipment": [
+            "A crowbar, a throwing knife, a set of dark common clothes including a hood, and a belt pouch containing 15gp"
+        ],
+        "suggestedPower": "Skulker"
+    },
+    {
+        "name": "Spy",
+        "desc": "Although your capabilities are not much different from those of a burglar or smuggler, you learned and practiced them in a very different context: as an espionage agent. You might have been an officially sanctioned agent of the crown, or perhaps you sold the secrets you uncovered to the highest bidder. You have a reliable and trustworthy contact who acts as your liaison to a network of other spies. You know how to get messages to and from your contact, even over great distances through contacts such as local messengers, corrupt caravan masters, and seedy sailors.",
+        "stats": [
+            "Perception",
+            "Charisma"
+        ],
+        "skills": [
+            "Charm",
+            "Observation",
+            "Stealth",
+            "Sleight of Hand",
+            "Knives",
+            "Deception"
+        ],
+        "equipment": [
+            "a set of thieves' tools",
+            "a set of cyphered observation notes",
+            "a set of dark common clothes including a hood",
+            "a day-to-day item that has a secret second meaning",
+            "a pouch containing 10gp"
+        ],
+        "suggestedPower": "Observant"
+    },
+    {
+        "name": "Entertainer",
+        "desc": "Art is your life, and you thrive in front of an audience. You can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble's court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night.",
+        "stats": [
+            "Charisma",
+            "Dexterity"
+        ],
+        "skills": [
+            "Acrobatics",
+            "Performance",
+            "Musical Instruments",
+            "Disguise",
+            "Knives",
+            "Slings & Thrown"
+        ],
+        "equipment": [
+            "A musical instrument (one of your choice)",
+            "the favour of an admirer (love letter, lock of hair, or trinket)",
+            "a costume",
+            "a pouch containing 15gp"
+        ],
+        "suggestedPower": "Song of Rest"
+    },
+    {
+        "name": "Folk Hero",
+        "desc": "You come from a humble social rank, but you are destined for so much more. Already the people of your home village or district regard you as their champion, and your destiny calls you to stand against the tyrants and monsters that threaten the common folk everywhere.",
+        "stats": [
+            "Strength",
+            "Charisma"
+        ],
+        "skills": [
+            "Persuasion",
+            "Body",
+            "Engineering",
+            "Driving",
+            "Axes",
+            "Clubs"
+        ],
+        "equipment": [
+            "a set of artisan's tools (one of your choice)",
+            "a shovel",
+            "an iron pot",
+            "a set of common clothes",
+            "a pouch containing 10gp"
+        ],
+        "suggestedPower": "Grappler"
+    },
+    {
+        "name": "Gladiator",
+        "desc": "You work in the pit, spilling blood for the entertainment of others. Perhaps you race; perhaps you re-enact. Either way, putting on gorey displays is what you're good at, and get paid for.",
+        "stats": [
+            "Strength",
+            "Charisma"
+        ],
+        "skills": [
+            "Acrobatics",
+            "Blades",
+            "Exotic Weapon (Net)",
+            "Intimidation",
+            "Performance",
+            "Spears"
+        ],
+        "equipment": [
+            "an inexpensive but unusual weapon, such as a trident or weighted net",
+            "a trophy from your first conquest",
+            "a fighting costume",
+            "a pouch containing 15gp"
+        ],
+        "suggestedPower": "Second Wind"
+    },
+    {
+        "name": "Artisan",
+        "desc": "You are skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of a guild, patron, or similar, until you became a master in your own right.",
+        "stats": [
+            "Dexterity",
+            "Charisma"
+        ],
+        "skills": [
+            "Alchemy",
+            "Engineering",
+            "History",
+            "Observation",
+            "Persuasion",
+            "Clubs"
+        ],
+        "equipment": [
+            "A set of artisan's tools (one of your choice)",
+            "a letter of introduction from your guild",
+            "a set of traveler's clothes",
+            "a pouch containing 15gp"
+        ],
+        "suggestedPower": "Tinkerer"
+    },
+    {
+        "name": "Merchant",
+        "desc": "You belong to a guild of traders, caravan masters, or shopkeepers. You don't craft items yourself but earn a living by buying and selling the works of others (or the raw materials artisans need to practice their craft). Your guild might be a large merchant consortium (or family) with interests across the region. Perhaps you transported goods from one place to another, by ship, wagon, or caravan, or bought them from traveling traders and sold them in your own little shop. In some ways, the traveling merchant's life lends itself to adventure far more than the life of an artisan.",
+        "stats": [
+            "Perception",
+            "Charisma"
+        ],
+        "skills": [
+            "Driving",
+            "Navigation",
+            "Languages (one)",
+            "Insight",
+            "Persuasion",
+            "Charm"
+        ],
+        "equipment": [
+            "a set of artisan's tools (one of your choice)",
+            "a letter of introduction from your guild",
+            "a set of traveler's clothes",
+            "a pouch containing 15gp"
+        ],
+        "suggestedPower": "Artificer's Lore"
+    },
+    {
+        "name": "Hermit",
+        "desc": "You lived in seclusion – either in a sheltered community such as a monastery, or entirely alone – for a formative part of your life. In your time apart from the clamor of society, you found quiet, solitude, and perhaps some of the answers you were looking for.",
+        "stats": [
+            "Perception",
+            "Intelligence"
+        ],
+        "skills": [
+            "Alchemy",
+            "Clubs & Axes",
+            "Languages (one)",
+            "Medicine",
+            "Religion",
+            "Survival"
+        ],
+        "equipment": [
+            "A scroll case stuffed full of notes from your studies or prayers",
+            "a winter blanket",
+            "a set of common clothes",
+            "an herbalism kit",
+            "a pouch containing 5gp"
+        ],
+        "suggestedPower": "Discovery"
+    },
+    {
+        "name": "Knight",
+        "desc": "A knighthood is among the lowest noble titles in most societies, but it can be a path to higher status earned through military cunning and might. You've paid or inherrited for you arms, armour and horse, and are professionally trained in both warfare and civility most likely while as a page to another knight, or other such institution.",
+        "stats": [
+            "Strength",
+            "Intelligence"
+        ],
+        "skills": [
+            "Blades",
+            "Riding",
+            "Charm",
+            "Shields",
+            "Exotic Weapon (Lance)",
+            "Strategy"
+        ],
+        "equipment": [
+            "a warhorse",
+            "a set of half-plate and hardwearing under garments",
+            "a longsword",
+            "a signet ring",
+            "a purse containing 5gp"
+        ],
+        "suggestedPower": "Tactical Wit"
+    },
+    {
+        "name": "Noble",
+        "desc": "You understand wealth, power, and privilege. You carry the noble title of Lord/Lady, and your family owns land, collects taxes, and wields significant political influence. Thanks to your noble birth, you are welcome in high society and the right people are inclined to think the best of you, treating you as a member of the same social sphere. The common folk assume you have the right to be wherever you are and make every effort to avoid your displeasure. You can secure an audience with a local noble if you need to.",
+        "stats": [
+            "Intelligence",
+            "Charisma"
+        ],
+        "skills": [
+            "History",
+            "Charm",
+            "Blades",
+            "Bows & Crossbows",
+            "Languages (one)",
+            "Strategy"
+        ],
+        "equipment": [
+            "A set of fine clothes, a family shortsword, an emblazoned light crossbow, a signet ring, a scroll of pedigree, and a purse containing 25 gp"
+        ],
+        "suggestedPower": "Inspiring Leader"
+    },
+    {
+        "name": "Outlander",
+        "desc": "You grew up in the wilds, far from civilization and the comforts of town and technology. You've witnessed the migration of herds larger than forests, survived weather more extreme than any city-dweller could comprehend, and enjoyed the solitude of being the only thinking creature for miles in any direction. The wilds are in your blood, whether you were a nomad, an explorer, a recluse, a hunter-gatherer, or even a marauder. Even in places where you don't know the specific features of the terrain, you know the ways of the wild.",
+        "stats": [
+            "Perception",
+            "Strength"
+        ],
+        "skills": [
+            "Athletics",
+            "Bows",
+            "Languages (one)",
+            "Musical Instruments",
+            "Spears",
+            "Survival"
+        ],
+        "equipment": [
+            "a staff",
+            "a hunting trap",
+            "a trophy from an animal you killed",
+            "a set of traveler's clothes",
+            "a pouch containing 10gp"
+        ],
+        "suggestedPower": "Natural Explorer"
+    },
+    {
+        "name": "Pirate",
+        "desc": "You spent your youth under the sway of a dread pirate, a ruthless cutthroat who taught you how to survive in a world of sharks and savages. You've indulged in larceny on the high seas and sent more than one deserving soul to a briny grave. Fear and bloodshed are no strangers to you, and you've garnered a somewhat unsavory reputation in many a port town.",
+        "stats": [
+            "Charisma",
+            "Dexterity"
+        ],
+        "skills": [
+            "Intimidation",
+            "Athletics",
+            "Navigation",
+            "Sailing",
+            "Knives",
+            "Firearms & Pistols"
+        ],
+        "equipment": [
+            "A shiv (Knife)", "a pistol with 6 ammunition in a water-tight pouch", "a grim momento of your first boarding action", "a set of common clothes", "a pouch containing 10gp"
+        ],
+        "suggestedPower": "Fighting Style"
+    },
+    {
+        "name": "Sage",
+        "desc": "You spent years learning the lore of the multiverse. You scoured manuscripts, studied scrolls, and listened to the greatest experts on the subjects that interest you. Your efforts have made you a master in your fields of study. When you attempt to learn or recall a piece of lore, if you do not know that information, you often know where and from whom you can obtain it. Usually, this information comes from a library, scriptorium, university, or a sage or other learned person or creature.",
+        "stats": [
+            "Accuracy +1",
+            "Intelligence +1"
+        ],
+        "skills": [
+            "Arcana",
+            "History",
+            "Knives",
+            "Investigation",
+            "Languages (one)",
+            "Languages (one)"
+        ],
+        "equipment": [
+            "A bottle of black ink",
+            "a quill",
+            "a small knife",
+            "a letter from a dead colleague posing a question you have not yet been able to answer",
+            "a set of common clothes",
+            "a belt pouch containing 10gp"
+        ],
+        "suggestedPower": "Journeyman Mage"
+    },
+    {
+        "name": "Sailor",
+        "desc": "You sailed on a seagoing vessel for years. In that time, you faced down mighty storms, monsters of the deep, and those who wanted to sink your craft to the bottomless depths. Your first love is the distant line of the horizon, but the time has come to try your hand at something new.",
+        "stats": [
+            "Strength",
+            "Dexterity"
+        ],
+        "skills": [
+            "Athletics",
+            "Observation",
+            "Navigation",
+            "Sailing",
+            "Clubs & Axes",
+            "Languages (one)"
+        ],
+        "equipment": [
+            "A belaying pin (club)", "50ft of silk rope", "a lucky charm", "a set of common clothes", "a pouch containing 10gp"
+        ],
+        "suggestedPower": "Grappler"
+    },
+    {
+        "name": "Soldier",
+        "desc": "You were recruited as a youth into the Emperor's New Army, or other armed force, as the lowest rank: a foot soldier. You received training in the use of arms and armour, and were forced to learn to survive on and off the battlefield. Now a veteran bearing their scars, soldiers honour your service and history. For the many who love or fear the army, you can command respect and assistance when in need.",
+        "stats": [
+            "Strength",
+            "Accuracy"
+        ],
+        "skills": [
+            "Athletics",
+            "Firearms & Pistols",
+            "Intimidation",
+            "Heavy Arms",
+            "Pole-arms",
+            "Survival"
+        ],
+        "equipment": [
+            "An old army insignia, a trophy taken from a fallen enemy, a set of worn bone dice, a set of common clothes, a pistol with 20 sidearm paper cartridges, and a pouch containing 5gp"
+        ],
+        "suggestedPower": "Hardy"
+    },
+    {
+        "name": "Officer",
+        "desc": "You enrolled in the officer colleges at a young age to become an officer of the Emperor's New Army, or other armed force. Having studied tactics, strategy and the martial application of weapons technology and magic, you graduated with a military rank of Lieutenant or equivalent. You may have gone on to have a career as a soldier. The rank and file honour your authority and influence, and they defer to your orders even in civilian settings. You can invoke your rank to exert influence over other soldiers and requisition simple equipment or horses for temporary use.",
+        "stats": [
+            "Intelligence",
+            "Charisma"
+        ],
+        "skills": [
+            "Persuasion",
+            "Blades",
+            "Firearms & Pistols",
+            "History",
+            "Strategy",
+            "Alchemy"
+        ],
+        "equipment": [
+            "An insignia of rank, a diploma from the war college, a snuff box, a set of fine clothes, a rapier, and a pouch containing 15gp"
+        ],
+        "suggestedPower": "Tactical Wit"
+    },
+    {
+        "name": "New Army Healer",
+        "desc": "You trained as a youth in the Emperor's New Army or other armed force to become a member of the renowned Healers, working either as part of a mixed squad, or of a team in one of their 'Field Hospitals'. Like any soldier you've received basic training, but were also taught how to make Healing Potions from a variety of different natural material across the Empire, and the application of potions, salves and gases, as well as extensive training in mundane first aid. You have a military rank of Lieutenant or equivalent from your career as a soldier. Soldiers honour your authority and influence, and they defer to you if they are of a lower rank. You can invoke your rank to exert influence over other soldiers and requisition simple equipment or horses for temporary use.",
+        "stats": [
+            "Peception",
+            "Intelligence"
+        ],
+        "skills": [
+            "Alchemy",
+            "Firearms & Pistols",
+            "Knives",
+            "Medicine",
+            "Nature",
+            "Survival"
+        ],
+        "equipment": [
+            "A medallion emblazoned with the red H of the Healers, a gathering knife, a healer's kit, a set of common clothes including an apron, a pouch containing 10gp"
+        ],
+        "suggestedPower": "Medic"
+    },
+    {
+        "name": "Urchin",
+        "desc": "You grew up on the streets alone, orphaned, and poor, You had no one to watch over you or to provide for you, so you learned to provide for yourself. You fought fiercely over food and kept a constant watch out for other desperate souls who might steal from you. You slept on rooftops and in alleyways, exposed to the elements, and endured sickness without the advantage of medicine or a place to recuperate. You've survived despite all odds, and did so through cunning, strength, speed, or some combination of each. You know the secret patterns and flow to cities and can find passages through the urban sprawl that others would miss. When you are not in combat, you (and companions you lead) can travel between any two locations in the city twice as fast as your speed would normally allow.",
+        "stats": [
+            "Dexterity",
+            "Charisma"
+        ],
+        "skills": [
+            "Knives",
+            "Clubs & Axes",
+            "Deception",
+            "Charm",
+            "Sleight of Hand",
+            "Stealth"
+        ],
+        "equipment": [
+            "A small knife",
+            "a scrawled map of the city you grew up in",
+            "a pet critter",
+            "a token to remember your parents by",
+            "a set of patched common clothes",
+            "a pouch containing probably stolen 5gp"
+        ],
+        "suggestedPower": "Skulker"
+    },
+    {
+        "name": "Mistdiver",
+        "desc": "You were an opportunist, an individual of great ambition or foolish confidence, that saw the horrors of the Mists and the inherent unknown in the things it leaves behind as tomorrow’s paycheque. You dove into the lands that bordered the Mist wall after it ebbed back to find what plunder you could, and fight or avoid the creatures and monstrosities the Mist had tainted or left behind. Inevitably at one point the Mist tainted you too, and most mistdivers say no diver is blooded until they gain their first Minor Mutation [see core player options](/mewiki/Core/PlayerOptions#mistdiver).",
+        "stats": [
+            "Accuracy",
+            "Perception"
+        ],
+        "skills": [
+            "Arcana",
+            "Exotic (Net)",
+            "Clubs & Axes",
+            "Investigation",
+            "Navigation",
+            "Sleight of Hand"
+        ],
+        "equipment": [
+            "a set of navigator’s tools", "5 lock picks", "a firefighter's axe", "a trinket from your first dive", "a set of traveller's clothes", "a pouch containing 5gp"
+        ],
+        "suggestedPower": "Jack of All Trades"
+    },
+    {
+        "name": "Mage Hunter",
+        "desc": "The age of sorcerer kings and rampant planar beings birthed innumerable tragedies that instilled in people a fear of magic, exaggerated by its systemisation and spread, and haunted by the atrocities commited by the Sorcerer Kings of the Age of Strife. As control of magi became a greater and greater concern, those who would hunt down rogue magic users appeared to fill the need. Desperados, bounty hunters, ex-soldiers and other such hardened folk, like you, took up the mantle; people paid to tag & bag rogue mages in the name of the Empire.\r\rWhen dealing with hostile magic users all hunters learn various protocols for dealing with the vast and dangerous abilities of magic. You are always able to prepare for specific magics you face in your travels; be that through acquirement of equipment, use of special potions, or even employing magical items yourself. You know where to go to do that preparation or who to ask. When faced with novel hostile magics, you know where to turn to learn better protocols.",
+        "stats": [
+            "Perception",
+            "Strength"
+        ],
+        "skills": [
+            "Athletics",
+            "Arcana",
+            "Insight",
+            "Investigation",
+            "Exotic Weapon (Net)",
+            "Spears"
+        ],
+        "equipment": [
+            "a bear trap", "a gag & manacles", "a Mage Hunter’s papers", "a lucky charm", "a set of traveller's clothes", "a pouch containing 10gp"
+        ],
+        "suggestedPower": "Keen Senses"
+    }
+]

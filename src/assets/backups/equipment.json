@@ -1,0 +1,42 @@
+[
+    {
+        "name": "The Fighter",
+        "equipment": "chainmail, a shield, a lobster pot helmet, 2 martial weapons of your choice, a simple weapon of your choice, a bedroll, a mess kit, a tinderbox, 10 torches, 50ft of hempen rope"
+    },
+    {
+        "name": "The Ranger",
+        "equipment": "leather armour, a longbow and a quiver of 20 arrows, 2 weapons of your choice, a bedroll, a compass, a map, an almanac on fauna and flora, 50ft of hempen rope"
+    },
+    {
+        "name": "The Rogue",
+        "equipment": "leather armour, a melee martial weapon of your choice, a ranged martial weapon of your choice, a simple weapon of your choice, a set of Thieves' tools, a bag of 1000 ball bearings, 10ft of string, a bell, 5 candles, a crowbar, a hammer, 10 pitons, a hooded lantern, 2 flasks of oil, 50ft of hempen rope"
+    },
+    {
+        "name": "The Wizard",
+        "equipment": "A staff, a wand, a component pouch full of arcane spellcasting components, a set of Alchemist's tools, a book of lore, a bottle of ink, an ink pen, 10 sheets of parchment, a little bag of sand, a letter knife"
+    },
+    {
+        "name": "The Artificer",
+        "equipment": "scale mail, a weapon of your choice, a pistol and 20 paper cartridges, a hallmark stamp, a set of Tinker's tools, a crowbar, a hammer, 10 pitons, 10 torches, a tinderbox, 25ft of chain"
+    },
+    {
+        "name": "The Destitute",
+        "equipment": "Beggar's rags, an empty coin cup"
+    },
+    {
+        "name": "The Cleric",
+        "equipment": "chain shirt, a weapon that represents your Faith, a holy symbol of your faith, an embroidered blanket, a healer's kit, an alms box, 2 blocks of incense, 10 candles, a censer, vestments"
+    },
+    {
+        "name": "The Druid",
+        "equipment": "hide armour, a bronze embossed shield, a non-ferrous weapon of your choice, a druidic focus, a component pouch full of natural components, a small critter, 3 vials of strong substances, a small sickle, a cooking pot, a hide roll, 50ft of plant vine"
+    },
+    {
+        "name": "The Warlock",
+        "equipment": "leather armour, a martial Weapon of your choice representative of your patron, a knife, an occult spellcasting wand, a set of Calligrapher's tools, a chest, 2 cases for scrolls and contracts, a set of fine clothes, a bottle of ink, an ink pen, a lamp, 5 sheets of paper, a vial of perfume, sealing wax, soap"
+    },
+    {
+        "name": "The Bard",
+        "equipment": "padded armour, an elegant weapon of your choice, a musical instrument, a nice tent, a comfortable bedroll, 2 costumes, 5 candles, a disguise kit, a vial of perfume, a flyer from a previous show"
+    }
+]
