@@ -21,6 +21,9 @@ assets.forEach(asset => {
     app.get("/api/" + asset, SimpleController.get)
 });
 
+//sense check
+app.get('/api/debug', (req, res) => res.send('{"msg": "API is awake!"}'));
+
 // Error Handling
 app.use((err, req, res, next) => {
     console.error(err.stack);
