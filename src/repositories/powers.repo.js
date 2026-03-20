@@ -1,9 +1,12 @@
 import fs from 'fs/promises';
+import path from 'path';
 
 export class PowersRepository {
     static async read() {
+        const filePath = path.join(process.cwd(), 'src', 'assets', 'powers.json');
         try {
-            const data = await fs.readFile('src/assets/powers.json', 'utf8');
+
+            const data = await fs.readFile(filePath, 'utf8');
             return JSON.parse(data);
         } catch (err) {
             console.error(`Repo Error: Unable to read ${'src/assets/powers.json'}`);
