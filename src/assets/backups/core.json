@@ -1,0 +1,36 @@
+{
+    "stats": [
+        "Strength",
+        "Agility",
+        "Perception",
+        "Intelligence",
+        "Spirit"
+    ],
+    "sizes": [
+        {
+            "val": "Tiny",
+            "health": 2,
+            "defence": 16
+        },
+                {
+            "val": "Small",
+            "health": 4,
+            "defence": 10
+        },
+                {
+            "val": "Medium",
+            "health": 6,
+            "defence": 8
+        },
+                {
+            "val": "Large",
+            "health": 12,
+            "defence": 6
+        },
+                {
+            "val": "Huge",
+            "health": 25,
+            "defence": 2
+        }
+    ]
+}
