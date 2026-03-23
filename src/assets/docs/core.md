@@ -1,3 +1,35 @@
+## Trinitas
+
+> This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/ legalcode.
+
+A.k.a. *Pete's Edition of ~Dungeons and Dragons~, yet another Heroic Fantasy Heartbreaker.*
+
+When Wizards announced "One D&D" (as it was original called), and the original outrage over the licensing changes blew up, I sat down to turn my take on Epic Six for 5e into a full "Pete's Edition of Dungeons and Dragons".
+
+It has changed a lot since then, and now I find myself welcoming you to my own little heartbreaker: Trinitas.
+
+A tabletop roleplaying game for enjoying heroic fantasy (with muskets) without the boundaries of classes, that offers a fresh take on the very familiar and comfortable, using the familiar and comfortable.
+
+As such, a lot of what you will find in Trinitas is purposefully the same as its roots: D&D 5e. Controversy has passed, and I am happy to use the `CC BY 4.0`.
+
+But Trinitas offers a *lot* of differences both fine-tune and broad in nature: with an attitude to be beginner friendly.
+
+### Introduction
+Welcome to Trinitas.
+
+- [Character Creation](/trinitas/character-creation) - a walkthrough of what makes a character in the Trinitas system through race, background and role.
+- [Core Rolls & Statistics](/trinitas/core-rolls) - how task resolution works and the Statistics Trinitas uses to interact with the world
+- [Role & Power Progression](/trinitas/role) - introduction to the classless and leveless system of Trinitas, what Powers are and how Progression works.
+- [Power Progression](/trinitas/powers) - how characters progress in Trinitas is tied to their growth in Powers, which is a steady process thanks to the Powers In Training system
+- [Combat & Actions](/trinitas/combat) - Trinitas uses a combat system based on simulteneaty and single actions, for fast, tactical and cooperative combat.
+- [Magic](/trinitas/magic) **&** [Spells](/trinitas/spells) - a very familiar, if reimagined, spellcasting system, where each sphere of magic works in its own way
+- [Skills](/trinitas/skills) - the skills a character has trained and practiced in to make them better at certain actions, granting their Bonus to their Checks.
+- [Equipment](/trinitas/equipment) - incorporating the best of "Weapons Remastered, Revised" whose author I cannot find, and my own setting's emphasis on gunpowder weapons, as well as alchemical items and magical runes. WIP general equipment.
+
+### Game Terms
+Note that all in-game terms as defined in Trinitas are capitalised, like 'Action', and that a corresponding entry in the Index (a WIP) can be quickly found, but not necessarily all capitalised words are in-game terms. If I get the implementation going, each term's index entry will be quickly visible via pop-up, automatic highlighting etc.
+
+
 ### The Check
 When your character attempts a challenge: something that has a clear chance of failure with dramatically signifcant consequences, whether that means in terms of success or failure, or time taken, or resources expended, it may call for a "Skill Check", more simply known as a **Check**.
 

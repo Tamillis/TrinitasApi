@@ -1,29 +1,3 @@
-- [Rules of Magic](#rules-of-magic)
-  - [Spheres of Magic and Spellcasting](#spheres-of-magic-and-spellcasting)
-  - [Magic Statistic](#magic-statistic)
-  - [Mana, Magnitude and Reserve](#mana-magnitude-and-reserve)
-  - [Spell Details](#spell-details)
-  - [Spell-like and Spellcasting Power Tags](#spell-like-and-spellcasting-power-tags)
-- [The Spheres of Magic and Spell Lists](#the-spheres-of-magic-and-spell-lists)
-  - [The Arcane Sphere and Spellbooks](#the-arcane-sphere-and-spellbooks)
-  - [The Divine Sphere and Faith](#the-divine-sphere-and-faith)
-  - [The Primal Sphere and Verdance](#the-primal-sphere-and-verdance)
-    - [Verdance Table](#verdance-table)
-  - [The Occult Sphere](#the-occult-sphere)
-  - [Pact Magic](#pact-magic)
-- [The Schools of Spells](#the-schools-of-spells)
-  - [Abjuration – Barrier Magic](#abjuration--barrier-magic)
-  - [Conjuration – Summoning Magic](#conjuration--summoning-magic)
-  - [Divination – Portent Magic](#divination--portent-magic)
-  - [Enchantment – Mind Magic](#enchantment--mind-magic)
-  - [Evocation – Energy Magic](#evocation--energy-magic)
-  - [Illusion – Phantom Magic](#illusion--phantom-magic)
-  - [Necromancy – Soul Magic](#necromancy--soul-magic)
-  - [Consumption Magic](#consumption-magic)
-  - [Transmutation – Form Magic](#transmutation--form-magic)
-  - [Entropic Magic](#entropic-magic)
-
-
 ## Rules of Magic
 Trinitas has your archetypical fantasy magic accessed through 4 Spellcasting Powers, the Pact Magic Power and various Spell-granting or Spell-Like Powers. 
 
@@ -259,3 +233,7 @@ Powerful magic-users take pride in their ability to bend magic and spells to the
 | Subtle Spell | Fortitude +1 | When you cast a spell, you can cast it without any somatic or verbal components. You can do this your Magic Stat number of times per Long Rest. |
 | Transmuted Spell | Fortitude +1 | When you cast a spell that deals acid, cold, fire, lightning, poison, or psychic damage, you can change that damage type to one of the others. You can do this your Magic Stat number of times per Long Rest. |
 | Vampiric Spell | Willpower +1 | You can reap life energy from Living Creatures: Beasts, Dragons, Fell, Fey, Giants, Lycanthropes, Monstrosities, Oozes, or Plants. When you damage one with a spell, you gain Temporary Health equal to twice the spell's Magnitude, or three times its Magnitude if the spell belongs to the School of Necromancy. You can do this your Magic Stat number of times per Long Rest. |
+
+### Spells so far
+
+Every spell available in the 2024 SRD will be converted to PEDD, which mostly involves just a bit of tweaking of wording so far.

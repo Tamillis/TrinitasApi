@@ -1,29 +1,5 @@
 When PEDD became Trinitas, the various musings on design and justifactions were removed from the pages, and left here. I've yet to properly organise this, so for now you get to see it as one long dump, mostly referring to the game as PEDD, since it was.
 
-- [Flat Maths](#flat-maths)
-  - [Damage Scales](#damage-scales)
-  - [DC's](#dcs)
-- [Stat Changes - Where's Wisdom?](#stat-changes---wheres-wisdom)
-- [Combat Notes](#combat-notes)
-- [Retrospectives on PEDD](#retrospectives-on-pedd)
-- [Converting from 5e](#converting-from-5e)
-  - [Features](#features)
-  - [Spells and Flat Math Damage Rescaling](#spells-and-flat-math-damage-rescaling)
-  - [Converting Saves](#converting-saves)
-  - [Converting Races](#converting-races)
-  - [Converting Spells](#converting-spells)
-- [Powers Development](#powers-development)
-  - [A Reflection on Powers](#a-reflection-on-powers)
-  - [Power Sets](#power-sets)
-  - [Power Requirements](#power-requirements)
-    - [Power Acquirements](#power-acquirements)
-  - [Simulation](#simulation)
-- [Skills \& Proficiency](#skills--proficiency)
-  - [Max Roll Modifier](#max-roll-modifier)
-  - [Knowledge and Martial Skills](#knowledge-and-martial-skills)
-  - [Tools](#tools)
-  - [Charisma Rolls](#charisma-rolls)
-
 ## Change Log
 
 ### Jan to March 2026

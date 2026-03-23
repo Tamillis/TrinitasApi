@@ -1,10 +1,9 @@
-[T.O.C. todo]
 
 Trinitas combat is a marked step away from typical OCR and D20 combat systems.
 
 I hope you find it tactical, quick, cooperative and above all, dramatic.
 
-## Combat Rules
+## Combat
 When a fight begins, the game is played by resolving a series of **Rounds** (a dramatically significant period of around 5 seconds) where every character in the combat takes one **Action**.
 
 ### One Action All At Once

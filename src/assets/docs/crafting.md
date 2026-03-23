@@ -1,6 +1,4 @@
-# PEDD Crafting
-
-## Synopsis
+## Crafting WIP
 
 I just had some thoughts basically along the rather un-inventive line of, what if D&D had MMO style crafting, but obviously adapted for the medium. People fucking love crafting systems. Look at all the x-craft games. The challenge of adapting said systems to a tabletop roleplaying game intrigued me.
 

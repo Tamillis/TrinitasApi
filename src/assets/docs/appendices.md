@@ -1,11 +1,5 @@
 Small rules that didn't deserve their own page.
 
-- [Characters, Creatures and Monsters](#characters-creatures-and-monsters)
-  - [Character Types](#character-types)
-- [Miscellaneous Changes](#miscellaneous-changes)
-  - [Metric 'Conversions' and other Term Clarifications](#metric-conversions-and-other-term-clarifications)
-  - [N/A Statistics](#na-statistics)
-
 ## Characters, Creatures and Monsters
 Like any TTRPG, Trinitas is focused around characters which as a term in the system means any individual (or swarm/group, in the case of blobbed enemies), associated with a block of stats and Actions they can do. All Player Characters are Character, but also all monsters, beasts, villains etc. are characters too.
 
