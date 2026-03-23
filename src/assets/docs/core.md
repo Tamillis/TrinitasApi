@@ -3,7 +3,7 @@ When your character attempts a challenge: something that has a clear chance of f
 
 All Checks in Trinitas follow the formula:
 
-> d20 + Stat + Bonus vs DC
+> d20 + Stat + Skill Bonus* vs DC
 
 **DC** - an traditional gaming term meaning "Difficulty Class", that basically means "Target Number". Beat or meet this number to "succeed". The GM is responsible for determining the DC, and may keep the value hidden, simply stating the result. Some areas of the game, such as saves, provide DC's instead of GM fiat.
 
@@ -18,16 +18,15 @@ Generally speaking, DCs follow a pattern of:
 
 **Stat** - a Statistic of your character. See below.
 
-Two major aspects affect the above formula: Advantage and Bonuses.
+* Skill Bonus is only applied when a Check relies on training or knowledge. If it does, add the Rank you have in a skill (a value from 1 to 5).
 
 ### Advantage & Disadvantage
-- **Advantage** - If, due to circumstance, a GM determines a character has an advantage vs if they were to attempt the same task "normally", the player can roll 2 d20's and keep the higher number.
-- **Disadvantage** - the same as for Advantage, put in the opposite direction. The player rolls 2 d20 and takes the lower roll.
+Checks are often modified due to circumstance, where a character has gone out of their way to help or hinder some task. This confers Advantage or Disadvantage respectively.
 
-### Bonus
-**Bonus** - due to various sources: Powers, Skill Proficiencies, GM fiat etc., you add a value to your roll. This starts at +2. Except in exceptional circumstances the GM and the table feel are valid, you don't gain more than 1 Bonus to a roll at a time.
+The GM decides if a Check is made at Advantage or Disadvantage.
 
-A special powerful Power, “Aptitude”, increases the value of your Bonus to +3, then to +4 and finally to +5.
+- **Advantage** - roll 2 d20's and keep the higher number.
+- **Disadvantage** - roll 2 d20's and take the lower number.
 
 ## Statistics
 - **Strength** - how strong your character is, which they use in feats of brawn and in most melee attacks
@@ -36,8 +35,6 @@ A special powerful Power, “Aptitude”, increases the value of your Bonus to +
 - **Intelligence** - the alacrity of your character's mind, which they use to recall, process and apply knowledge, and piece together clues
 - **Spirit** - the strength of your character's will, and their connection to the world and its spiritual aspects
 
-No resistances.
-
 During character creation your Statistics are set from your Race, your Background and your Role. No Statistic can be increased beyond +4, unless explicitly stated. If a Race, Background or Role would raise a Stat above 4, instead you may raise a different Stat.
 
 ### Size
@@ -45,20 +42,23 @@ Your size determines the physical space you occupy (in terms of combat spacing, 
 
 | Size | Space | Health | Evasion |
 | --- | --- | --- | --- |
-| Tiny | 1ft | 1 | 14 |
-| Small | 2.5ft | 10 |
-| Medium | 5ft | 8 |
-| Large | 10ft | 6 |
+| Tiny | 1ft | 1 | 16 |
+| Small | 2.5ft | 4 | 12 |
+| Medium | 5ft | 8 | 8 |
+| Large | 10ft / 15ft | 16 | 6 |
+| Giant | 20ft+ | 32 | 0 |
+
+Most spaces are considered to be square, although Large characters and larger might be better represented by a different shape (such as a Large worm-like creature spanning 15ft by 5ft).
 
 ### Secondaries
 A few secondary stats are constructed from the main ones:
 
 **Health** - Size + Strength + Spirit - how much damage you can take before Collapsing.
-You recover your Strength per Rest (to a minimum of 1), and your Spirit per Break (unless you took less than your Spirit amount of damage since the last Break).
+You recover your Strength per Rest (to a minimum of 1), and your Spirit per Break (unless you took less than your Spirit amount of damage since the last Break, in which case you recover that amount instead).
 
 **Evasion** - Size + Agility + Perception - how hard you are to hit.
 
-**Armour** - determined by equipment (Body + Helmet + Shield), if any - reduces damage taken from hits.
+**Armour** - determined by equipment (Body + Helmet + Shield), if any - reduces the damage taken from a hit.
 
 #### Social Interaction
 
@@ -86,19 +86,41 @@ Stat Value | Name | Meaning
 Stats are determined by your Race, Background and Role, which produces a meaningful spread of Stats. There is no system for rolling stats. 
 
 ## Skills
-Whenever a character attempts an action, the GM will ask if your character has a certain "skill" that they think governs the action being undertaken. These are areas of knowledge and experience a character has, through training, education or practical experience, that makes them more likely to succeed. In gameplay terms, they gain their "Bonus" to the skill check.
+Whenever a character attempts a Check, the GM may ask if the character has a certain "skill" that the player thinks is applicable to the action being undertaken: whether the character's training, learning or personal experience will positively affect the outcome. In gameplay terms, they gain their "Skill Rank" as a bonus to the Check, which is also known as a **Skill Check**.
 
 Players are free to ask whether a different Skill can be applied, which may change the approach entirely, and this is all a good part of cooperative roleplay.
 
-### Proficiency and Expertise
-Having a skill is often referred to as having **Proficiency**. If you have "proficiency in Nature", this simply means you have the skill Nature, meaning if you undertake an action using Nature, you gain your Bonus to the skill check.
+The common skills are:
+- **Animal Handling** - understanding and being understood by animals, and riding them.
+- **Art** - playing music, singing, performing, painting
+- **Charm** - proper etiquette, pleasing performance, schmoozing etc.
+- **Crafting** - the act of making objects
+- **Deception** - your ability to lie, apply and wear disguises, impersonate etc.
+- **First Aid** - deftly seeing to others’ hurts, the skill of practical medicinal actions
+- **Insight** - reading people and discerning lies and motives
+- **Intimidation** - the art of browbeating
+- **Knowledge** - a kind of learning. When taking this skill, choose one like: Alchemy / Arcana / Culture / Engineering / History / Medicine / Nature / Occult / Religion. You can take multiple different instances of Knowledge.
+- **Logic** - skill of applying logical thinking and such philosophy, as well as Strategy and Tactics, and piecing together evidence
+- **Persuasion** - the skills of turning people around to your point of view
+- **Piloting** - your ability to drive carts, sail boats and navigate a map
+- **Search** - the act of investigation, spotting things hidden, as well as researching texts
+- **Subterfuge** - skills in the arts of subtler crime: forgery, lock-picking, spying etc.
+- **Stealth** - the ability to hide and remain unnoticed, and construct camouflage 
+- **Wilderness** - your ability to survive the wild, including navigation, tracking, finding sustenance and shelter. Interacting with the natural world
 
-**Expertise** - Certain Powers can grant Expertise to certain Skills or circumstances which specifically means your Bonus is doubled for those rolls. Every area of the game that grants Expertise only does so when that area already has a Proficiency Bonus, otherwise it is treated as a regular Bonus. An area of the game which already benefits from Expertise cannot benefit from it again. As weapons are just another kind of Skill, Martial Skills, you can benefit from Expertise with them.
+The Combat Skills are:
+- **Blocking** - shields, weapons with Block
+- **Bludgeoning** - clubs, axes and the application of blunt force objects
+- **Bowyer** - bows & crossbows
+- **Duelling** - swords & other technical weapons
+- **Firearms** - muskets & pistols, and munitions
+- **Knife Fighting** - knives, shivs and other small blades or cloak & dagger weaponry
+- **Great Weapon Fighting** - zweihanders, war mauls and other oversized weapons
+- **Spear Fighting** - spears, polearms etc.
+- **Throwing** - javelins, slings, throwing knives, darts etc.
+- **Unarmed Combat** - fisticuffs, and other means of using your own body as a weapon
 
-In other words, on a roll, you will never get more than your Bonus or Expertise in addition to your Stat increase, and the maximum possible increase to a dice roll is +15 (+5 Stat, +5 Bonus x2 with Expertise).
+A note on improvised weapons: depending on the object at hand, the GM may rule that Bludgeoning, Knife Fighting, Spear Fighting, Throwing or Unarmed Combat be used. Perhaps even Great Weapon Fighting!
 
-### Default Skill Statistics
-In Trinitas no Skill is automatically associated with a Stat, though there are suggestions as naturally certain Skills tend to be handled by certain Stats. Of course, you can always use other stats than the defaults: Intimidate with Charisma using guile, Stealth with Intelligence using knowledge of the terrain and the enemy, and do Acrobatics with Accuracy while juggling, depending on how you use a Skill. The GM and the table will decide if a combination is valid, or if another combination would be better.
-
-**Note** for weapon attacks, the Stats used are fixed: **Strength** for Melee, **Accuracy** for Ranged. If the weapon has the property "Finesse" you can instead use **Dexterity** for the attacks (melee or ranged).
-
+### Skill Rank
+During Character Creation and Progression during play, a Character adds Ranks to certain Skills. This Rank is a value from 1 to 5, with the rank equal to the bonus to any roll made with that skill.
