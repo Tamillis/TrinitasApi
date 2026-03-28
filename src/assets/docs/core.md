@@ -61,6 +61,8 @@ The GM decides if a Check is made at Advantage or Disadvantage.
 - **Disadvantage** - roll 2 d20's and take the lower number.
 
 ## Statistics
+Statistics represent the broad physical and mental dimensions of a character. They are not rigid categories that 'own' skills, but vectors of approach. The sharp-tongued wit of a negotiator and muscled power of an iron-fisted bruiser might both be used for Intimidation: one with Intelligence and one with Strength. The statistic simply reflects the how.
+
 - **Strength** - how strong your character is, which they use in feats of brawn and in most melee attacks
 - **Agility** - how quick and flexible your character is, which they use in feats of acrobatics, for ranged attacks and for finesse weapons
 - **Perception** - how sharp your character's senses are, which they use in feats of identification
@@ -121,6 +123,8 @@ Stats are determined by your Race, Background and Role, which produces a meaning
 Whenever a character attempts a Check, the GM may ask if the character has a certain "skill" that the player thinks is applicable to the action being undertaken: whether the character's training, learning or personal experience will positively affect the outcome. In gameplay terms, they gain their "Skill Rank" as a bonus to the Check, which is also known as a **Skill Check**.
 
 Players are free to ask whether a different Skill can be applied, which may change the approach entirely, and this is all a good part of cooperative roleplay.
+
+The following skills are suggested starting points. Players may define their own with GM approval, following the same principle: a single evocative phrase describing a specific area of capability.
 
 The common skills are:
 - **Animal Handling** - understanding and being understood by animals, and riding them.
