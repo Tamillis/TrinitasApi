@@ -69,12 +69,6 @@ The final damage value (after Armour) is the Rank of the Injury.
 
 Reference the Injury table for that Damage Type with the damage rolled to generate a Descriptor if one isn't obvious from the value and Intent.
 
-### Attacker's Intent and the Damage Tables
-
-On a hit, cross-reference your Margin of Success with the appropriate damage table for your weapon or attack type. The table gives you a **descriptor** and a **rank**. The location comes from your declared Intent.
-
-If the descriptor does not fit the declared location, the GM and player agree on the nearest appropriate entry. This is a two-second conversation, not an argument.
-
 ## The Defend Action
 
 An Action a character can take is the **Defend Action**: rolling their Defence statistic plus a relevant skill, using the result as their Defence against Attacks for the Round.
@@ -127,15 +121,6 @@ If the total ranks of all Injuries reach your character's Limit - they are Knock
 
 ### Slashing
 
-| Margin | Descriptor | Rank |
-|---|---|---|
-| 0 | Superficial Cut | 1 |
-| 1-2 | Gash | 2 |
-| 3-4 | Deep Laceration | 3 |
-| 5-6 | Severed Muscle | 4 |
-| 7-8 | Arterial Cut | 5 |
-| 9+ | Dismemberment | 6 |
-
 | Damage | Descriptor |
 |---|---|
 | 1 | Scratch |
@@ -146,7 +131,7 @@ If the total ranks of all Injuries reach your character's Limit - they are Knock
 | 6+ | Dismemberment |
 
 #### Piercing
-| Margin | Descriptor |
+| Damage | Descriptor |
 |---|---|
 | 1 | Graze |
 | 2 | Puncture |
@@ -156,34 +141,34 @@ If the total ranks of all Injuries reach your character's Limit - they are Knock
 | 6+ | Transfixion |
 
 #### Fire
-| Margin | Descriptor | Rank |
-|---|---|---|
-| 0 | Singed | 1 |
-| 1-2 | Scorched | 2 |
-| 3-4 | Burns | 3 |
-| 5-6 | Deep Burns | 4 |
-| 7-8 | Charred | 5 |
-| 9+ | Immolation | 6 |
+| Damage | Descriptor |
+|---|---|
+| 1 | Singed |
+| 2 | Scorched |
+| 3 | Burns |
+| 4 | Deep Burns |
+| 5 | Charred |
+| 6+ | Immolation |
 
 #### Psychic
-| Margin | Descriptor | Rank |
-|---|---|---|
-| 0 | Unsettled | 1 |
-| 1-2 | Rattled | 2 |
-| 3-4 | Fractured Thoughts | 3 |
-| 5-6 | Dissociation | 4 |
-| 7-8 | Mind Shattered | 5 |
-| 9+ | Ego Death | 6 |
+| Damage | Descriptor |
+|---|---|
+| 1 | Unsettled |
+| 2 | Rattled |
+| 3 | Fractured Thoughts |
+| 4 | Dissociation |
+| 5 | Mind Shattered |
+| 6+ | Ego Death |
 
 #### Force
-| Margin | Descriptor | Rank |
-|---|---|---|
-| 0 | Unsettled | 1 |
-| 1-2 | Weakened | 2 |
-| 3-4 | Fraying | 3 |
-| 5-6 | Deteriorating | 4 |
-| 7-8 | Unravelled | 5 |
-| 9+ | Unmade | 6 |
+| Damage | Descriptor |
+|---|---|
+| 1 | Unsettled |
+| 2 | Weakened |
+| 3 | Fraying |
+| 4 | Deteriorating |
+| 5 | Unravelled |
+| 6+ | Unmade |
 
 #### THUNDER, ACID, POISON, COLD, LIGHTNING, DARK, LIGHT
 *WIP*
@@ -214,9 +199,8 @@ A character's **Knock Out Limit**, a.k.a. simply **Limit**, is the total negativ
 
 When the total rank of all a character's Injuries meets or exceeds their Knock Out Limit, they are **Knocked Out**. They collapse and cannot take Actions. They are not necessarily Unconscious; they are simply out of the fight. This can be as dramatic and loud, or sudden and quiet, as the player wants.
 
-When a character is Knocked Out, they gain a Lasting Injury. Roll on the table below after a fight has finished (only once, no matter how many times they get Knocked Out).
-
 ### The Lasting Injury
+When a character is Knocked Out, they gain a Lasting Injury. Roll on the table below after a fight has finished (only once, no matter how many times they get Knocked Out).
 
 Roll a d20.
 
@@ -224,12 +208,12 @@ Roll a d20.
 |---|---|
 | 1 | **Dramatic Death** - you have taken a sudden and lethal wound, but fate gives you one last moment. You have one final Action at the end of the Round, after which you die. |
 | 2-5 | **Facial Injury** - roll on the Facial Injuries table below. If you roll the same Facial Injury twice, you suffer a Dramatic Death instead. |
-| 6-7 | **Facial Disfigurement** - your face is visibly and permanently damaged. Any roll relying on appearance is made at Disadvantage. Further Facial Disfigurement becomes a Facial Injury instead. |
-| 8-9 | **Lose an Arm** - your arm is gone above the elbow. You cannot hold more than one item until the limb is replaced. Taken twice, both arms are lost. |
-| 10-11 | **Lose a Leg** - your leg is gone above the knee. Your movement is halved until the limb is replaced. Taken twice, both legs are lost. |
-| 12-15 | **Deep Scarring** - severe internal or external damage leaves a permanent mark. The GM gains one Disadvantage token per session to spend against you when your injuries flare. |
-| 16-19 | **Scarred** - visible scars cross your body. You have Advantage on Intimidation rolls when you put them to use. |
-| 20 | **Walked Away** - somehow, against the odds, you carry nothing permanent from this. You are shaken, but intact. |
+| 6-7 | **Facial Disfigurement** - your face is visibly and permanently damaged. Any roll relying on appearance is made with a Disadvantage. Further Facial Disfigurement becomes a Facial Injury instead. |
+| 8-9 | **Lose an Arm** - your arm is gone above the elbow. You cannot hold more than one item until the limb is replaced. Rolled twice, both arms are lost. |
+| 10-11 | **Lose a Leg** - your leg is gone above the knee. Your movement is halved until the limb is replaced. Rolled twice, both legs are lost. |
+| 12-15 | **Chest wound** - you take a chest wound, an internal injury. You take a permanent Chest Wound Injury at Rank I that cannot be healed or recovered without a Full Recovery, where the injury transforms to Heavy Scarring. You can suffer this injury repeatedly, increasing the Rank each time. |
+| 16-19 | **Deep Scarring** - severe internal or external damage leaves a permanent mark. The GM gains one Disadvantage token per session to spend against you when your injuries flare. |
+| 20 | **Scarred** - visible scars cross your body. You have an Advantage on Intimidation rolls when you put them to use. |
 
 #### Facial Injuries
 
@@ -244,126 +228,12 @@ Roll a d6.
 | 5 | **Left Ear** - cut off. Perception rolls relying on hearing are at Disadvantage. Both ears lost means permanently Deafened. |
 | 6 | **Right Ear** - as Left Ear. |
 
+## Death
 
-# TODO FROM HERE 
+Death in Crescens comes from injutird becoming too great to bear.
 
-### Helped Up
-
-A Knocked Out character cannot recover on their own. Another character must spend an Action and succeed on a First Aid roll against a TN set by the GM based on the severity of the situation, typically Hard (8) or Very Hard (12) for a battlefield.
-
-When a character is helped up after being Knocked Out, they roll on the **Wounds Table**. Being Knocked Out always leaves a mark.
-
-## Dying and Death
-
-Death in Crescens comes from one of three sources:
-
-- A **rank 10 single Injury** - instant narrative death. Some wounds simply do not survive.
-- **Three failed Spirit rolls** while Dying from a Fatal Injury.
-- Being **Knocked Out with no aid available** and left to deteriorate - at the GM's discretion, a Knocked Out character in a dangerous environment may begin Dying without intervention.
-
-A player whose character dies may choose to have them deliver one final line or action before the end. This costs nothing mechanically and should always be honoured.
-
----
-
-## Healing
-
-Injuries recover slowly and imperfectly. Each wound has a rank, and that rank must come down through rest, treatment, or magic before it stops affecting the character.
-
-### Natural Recovery
-
-At the end of a **Rest**, a character may reduce one Injury by 1 rank. An Injury reduced to rank 0 is cleared. This represents the body's own slow work and should not be taken for granted - serious wounds at high ranks may take many Rests to resolve fully.
-
-### The Healing Powers
-
-**Catch Your Breath**
-
-*Prerequisites* - Strength d6, repeatable
-
-Once per fight, as an Action, reduce one of your own Injuries of rank 2 or lower by 1 rank. An Injury reduced to rank 0 is cleared.
-
----
-
-**Wound Closing**
-
-*Prerequisites* - Spirit d6, Knowledge (Medicine) at rank 3 or a magic-granting Power
-
-As an Action, touch a willing character and reduce one Slashing or Piercing Injury of any rank by 3. This Power may be taken again, increasing the reduction by 2 each time.
-
----
-
-**Stabilise**
-
-*Prerequisites* - First Aid at rank 2
-
-As an Action, touch a Dying character and make a First Aid roll against the TN of their Fatal Injury. On a success, the Fatal Injury is stabilised - it stops ticking up and is no longer Fatal. This does not reduce its rank.
-
----
-
-## Movement
-
-Movement is declared alongside all other Actions at the start of a Round but resolved **last**, after all other Actions and Engagements.
-
-When declaring a Move, declare also the **target** of the movement - the character or location you are moving toward or away from. When multiple characters are moving relative to each other, their declared targets usually make the outcome clear without needing to track precise positioning.
-
-When the outcome of simultaneous movement is genuinely unclear, the characters involved make a contested Agility roll to determine who gets where first.
-
-### Difficult Terrain
-
-Moving through difficult terrain costs double movement. Climbing or swimming costs quadruple. Impassable terrain must be circumnavigated.
-
----
-
-## Mounted Combat
-
-Fighting from the back of a mount is unstable work for the untrained. When mounted, a character is **Unstable** unless they have a relevant Power or skill.
-
-When your mount moves, it carries you with it. Since movement resolves last, any Actions taken from the back of a mount occur before it moves, unless you use a **Combined Charge**: both you and your mount use your Actions, the mount moves toward a target, and at the end of that movement you make one weapon attack at Advantage against that target.
-
----
-
-## Conditions
-
-**Bleeding (rank)** - the character takes the listed rank as an Injury at the end of each Round until they or another character spends an Action to staunch it.
-
-**Blinded** - the character cannot see. They automatically fail any roll requiring sight, and attacks relying on sight are made at Disadvantage.
-
-**Charmed** - the character regards the source of the Charm as an ally and will act accordingly, though will not act against their own fundamental interests.
-
-**Deafened** - the character cannot hear. They automatically fail any roll requiring hearing.
-
-**Dying** - the character has a Fatal Injury that is ticking up each Round. See Fatal Injuries.
-
-**Exhausted (rank)** - treated as an Injury of the listed rank, applied to all physically and mentally demanding rolls. Caused by exertion, deprivation, or environmental conditions rather than direct damage.
-
-**Flanked** - when you are the character in an Engagement who the enemy is not primarily targeting, you have Advantage on your attack rolls against them. Cannot apply to characters two or more sizes larger than you.
-
-**Frightened** - the character has Disadvantage on all rolls while the source of their fear is in sight, and must move away from it if they choose to move.
-
-**Hidden** - attacks against the character are at Disadvantage. Their own attacks against those they are Hidden from are at Advantage. Taking an Attack Action or any similarly conspicuous action ends the condition.
-
-**Immobilised** - the character cannot move and uses passive Defence only.
-
-**Incapacitated** - the character cannot take Actions or Bonus Actions, cannot move, uses passive Defence only, and attack rolls against them are at Advantage. Melee attacks against an Incapacitated character automatically achieve maximum Margin of Success on the damage table.
-
-**Knocked Out** - the character's total Injury ranks have met or exceeded their Knock Out Limit. They cannot act and require aid to recover. See Knocked Out.
-
-**Pained** - the character must succeed on a Spirit roll against a GM-set TN at the start of their Action or lose it entirely.
-
-**Poisoned** - the character has Disadvantage on all attack rolls and skill rolls.
-
-**Prone** - the character is on the ground. Their movement is quartered. Attack rolls against them are at Advantage if the attacker is in reach, Disadvantage if ranged. Attacks they make are at Disadvantage unless the weapon is suited to prone fighting. Standing costs a Bonus Action.
-
-**Restrained** - the character is Immobilised, attack rolls against them are at Advantage, and their own attack rolls are at Disadvantage.
-
-**Sluggish** - the character may take an Action or a Bonus Action this Round, not both.
-
-**Stunned** - the character is Incapacitated for one Round.
-
-**Unconscious** - the character is Incapacitated, unaware of their surroundings, drops whatever they are holding, falls Prone, and automatically fails any roll requiring awareness or physical response.
-
-**Unstable** - the character has Disadvantage on ranged attacks and cannot attack beyond normal range. Typically caused by riding a mount or operating in an earthquake.
-
----
+- A **rank 6 single Injury** - if a character takes a Rank 6 Injury in one go, this Kills them instantly. The GM may grant them a Dramatic Death.
+- Any Injury accumulates to Rank 10
 
 ## Rests
 
@@ -376,7 +246,83 @@ Some Powers and abilities recover **per fight** - they refresh at the end of eve
 A **Rest** is a full night's sleep or equivalent period of genuine recuperation, typically eight hours. At the end of a Rest:
 
 - All per fight abilities refresh.
-- The character may reduce one Injury by 1 rank.
+- The character makes a Recovery Roll if necessary.
 - The character clears the effects of most temporary conditions.
 
-Characters who go without a Rest accumulate **Exhaustion** Injuries at the GM's discretion. The specific rank and pace depends on the circumstances - a forced march is different from a sleepless night of study.
+Characters who go without a Rest accumulate **Exhaustion** Injuries at the GM's discretion. The specific rank and pace depends on the circumstances; a forced march is different from a sleepless night of study.
+
+## Healing and Recovery
+
+Injuries recover slowly and imperfectly. Each wound has a rank, and that rank must come down through rest, treatment, or magic (if there is any) before it stops affecting the character.
+
+### Recovery Roll
+At the end of a **Rest**, a character makes a Strength or Spirit (their choice) roll with no Skill modifier. They reduce a number of Injuries equal to the result by 1 rank. This is true for Knocked Out characters, which should bring their Injury total below their Limit and remove the Knocked Out condition.
+
+### Example Healing Powers
+
+#### Catch Your Breath
+
+*Prerequisites* - Strength d6
+
+Once per fight, as an Action, reduce one of your own Injuries gained in the same fight of rank 3 or lower by 1 rank. An Injury reduced to rank 0 is cleared.
+
+#### Wound Closing Magic 
+(From the Sword & Sorcery module)
+
+*Prerequisites* - Spirit d6, Divine Magic
+
+As an Action, spend 1 Mana to touch a willing character and reduce one Slashing or Piercing Injury of any rank by 3. This Power may be taken again, increasing the amount of mana you can spend in an action by 1 each time. For each Mana spent, reduce one Slashing or Piercing Injury of any rank by 3 again (including the same Injury if desired).
+
+## Movement
+
+Movement is declared alongside all other Actions at the start of a Round but resolved last, after all other Actions and Engagements.
+
+When declaring a Move, declare also the target of the movement - the character or location you are moving toward or away from. When multiple characters are moving relative to each other, their declared targets usually make the outcome clear without needing to track precise positioning.
+
+When the outcome of simultaneous movement is genuinely unclear, the characters involved make a contested Agility roll to determine who gets where first.
+
+### Difficult Terrain
+
+Moving through difficult terrain costs double movement. Climbing or swimming costs quadruple. Impassable terrain must be circumnavigated.
+
+## Mounted Combat
+
+Fighting from the back of a mount is unstable work for the untrained. When mounted, a character is **Unstable** unless they have a relevant Power or skill.
+
+When your mount moves, it carries you with it. Since movement resolves last, any Actions taken from the back of a mount occur before it moves, unless you use a **Combined Charge**: both you and your mount use your Actions, the mount moves toward a target, and at the end of that movement you make one weapon attack with an Advantage against that target.
+
+## Conditions
+
+**Blinded** - the character cannot see. They automatically fail any roll requiring sight, and attacks relying on sight are made at two Disadvantages.
+
+**Charmed** - the character regards the source of the Charm as an ally and will act accordingly, though will not act against their own fundamental interests.
+
+**Deafened** - the character cannot hear. They automatically fail any roll requiring hearing.
+
+**Dying** - the character has a Fatal Injury that is ticking up each Round. See Fatal Injuries.
+
+**Exhausted (rank)** - treated as an Injury of the listed rank, applied to all physically and mentally demanding rolls. Caused by exertion, deprivation, or environmental conditions rather than direct damage.
+
+**Flanking** - when you are the character in an Engagement who the enemy is not primarily targeting, you have Advantage on your attack rolls against them. Cannot apply to characters two or more sizes larger than you.
+
+**Frightened** - the character havr a Disadvantage on all rolls while the source of their fear is in sight, and must move away from it if they choose to move.
+
+**Hidden** - attacks against the character have a Disadvantage. Their own attacks against those they are Hidden from have an Advantage. Taking an Attack Action or any similarly conspicuous action ends the condition.
+
+**Immobilised** - the character cannot take the Move action.
+
+**Knocked Out** - the character's total Injury ranks have met or exceeded their Knock Out Limit. See Knocked Out.
+
+**Pained** - the character must succeed on a Spirit roll against a GM-set TN at the start of their Action or lose it entirely.
+
+**Poisoned** - the character has a Disadvantage on all attack rolls and skill rolls.
+
+**Prone** - the character is on the ground. Their movement is quartered. Attack rolls against them have an Advantage if the attacker is in reach, or a Disadvantage if ranged. Attacks they make have a Disadvantage unless the weapon is suited to prone fighting. Standing costs a Bonus Action.
+
+**Sluggish** - the character may take an Action or a Bonus Action this Round, not both.
+
+**Stunned** - the character is Incapacitated for one Round ad unable to take an Action.
+
+**Unconscious** - the character is unaware of their surroundings, drops whatever they are holding, falls Prone, and automatically fails any roll requiring awareness or physical response.
+
+**Unstable** - the character has Disadvantage on ranged attacks and cannot attack beyond normal range. Typically caused by riding a mount or operating in an earthquake.
