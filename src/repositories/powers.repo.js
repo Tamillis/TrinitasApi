@@ -1,9 +1,12 @@
 import fs from 'fs/promises';
 import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dir = path.dirname(fileURLToPath(import.meta.url));
 
 export class PowersRepository {
     static async read() {
-        const filePath = path.join(process.cwd(), 'src', 'assets', 'powers.json');
+        const filePath = path.join(__dir, '../assets/powers.json');
         try {
 
             const data = await fs.readFile(filePath, 'utf8');
