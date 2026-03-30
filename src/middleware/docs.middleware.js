@@ -1,4 +1,8 @@
 import express from 'express';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dir = path.dirname(fileURLToPath(import.meta.url));
 
 const staticOptions = {
     dotfiles: 'ignore',
@@ -12,4 +16,4 @@ const staticOptions = {
     }
 };
 
-export const docRules = express.static("src/assets/docs", staticOptions);
+export const docRules = express.static(path.join(__dir, "../assets/docs"), staticOptions);
