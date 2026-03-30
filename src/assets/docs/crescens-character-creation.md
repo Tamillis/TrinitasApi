@@ -1,4 +1,4 @@
-,# Character Creation
+# Character Creation
 
 A Crescens character is built from their Statistics and Skills, as determined by their Ancestry, Background, and Role.
 
@@ -6,7 +6,7 @@ These determines what your character can do well (or poorly), who they are and h
 
 Character Creation should be followed in order, and let each step shape the next.
 
-## 1\. Statistics
+## 1. Statistics
 
 Statistics represent the broad physical and mental dimensions of a character. Think of them less as rigid categories and more as so-called "vectors of approach" where any Statistic can be used with any skill. The Statistic is the What, with the skill being the How.
 
@@ -32,15 +32,28 @@ Statistics are expressed as dice as when a statistic is called upon, you roll th
 
 Statistics can and should improve through play as your character improves, up to a maximum of d10. See **Progression** below.
 
-## 2\. Skills
+### Evasion
+A character's **Evasion** is how hard they are to hit in combat. This is equal to the midpoint of their Agility Statistic die, rounded down.
 
-Skills are the specific things your character is good at. Where statistics describe the broad kind of person you are, skills describe what you have actually learned to do. A skill rank of 0 means untrained - you can still attempt most things, but you roll your statistic alone. A skill rank of 1 to 10 adds directly to your roll as a flat bonus.
+| Agiliy | Evasion |
+|---|---|
+| d3 | 1 |
+| d4 | 2 |
+| d6 | 3 |
+| d8 | 4 |
+| d10 | 5 |
 
-At character creation you have **12 ranks** to distribute among skills. No single skill may begin above rank 4.
+Powers exist that replace Evasion with a different statistic for determining a character's ability to not take damage, reflecting characters who survive through toughness (Strength), foresight (Perception), prediction (Intelligence), or sheer will (Spirit); rather than speed.
+
+## 2. Skills
+
+Skills are the specific things your character is good at. Where statistics describe the broad kind of person you are, skills describe what you have actually learned to do. A skill rank of 0 means untrained - you can still attempt most things, but you roll your statistic alone. A skill rank of 1 to 6 adds directly to your roll as a flat bonus.
+
+At character creation you have **10 ranks** to distribute among skills. No single skill can begin above rank 3.
 
 See (core.md) for the skill list.
 
-## 3\. Ancestry
+## 3. Ancestry
 
 Your ancestry describes where your character comes from: their heritage and physical biology. In Crescens, ancestry traits are expressed as Powers you were born with rather than trained into, and are handled by setting modules. (See Roles below).
 
@@ -48,111 +61,26 @@ In a world where all characters are human, ancestry requires no mechanical diffe
 
 **Human** is the default ancestry of Crescens. It is recommended they take a Skill Increase instead of an Ancestry Trait Power (if you are playing with any) to reflect their adaptability and range.
 
-## 4\. Background
+## 4 Background
 
 Your background describes who your character was before the adventure began. It provides suggested skills reflecting your former life, and a starting kit of equipment that grounds you in the world. Suggested skills are not mandatory, if you can justify an alternative that fits your background's fiction, discuss it with your GM.
 
 The Core Backgrounds applicable to nearly any setting are:
 
-### Privileged
-
-You were born into comfort and grew up understanding, instinctively, how rooms work. Doors opened for you that others had to knock on. You may have earned nothing yet, but you know how to act as though you have, and sometimes that is enough.
-
-*Suggested skills* - Charm, Knowledge (History)
-
-*Equipment* - fine clothing suited to polite company, a signet ring or mark of station, a personal servant (discuss with your GM), a large sum of money, a letter of introduction to someone who matters
-
-### Labourer
-
-You worked because work was what there was. Your hands show it and your back remembers it. You know how things are actually built, grown and maintained, which puts you ahead of most people who have never had to think about it.
-
-*Suggested skills* - Unarmed Combat, Crafting
-
-*Equipment* - sturdy worn clothing, the tools of your specific trade, a small sum of money, a letter from a former employer or guild
-
-### Poor
-
-You learned early that the world was not arranged with you in mind. What you have, you kept through wit or stubbornness or sheer refusal to let go. You know how to make something from nothing, which is a skill nobody teaches.
-
-*Suggested skills* - Subterfuge, Wilderness
-
-*Equipment* - threadbare but practical clothing, one item of deep personal significance worth nothing to anyone else, almost no money, a debt owed to you that can't be paid in coin.
-
-### Merchant
-
-You learned that everything has a price and most people do not know what it is. You do. You have moved goods, negotiated terms, and smiled at people you did not trust across tables in a dozen different places. The road between profit and ruin is narrower than most imagine.
-
-*Suggested skills* - Charm, Persuasion
-
-*Equipment* - decent travelling clothes, a set of scales, a well-kept ledger, a medium sum of money, an outstanding contract or promissory note
-
-
-### Performer
-
-You made people feel things and charged them for the privilege. You learned stages, crowds, timing, and the specific courage it takes to stand in front of strangers and demand their attention. Respectable work, mostly, depending on who you ask.
-
-*Suggested skills* - Art, Charm
-
-*Equipment* - a costume or performance outfit, your instrument or prop of trade, practical clothes for everything else, a small or medium sum of money, a letter from an admirer or a former patron
-
-### Servant
-
-You worked inside the houses of people with more than you, which means you saw how they actually lived behind closed doors. You know the difference between the face power shows and the face it wears at home. That knowledge is worth more than most people realise.
-
-*Suggested skills* - Insight, Knowledge (Culture)
-*Equipment* - a modest uniform or livery, practical everyday clothing, a reference letter from a former employer of uncertain current value, a small sum of money, a house key that probably should have been returned
-
-### Artisan
-
-You made things with your hands and your training and your judgment, and you made them well. There is a particular satisfaction in work done properly that most people never find. You also know exactly how badly other people do it when they cut corners.
-
-*Suggested skills* - Crafting, Knowledge (Engineering)
-
-*Equipment* - the tools of your trade in good condition, practical working clothes, materials enough for one modest project, a small sum of money, a guild membership or certificate of training
-
-### Sailor
-
-You lived on water and learned everything the sea demands: knots, weather, navigation, and how to share very small spaces with people you did not choose. You have been places most people will never see and eaten things you would rather not describe.
-
-*Suggested skills* - Piloting, Wilderness
-
-*Equipment* - weatherproof practical clothing, a good knife, a length of rope, a worn nautical chart of somewhere specific, a small sum of money, a letter from someone in a port you have complicated feelings about
-
-### Wanderer
-
-You were always somewhere else. Whether you chose that or it chose you is a question you have stopped answering. You know roads, weather, strangers, and the particular freedom of owing nothing to any particular place.
-
-*Suggested skills* - Wilderness, Animal Handling
-
-*Equipment* - practical travelling clothes, a bedroll, a week of rations, a map more optimistic than accurate, a small sum of money, a memento from somewhere you actually miss
-
-
-### Criminal
-
-You operated in the space between what is legal and what is necessary, and you learned not to confuse the two with what is right. You have contacts, habits, and a working knowledge of how locks, people and systems fail. Somebody had to.
-
-*Suggested skills* - Subterfuge, Deception
-
-*Equipment* - dark practical clothing, a set of lockpicks, a weapon of debatable legality, a medium sum of money, a note from someone who owes you a favour or the other way around
-
-
-### Scholar
-
-You studied long past the point where sensible people stop. You know things, specifically and deeply, that most people have never needed to think about. The cost was time, probably money, and at least one relationship that did not survive the library hours.
-
-*Suggested skills* - Knowledge (Arcane or Nature or Occult or Religion), Logic
-
-*Equipment* - ink-stained practical clothing, writing materials, two reference texts of your field, a small sum of money, a letter of academic introduction or a thesis nobody has read
-
-
-### Military
-
-You served something larger than yourself, which required following orders you did not always agree with from people you did not always respect. You came out the other side knowing how to fight, how to march, and how institutions actually function when the ideals wear thin.
-
-*Suggested skills* - Intimidation, a combat skill
-
-*Equipment* - your former uniform or its practical successor, a weapon carried from your service, a bedroll, a small or medium sum of money, discharge papers or a commendation that feels complicated in retrospect
-
+| Background | Description | Skills | Equipment |
+| --- | --- | --- | --- |
+| **Privileged** | Born into comfort and high social standing; instinctively understands how power and social circles operate. | Charm, Knowledge (History) | Fine clothing, signet ring/mark of station, personal servant, large sum of money, letter of introduction. |
+| **Labourer** | Experienced in hard physical work; understands how things are built, grown, and maintained through manual toil. | Unarmed Combat, Crafting | Sturdy worn clothing, trade tools, small sum of money, letter from employer/guild. |
+| **Poor** | Grew up in a world not made for them; survived through wit, stubbornness, and the ability to make something from nothing. | Subterfuge, Wilderness | Threadbare practical clothing, item of personal significance, almost no money, a debt owed to them. |
+| **Merchant** | Understands the price of everything; experienced in negotiation, moving goods, and the thin line between profit and ruin. | Charm, Persuasion | Decent travelling clothes, scales, well-kept ledger, medium sum of money, outstanding contract/promissory note. |
+| **Performer** | Experienced in commanding attention and evoking emotion; understands crowds, timing, and the courage of the stage. | Art, Charm | Costume/performance outfit, instrument or prop, practical clothes, small/medium sum of money, letter from admirer/patron. |
+| **Servant** | Worked within the homes of the powerful; privy to the private reality of those in charge and the secrets behind closed doors. | Insight, Knowledge (Culture) | Modest uniform/livery, practical clothing, reference letter, small sum of money, a house key. |
+| **Artisan** | Skilled in creating quality goods with judgment and training; finds satisfaction in work done properly without cutting corners. | Crafting, Knowledge (Engineering) | Trade tools in good condition, practical working clothes, project materials, small sum of money, guild membership/certificate. |
+| **Sailor** | Shaped by the demands of the sea; skilled in navigation, weather-reading, and living in close quarters with others. | Piloting, Wilderness | Weatherproof clothing, good knife, rope, worn nautical chart, small sum of money, letter from a port. |
+| **Wanderer** | Always on the move; familiar with the freedom of the road and the reality of being a stranger in every place. | Wilderness, Animal Handling | Practical travelling clothes, bedroll, week of rations, optimistic map, small sum of money, memento. |
+| **Criminal** | Operates in the gray area between legality and necessity; possesses knowledge of how locks, people, and systems fail. | Subterfuge, Deception | Dark practical clothing, lockpicks, weapon of debatable legality, medium sum of money, favor/debt note. |
+| **Scholar** | Dedicated to deep, specific study at the cost of time and relationships; possesses specialized knowledge others overlook. | Knowledge (Arcane, Nature, Occult, or Religion), Logic | Ink-stained clothing, writing materials, two reference texts, small sum of money, academic letter/thesis. |
+| **Military** | Served a larger institution; understands how to follow orders, fight, and how systems function when ideals fade. | Intimidation, a combat skill | Former uniform, service weapon, bedroll, small/medium sum of money, discharge papers/commendation. |
 
 ## 5\. Role
 
