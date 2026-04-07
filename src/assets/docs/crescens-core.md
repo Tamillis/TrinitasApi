@@ -1,18 +1,14 @@
 # Crescens: Core Rules
 
-## 1. Introduction
+## 1. What is Crescens?
 
-### What is a Tabletop Roleplaying Game?
+Crescens is a tabletop roleplaying game (if you're here, you know what that is) designed to feel immersive, taking you out of the experience aas little as possible. Its mechanics should become a natural extension of the fiction, instead of a "game" layer imposed on top of a narrative. When a character is hurt, they are hurt in a cummulative and meaningful way. When a character grows, it is because they have done something to grow.
 
-A tabletop roleplaying game is collaborative story-telling and improv where the dice shout "change!". One person, the Game Master (GM), describes a world and the people and forces within it. Everyone else plays a character living inside that world, deciding what they do and say. Dice determine what happens when the outcome is uncertain. A tabletop roleplaying game quite unlike anything else.
+Whether it is more OSR than new-school is for you to make.
 
-### What is Crescens?
+Crescens is also designed to be setting agnostic. The core rules here describe characters and what they can do, with core examples of systems designed to be expanded in modules that best enable the setting and theme they're for.
 
-Crescens is a tabletop roleplaying game designed to have as much story as possible, never taking you out of the experience. Its mechanics are meant to feel like a natural extension of the fiction rather than a separate layer imposed on top of it. When a character is hurt, they are hurt in a specific and meaningful way. When a character grows, it is because they have done something to grow.
-
-Crescens is also designed to be setting agnostic. The core rules describe people and what they can do, with core examples of systems designed to be expanded in modules that best enable the setting and theme they're for.
-
-Bundled with these core rules are  modules for Heroic Fantasy.
+Bundled with these core rules are the Magic and Swordplay modules for Heroic Fantasy - because let's be honest. This *is* yet another dee-en-dee heartbreaker.
 
 ### Design Philosophy
 
@@ -22,25 +18,39 @@ Three ideas sit at the heart of Crescens.
 
 **Verisimilitude** The rules generally apply descriptors rather than numbers, trying to create scenarios better able to reflect a lived reality. Damage leaves specific marks on specific people through Injuries, instead of HP. A character is hurt in ways that matter to what they do next, not in ways that merely subtract from a number until the number reaches zero. Skills represent learnable things and are open ended. Every Statistic is intended to be broad enough to apply to any skill.
 
-**Danger** Crescens is not a game where the heroes are invulnerable. Violence has consequences. Going into a fight unprepared or badly outmatched, or just letting it go on too long, is dangerous. Injuries will start to drag as each wound slows you down, until either you or your enemy are Knocked Out.
+**Impact** Crescens is not a game where the heroes are invulnerable. Violence has consequences. Going into a fight unprepared or badly outmatched, or just letting it go on too long, is dangerous. Injuries will start to drag as each wound slows you down, until either you or your enemy are Knocked Out.
 
 ## 2. The Basics
 
+### The Roll
+
+Crescens uses a chain of dice to represent capability. A character's Statistics range from d4 to d12, with the chain capable of going from d2 to d20. A result of 1 is always a failure, and almost anything above 12 a success.
+
+When you make a roll, you roll your relevant Statistic's die and add your relevant Skill's rank as a flat bonus to that roll, comparing the result to the Target Number to see if you succeed or not. The Target Number is set by a facet of the game, like another character's Defence, or by the GM.
+
+> Statistic die + Skill rank vs TN
+
 ### The Dice Chain
 
-Crescens uses a chain of dice to represent capability: d3, d4, d6, d8, d10, d12. A result of 1 is exceptionally bad, and 12 almost super human.
+Every step of the chain is:
 
-When you make a roll, you roll your relevant statistic die and add your relevant skill rank as a flat bonus. The result is compared to a Target Number set by the game or the GM.
+> d2 - d3 - d4 - d6 - d8 - d10 - d12 - d16 - d20
 
-> Roll = Statistic die + Skill rank
+A character's statistics lie in the range d4 to d12, and Advantages and Disadvantages enable the steps further up or down. 
 
-### Target Numbers
+A d4 is considered "poor" capability, a d6 "average", a d8 "talented", a d10 "exceptional" and a d12 "genius".
+
+A d2 can be "rolled" with a coin (heads 2, tails 1), or with a regular d6 with 1-2-3 being 1 and 4-5-6 being 2. A d3 can also be rolled with a regular d6: 1-2 for 1, 3-4 for 2 and 5-6 for 3.
+
+A d16 is a bit tricky to roll but can be simulated with a d8 and "double-it" die: any other die. If the Double-It die is above it's average (so a 4-5-6 on a d6), add 8 to the first d8 for your result, otherwise just use the initial d8 result.
+
+### Target Numbers (TN)
 
 A Target Number represents the difficulty of a task. The GM sets this based on the fiction, using the following as a guide:
 
 | Difficulty | Target Number |
 |---|---|
-| Medium | 4 |
+| Medium | 5 |
 | Hard | 8 |
 | Very Hard | 12 |
 | Legendary | 15 |
@@ -48,9 +58,9 @@ A Target Number represents the difficulty of a task. The GM sets this based on t
 
 Note: there is no "easy" category. Such activity should be an automatic success.
 
-A character with a d6 statistic and rank 2 in the relevant skill has a maximum possible roll of 8, meaning Hard tasks are barely in reach without help or exceptional circumstances. This is intentional. Most people need help or to manipulate their situation to overcome unusual odds. This is where Advantages and Disadvantages come in.
+A character with a d6 Statistic and rank 2 in the relevant skill has a maximum possible roll of 8 and an average of 5.5, meaning Hard tasks are barely in reach without help or exceptional circumstances. This is intentional. Most people need help or to manipulate their situation to overcome unusual odds. This is where Advantages and Disadvantages come in.
 
-Conversely highly skilled and/or high stat characters will *always* succeed on Medium or even Hard tasks, as such an exemplar should.
+Conversely highly skilled and/or high stat characters will *always* succeed on Medium or even Hard tasks, as such exemplars should.
 
 ### Advantages and Disadvantages
 
@@ -59,14 +69,6 @@ When circumstances favour a roll, the GM may grant an Advantage: a step the stat
 Similarly, when circumstances hinder a roll, the GM may impose a Disadvantage: step the statistic die down one size.
 
 Multiple sources of Advantage and Disadvantage stack, stepping the die further up or down the chain. A character with two sources of Advantage on a d6 roll uses a d10. Advantage and Disadvantage from multiple sources cancel each other out one for one before the die is stepped in either direction.
-
-The full chain is:
-
-> 1 - d3* - d4 - d6 - d8 - d10 - d12 - d16** - d20
-
-*A d3 is a d6 halved, rounding down.
-
-**A d16 can be simulated by rolling 2d8, if the second dice is 5 or above, add 8 to the first dice. Or roll a d20 and reroll on 17-20.
 
 ### Margin of Success
 
@@ -135,7 +137,7 @@ The following are the suggested core skills of Crescens. They are a starting poi
 - **First Aid** - practical and prompt treatment of injuries and ailments.
 - **Insight** - reading people, discerning lies, and understanding motives.
 - **Intimidation** - browbeating, threatening, and projecting menace.
-- **Knowledge** - a specific field of learning. When taking this skill, choose one field such as: Alchemy, Arcana, Culture, Engineering, History, Medicine, Nature, Occult, or Religion. Knowledge may be taken multiple times for different fields.
+- **Knowledge** - a specific field of learning. When taking this skill, choose one field such as: Science, Culture, Engineering, History, Medicine, Nature, Occult, or Religion. Knowledge may be taken multiple times for different fields.
 - **Logic** - applying reasoned thinking, strategy, tactics, and the piecing together of evidence.
 - **Persuasion** - the art of turning people around to your point of view.
 - **Piloting** - driving vehicles, sailing watercraft, and navigating by map.

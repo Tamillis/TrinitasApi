@@ -26,17 +26,34 @@ When you think about it, most Actions can resolve simultaneously. Two characters
 
 Powerful or well-trained enemies may take **Hidden Actions**, their intentions kept secret until players have committed to their own. The GM notes the Hidden Action privately. Players may attempt to **Read** a Hidden Action as their Action, making a Perception check against a TN set by the enemy's Stat and Skill in use. On a success, the Hidden Action is revealed to all players before they finalise their decisions.
 
+### Actions
+
+#### Core Combat Actions
+- **Attack** - you Attack a character in reach / range of the weapon. If multiple targets are part of the attack, they will make a Save Roll, otherwise you make an Attack Roll vs their Evasion to see if you Hit.
+- **Defend** - by blocking, dodging or some other Skill you detail, you replace your Evasion with a roll: the Stat and Skill of your defensive action. Keep your Evasion if it is higher. Any Attack against you this Round uses this value as the TN. A character using pocket-sand could use  Agility + Subterfuge. A character reading and anticipating attacks could use Perception + Insight.
+- **Move** - as an Action, you move your Speed along a path of your choice towards a target.
+- **Discern** - as an Action, you can make a Perception check against one enemy whose has a Hidden Action. If successful (the GM will decide the DC), their Action is no longer hidden and everyone in the combat can know. You can spend 1 Focus to Discen as a Bonus Action.
+- **Assist** - as an Action, you aid an ally in attacking an enemy within your reach. You feint, distract a target, or in some other way team up to make your ally's attack more effective. If your ally Attacks the target this Round, the Attack is made with an Advantage.
+- **Hide** - as an Action, you make a Stealth check in an attempt to hide from those you are obscured from (in 3/4's cover or out of line of sight), versus a DC of their passive Perception. If you succeed, you gain the benefits of being Hidden: Attacks against you have Disadvantage, and your Attack has Advantage. When you make an Attack, you are no longer Hidden. If you or others Move such that you are no longer obscured, you are no longer Hidden from them.
+- **Interact** - as an Action, you interact, a short series of motions that achieves a simple goal, with something or someone. This includes; giving an unconscious ally a health potion, arranging the runes of a magical interface, frisking a character for weapons, pulling the chains of a pulley, finding a particular page of a book, or creating a rough sketch in the sand
+- **Grapple** - as an Action you attempt a Contested Roll against a target. If you succeed the target Character is Immobilised. On subsequent turns you can maintain the grapple (no additional roll needed) as your Action, otherwise ending the grapple. If you maintain the grapple, you can use your Bonus Action to Move yourself and the enemy as if going through Difficult Terrain (typically, at half Speed), make yourself and the enemy Prone, or make an Unarmed Strike against the grappled character. The grappled character can use their Action to attempt to escape the Grapple, making a Contested Roll with you, ending the grapple on a success.
+- **Shove** - as an Attack you attempt to make an Enemy Prone or move 10ft in a direction of your choice. You make a Contested Roll, doing so on a success.
+- **Heal** - take an Action to see to a Fatal Injury (yours or another's) using the First Aid Skill. On a success, it becomes just an Injury.
+
 ### Bonus Actions
 
-Some Powers and system mechanics provide **Bonus Actions**: quick additional effects a character can perform alongside their main Action without hindering it. Narrate how your Bonus Action is woven into your Action, when your character uses one.
+Some Powers and system mechanics provide **Bonus Actions**: quick additional effects a character can perform alongside their main Action without hindering it. Narrate how your Bonus Action is woven into your Action, when your character uses one. Instead of an Action and Bonus Action, you can do 2 Bonus Actions in a Round.
 
-> "I *Stand* (a Bonus Action), swinging my sword for his shins in retaliation (an Attack Action)"
+> "I *Stand* (a Bonus Action), swinging my baton for his shins in retaliation (an Attack Action)"
+
+-  **Go Prone / Stand** - as a Bonus Action you make yourself Prone. Prone makes being shot at occur at a Disadvantage. Going from Prone to standing takes a Stand Bonus Action.
+- **Quick Use** - as a Bonus Action, you make a single motion to use an item or device. This includes: pulling a lever, pushing a button, drinking a potion readily available, sending a signal (hand, flag, flare etc.), or unlocking a chest with a readily available key.
 
 ## Engagements
 
 To manage simultaneous combat without chaos, combatants naturally pair off into **Engagements**: momentary pairings or small groups that form in any real fight. Engagements let the table zoom in on microcosms of the battle, resolving pairing by pairing.
 
-An **Engagement** is when a character attacks an enemy in their reach who is attacking them. 
+An **Engagement** is when a character attacks an enemy in their reach who is attacking them.
 
 If a character wants to attack a third character, they may do so, but are considered to be **Flanked** by the enemy they've ignored. Typically a character will face those attacking them, creating these naturally occuring engagements.
 
@@ -68,14 +85,6 @@ Each weapon has a Damage type and Damage value expressed as a die and sometimes 
 The final damage value (after Armour) is the Rank of the Injury.
 
 Reference the Injury table for that Damage Type with the damage rolled to generate a Descriptor if one isn't obvious from the value and Intent.
-
-## The Defend Action
-
-An Action a character can take is the **Defend Action**: rolling their Defence statistic plus a relevant skill, using the result as their Defence against Attacks for the Round.
-
-The result of an active Defend roll can never fall below the character's Evasion.
-
-There is no single skill for the Defend Action. The GM and player will know what Skill to use based on how the character is defending. A character using pocket-sand could use Subterfuge. A character reading and anticipating attacks uses Insight. A character bracing and absorbing uses a relevant combat skill. The GM and player agree on what fits.
 
 ## Armour
 
@@ -175,23 +184,21 @@ If the total ranks of all Injuries reach your character's Limit - they are Knock
 
 ## Fatal Injuries and Dying
 
-When a character suffers an Injury of rank 6 or greater, the GM should consider marking it as **Fatal**. An Arterial Cut to the throat, a Transfixion through the chest, bones shattered in a critical location - these are wounds that kill if left unaddressed.
+When a character suffers an Injury of rank 4 or greater, the GM should consider marking it as **Fatal**. An Arterial Cut to the throat, a Transfixion through the chest, bones shattered in a critical location - these are wounds that kill if left unaddressed.
 
-At the end of a Round, a Fatal Injury ticks up 1 rank. 
+At the end of a Round, each Fatal Injury ticks up 1 rank if the character fails a Spirit Roll vs a TN of the rank of the injury + the number of fatal injuries they have. If they have 1 rank 4 Fatal Injury, the TN is 5. If they have a rank 5 Fatal Injury, and 3 Fatal Injuries in total, that fatal injury's roll is at TN 8. A roll is made for each Fatal Injury at the end of a Round.
 
-If a Fatal Injury reaches rank 12, like any Injury, this kills them.
+If a Fatal Injury reaches rank 7, this kills them.
 
 Having at least one Fatal Injury means the character is **Dying**.
 
-A character can be Dying without being Knocked Out. They may still act, still fight, still drag themselves toward the door - but they are on a clock, and the clock is the wound itself getting worse.
+A character can be Dying without being Knocked Out, or Knocked Out without Dying.
 
-### Stabilising a Fatal Injury
+They may still act, still fight, still drag themselves toward the door - but they are on a clock, and the clock is the wound itself getting worse. If Unconsciousness is the best call, only then are they unconscious.
 
-**Stabilise** - as an Action, a character with a Fatal Injury can make a Spirit Check to **Stabilise** one Fatal Injury of their choice against a TN equal to the current rank of the Injury. On a success, the Injury is no longer Fatal, no longer accumulating Ranks.
+### Healing a Fatal Injury
 
-### Stabilising a Dying Character
-
-Another character can attempt to stabilise a Dying character using the **Stabilise** power or an equivalent magical effect. Stabilisation removes the Fatal tag from the Injury, freezing it at its current rank. It does not reduce the rank. The character is no longer Dying, but the wound is still there and still serious.
+**Heal** - as an Action, a character with a Fatal Injury can make a First Aid Skill Check to **Heal** one Fatal Injury of their choice against a TN equal to the current rank of the Injury + the number of Fatal Injuries that character has (so if you have 1 Rank 4 Fatal Injury, the TN is 5). On a success, the Injury is no longer Fatal, no longer accumulating Ranks.
 
 ## Knocked Out
 
@@ -233,30 +240,28 @@ Roll a d6.
 Death in Crescens comes from injutird becoming too great to bear.
 
 - A **rank 6 single Injury** - if a character takes a Rank 6 Injury in one go, this Kills them instantly. The GM may grant them a Dramatic Death.
-- Any Injury accumulates to Rank 10
+- Any Fatal Injury accumulates to Rank "7" - as this is impossible.
 
-## Rests
+## Recovery
 
 ### Per Fight
 
-Some Powers and abilities recover **per fight** - they refresh at the end of every combat encounter, representing reserves of energy and focus that replenish with a moment to catch your breath once the danger has passed.
+Some Powers and abilities recover **Per Fight** - they refresh at the end of a combat encounter, representing reserves of energy and focus that replenish with a narrative moment to catch your breath once the danger has passed.
 
 ### Rest
 
 A **Rest** is a full night's sleep or equivalent period of genuine recuperation, typically eight hours. At the end of a Rest:
 
-- All per fight abilities refresh.
+- All Per Fight abilities also refresh.
 - The character makes a Recovery Roll if necessary.
 - The character clears the effects of most temporary conditions.
 
 Characters who go without a Rest accumulate **Exhaustion** Injuries at the GM's discretion. The specific rank and pace depends on the circumstances; a forced march is different from a sleepless night of study.
 
-## Healing and Recovery
+### Recovering Injuries
+Injuries recover slowly and imperfectly. Each wound has a rank, and that rank must come down through rest, treatment, or magic (if there is any) before it stops affecting the character. Primarily this is done during a Rest with a Recovery Roll:
 
-Injuries recover slowly and imperfectly. Each wound has a rank, and that rank must come down through rest, treatment, or magic (if there is any) before it stops affecting the character.
-
-### Recovery Roll
-At the end of a **Rest**, a character makes a Strength or Spirit (their choice) roll with no Skill modifier. They reduce a number of Injuries equal to the result by 1 rank. This is true for Knocked Out characters, which should bring their Injury total below their Limit and remove the Knocked Out condition.
+**Recovery Roll** - at the end of a Rest, a character makes a Strength or Spirit (their choice) roll with no Skill modifier. They reduce a number of Injuries equal to the result by 1 rank. This is also true for Knocked Out characters, which may bring their Injury total below their Limit and remove the Knocked Out condition.
 
 ### Example Healing Powers
 
