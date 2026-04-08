@@ -23,6 +23,19 @@ Magnitude corresponds to the Rank in the skill used by that Magic Power needed t
 
 *Note*: a player and GM may decide a particular character is channeling a particular Magic Power differently, and dictate a different Stat and/or Skill to use for that Power - so long as they employ the Power accordingly. This should be fixed at the point of taking the Power.
 
+#### Example - Pyromancy
+
+*Prerequisites* - Arcane 1 / Elementalism 1
+
+*Casting* - Mind (Intelligence) if using Arcane, Will (Spirit) if using Elementalism
+
+*Damage Type*: Fire.
+
+*Common Conditions* - Burning, Pained, Blinded (by smoke)
+
+You learn the magic of manifesting and shaping heat. You can create any effect involving fire, intense heat, or amplifying smoke; such as creating bolts of fire, breathing flames, igniting objects, cooling or heating areas, creating walls of smoke, or cauterizing wounds.
+
+
 ### Magic Effects - Spells
 The player defines a magical effect they attempt each time they use a Power. These are often known as "spells", and player's are encouraged to record their character's spells on their sheet when they determine one, so the GM and Player have a recorded agreement of what a spell is, what its magnitude is, and broadly what its effects are.
 
