@@ -14,7 +14,7 @@ Bundled with these core rules are the Magic and Swordplay modules for Heroic Fan
 
 Three ideas sit at the heart of Crescens.
 
-**Vectors of approach** - Statistics and skills describe how a character does things, not which things they are permitted to attempt. A character intimidates someone through physical menace or through quietly revealing what they know. A character performs through dexterous acrobatics or through sheer magnetic oration. The mechanics follow the fiction, not the other way around.
+**Vectors of approach** - A player describes *what* a character attempts to do, and the mecahnics of the game - the Statistics, Skills and Powers - describe *how*. The system is purposefully inteded to not pigeon-hole actions, but simple enable actions and generate the narrative behind them. A character can use their Intimidate skill to browbeat someone through physical menace with Strength, or manipulate someone through Subterfuge and Intelligence - quietly revealing what they know. A character could performs through dexterous acrobatics or through sheer magnetic oration. The mechanics follow the fiction, not the other way around.
 
 **Verisimilitude** The rules generally apply descriptors rather than numbers, trying to create scenarios better able to reflect a lived reality. Damage leaves specific marks on specific people through Injuries, instead of HP. A character is hurt in ways that matter to what they do next, not in ways that merely subtract from a number until the number reaches zero. Skills represent learnable things and are open ended. Every Statistic is intended to be broad enough to apply to any skill.
 

@@ -237,7 +237,7 @@ Roll a d6.
 
 ## Death
 
-Death in Crescens comes from injutird becoming too great to bear.
+Death in Crescens comes from injuries becoming too great to bear.
 
 - A **rank 6 single Injury** - if a character takes a Rank 6 Injury in one go, this Kills them instantly. The GM may grant them a Dramatic Death.
 - Any Fatal Injury accumulates to Rank "7" - as this is impossible.
@@ -262,21 +262,6 @@ Characters who go without a Rest accumulate **Exhaustion** Injuries at the GM's 
 Injuries recover slowly and imperfectly. Each wound has a rank, and that rank must come down through rest, treatment, or magic (if there is any) before it stops affecting the character. Primarily this is done during a Rest with a Recovery Roll:
 
 **Recovery Roll** - at the end of a Rest, a character makes a Strength or Spirit (their choice) roll with no Skill modifier. They reduce a number of Injuries equal to the result by 1 rank. This is also true for Knocked Out characters, which may bring their Injury total below their Limit and remove the Knocked Out condition.
-
-### Example Healing Powers
-
-#### Catch Your Breath
-
-*Prerequisites* - Strength d6
-
-Once per fight, as an Action, reduce one of your own Injuries gained in the same fight of rank 3 or lower by 1 rank. An Injury reduced to rank 0 is cleared.
-
-#### Wound Closing Magic 
-(From the Sword & Sorcery module)
-
-*Prerequisites* - Spirit d6, Divine Magic
-
-As an Action, spend 1 Mana to touch a willing character and reduce one Slashing or Piercing Injury of any rank by 3. This Power may be taken again, increasing the amount of mana you can spend in an action by 1 each time. For each Mana spent, reduce one Slashing or Piercing Injury of any rank by 3 again (including the same Injury if desired).
 
 ## Movement
 

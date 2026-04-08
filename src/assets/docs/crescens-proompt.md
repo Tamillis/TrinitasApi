@@ -7,7 +7,7 @@ Verisimilitude, lethality, growth. Setting-agnostic core + modules. No classes. 
 - `core.md` — basics, stats, skills, glossary
 - `character-creation.md` — full pipeline + 12 backgrounds + 12 powers
 - `combat.md` — full combat system
-- `magic.md` - initial magic module. Introduces new Magic casting skills: Arcane, Faith, Witchcraft, Verdance
+- `magic.md` - initial magic module. Introduces new Magic casting skills: Arcane, Faith, Witchcraft, Verdance, Elementalism
 
 ## Pending
 - `running-the-game.md`

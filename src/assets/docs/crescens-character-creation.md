@@ -1,8 +1,8 @@
 # Character Creation
 
-A Crescens character is built from their Statistics and Skills, as determined by their Ancestry, Background, and Role.
+A Crescens character is built from their Statistics, Skills and Powers. Ancestry and Background informs Statistics and Skills, and a character's "role" is defined by the Powers they choose.
 
-These determines what your character can do well (or poorly), who they are and how they move through the world. 
+These determines what your character can do well (or poorly), who they are and how they move through the world.
 
 Character Creation should be followed in order, and let each step shape the next.
 
@@ -24,7 +24,7 @@ Determine your character's Statistics by:
 - Rolling 7 six-sided dice
 - Discarding the highest and lowest
 - Reading left to right, note your Strength, Agility, Perception, Intelligence and Spirit in that order with the value rolled on the remaining dice.
-- A result of 1 is a d3, 2-3 a d4, 4-5 a d6, and 6 a d8.
+- A result of 1-2-3 a d4, 4-5 a d6, and 6 a d8.
 
 (If a you as a player are truly unhappy with your result, you may swap one result with another.)
 
@@ -32,16 +32,16 @@ Statistics are expressed as dice as when a statistic is called upon, you roll th
 
 Statistics can and should improve through play as your character improves, up to a maximum of d10. See **Progression** below.
 
-### Evasion
+#### Evasion
 A character's **Evasion** is how hard they are to hit in combat. This is equal to the midpoint of their Agility Statistic die, rounded down.
 
 | Agiliy | Evasion |
 |---|---|
-| d3 | 1 |
 | d4 | 2 |
 | d6 | 3 |
 | d8 | 4 |
 | d10 | 5 |
+| d12 | 6 |
 
 Powers exist that replace Evasion with a different statistic for determining a character's ability to not take damage, reflecting characters who survive through toughness (Strength), foresight (Perception), prediction (Intelligence), or sheer will (Spirit); rather than speed.
 
