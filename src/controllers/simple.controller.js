@@ -8,6 +8,8 @@ export class SimpleController {
             return res.status(400).json({ error: 'Url couldnt be parsed into asset' });
         }
 
+        console.log("Trying to get asset: " + asset);
+
         try {
             const data = await SimpleRepository.get(asset);
             res.json(data);

@@ -100,6 +100,17 @@ Armour covers specific parts of the body. Attacker's Intent that targets an unar
 
 Of course, it is probably a lot trickier to target such areas, and the GM may impose a Disadvantage. Or two!
 
+## Range
+
+Positioning for Attacks and other interactions fall into 1 of 4 bands:
+
+| Band | Description |
+| --- | --- |
+| Melee | Within 'reach' of one-another. |
+| Short | Within 15ft to 5 metres. |
+| Medium | Within 30ft to 10 metres. |
+| Long | Within 60ft to 20 metres. |
+
 ## Injuries
 
 Injuries are the consequence of combat in Crescens. They replace abstract hit points entirely. You don't lose a hitpoint when you are hit, you gain an **Injury** with at a specified rank that penalises any action that would concern it. They function exactly like negative Skills.
@@ -128,7 +139,7 @@ If the total ranks of all Injuries reach your character's Limit - they are Knock
 | 5 | Broken Bones |
 | 6 | Shattered |
 
-### Slashing
+#### Slashing
 
 | Damage | Descriptor |
 |---|---|
@@ -179,7 +190,17 @@ If the total ranks of all Injuries reach your character's Limit - they are Knock
 | 5 | Unravelled |
 | 6+ | Unmade |
 
-#### THUNDER, ACID, POISON, COLD, LIGHTNING, DARK, LIGHT
+#### Sonic
+| Damage | Descriptor |
+|---|---|
+| 1 | Ears ringing |
+| 2 | Delerium |
+| 3 | Burst eardrums |
+| 4 | Blasted away |
+| 5 | Pulped Organs |
+| 6+ | Traumatic Amputation |
+
+#### ACID, POISON, COLD, LIGHTNING, DARK, LIGHT
 *WIP*
 
 ## Fatal Injuries and Dying

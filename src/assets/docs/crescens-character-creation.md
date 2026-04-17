@@ -45,6 +45,9 @@ A character's **Evasion** is how hard they are to hit in combat. This is equal t
 
 Powers exist that replace Evasion with a different statistic for determining a character's ability to not take damage, reflecting characters who survive through toughness (Strength), foresight (Perception), prediction (Intelligence), or sheer will (Spirit); rather than speed.
 
+#### Limit
+A character's **Limit**, a.k.a. "Knock Out Limit" is the amount of Injury Ranks they can take before becoming Knocked Out - unable to participate in combat anymore.
+
 ## 2. Skills
 
 Skills are the specific things your character is good at. Where statistics describe the broad kind of person you are, skills describe what you have actually learned to do. A skill rank of 0 means untrained - you can still attempt most things, but you roll your statistic alone. A skill rank of 1 to 6 adds directly to your roll as a flat bonus.
@@ -61,7 +64,7 @@ In a world where all characters are human, ancestry requires no mechanical diffe
 
 **Human** is the default ancestry of Crescens. It is recommended they take a Skill Increase instead of an Ancestry Trait Power (if you are playing with any) to reflect their adaptability and range.
 
-## 4 Background
+## 4. Background
 
 Your background describes who your character was before the adventure began. It provides suggested skills reflecting your former life, and a starting kit of equipment that grounds you in the world. Suggested skills are not mandatory, if you can justify an alternative that fits your background's fiction, discuss it with your GM.
 
@@ -82,7 +85,7 @@ The Core Backgrounds applicable to nearly any setting are:
 | **Scholar** | Dedicated to deep, specific study at the cost of time and relationships; possesses specialized knowledge others overlook. | Knowledge (Arcane, Nature, Occult, or Religion), Logic | Ink-stained clothing, writing materials, two reference texts, small sum of money, academic letter/thesis. |
 | **Military** | Served a larger institution; understands how to follow orders, fight, and how systems function when ideals fade. | Intimidation, a combat skill | Former uniform, service weapon, bedroll, small/medium sum of money, discharge papers/commendation. |
 
-## 5\. Role
+## 5. Role
 
 Your Role represents the particular shape of your capability at the start of play: not a class, not a profession, but a small cluster of Powers that make you distinct. To help solidfy your Role: name it. 
 
@@ -104,96 +107,35 @@ There are no restrictions beyond any prerequisites listed on the Power itself. T
 
 Some Powers list core skills as prerequisites. If a character has a custom skill that covers the same territory as a core skill listed as a prerequisite, the GM may rule that it satisfies the requirement. A character with a custom skill called "Street Fighting" might reasonably satisfy a prerequisite for Unarmed Combat. A character with "Court Etiquette" might satisfy one for Charm.
 
-### Action Surge
+### Example Core Powers
 
-*Prerequisites* - none
+| Name | Prerequisites | Description |
+| --- | --- | --- |
+| **Action Surge** | None | Once per Fight, you can push past your limits. You may take one additional Action this Round. |
+| **Blind Fighting** | Perception d8, Insight 4 | Within Close Range you sense anything not behind total cover, ignore the effects of darkness and obscuration, and cannot be surprised. |
+| **Camouflage** | Stealth 4 | As an Action, if you press yourself against a solid surface or go prone and hold still, you gain Advantage on Stealth rolls for as long as you remain motionless. |
+| **Cursed** | None | When you roll the lowest result on any d6 or greater, gain a Token of Misfortune. Spend a Token as a Bonus Action to turn an enemy's success into a failure. Tokens reset after a Rest. |
+| **Danger Sense** | Perception d6 | You gain an Advantage on rolls to avoid visible effects (traps, visible attacks) provided you are not Incapacitated. |
+| **Durable** | Strength d6 | Your Knock Out threshold increases by your Strength Max. |
+| **Inspiring Leader** | Spirit d6, Persuasion 4 | After 10 minutes addressing up to six characters, each gains a bonus to their Knock Out threshold equal to your Spirit Max until their next Rest. |
+| **Jack of All Trades** | None | When making a roll for a skill you have no ranks in, you may add 1 to the result. |
+| **Keen Senses** | None | Choose one sense (sight, hearing, etc.). Rolls relying on that sense gain an Advantage. Can be taken multiple times. |
+| **Lucky** | None | When you roll the lowest result on any d6 or greater, you may reroll it and must use the new result. |
+| **Martial Arts** | Agility d6, Unarmed Combat 4 | Use Agility instead of Strength for unarmed/light weapon attacks. You can chain one unarmed strike as a Bonus Action if you hit with a melee Attack. |
+| **Unhindered Movement** | Agility d6 | If not Encumbered, you traverse vertical surfaces and liquids without falling/sinking if you start/end on solid ground. |
 
-Once per Fight, you can push past your limits. You may take one additional Action this Round.
-
-
-### Blind Fighting
-
-*Prerequisites* - Perception d6, Insight 4
-
-Your senses have been sharpened through hardship or deliberate training until you perceive the world as much through instinct as sight. Within 10ft you sense anything not behind total cover, ignore the effects of darkness and obscuration, and cannot be surprised.
-
-
-### Camouflage
-
-*Prerequisites* - Stealth 4
-
-You have learned to become part of your surroundings through stillness, concealment, or specialist preparation. As an Action, press yourself against a solid surface or go prone and hold still - you gain Advantage on Stealth rolls for as long as you remain motionless. Moving or acting ends the effect.
-
-
-### Cursed
-
-*Prerequisites* - none
-
-Misfortune dogs your steps, but you have learned to pass it on. Whenever you would roll the highest possible result on any die, you must reroll and use the new result, gaining one Token of Misfortune. You may spend a Token to turn one successful roll made by an enemy you can see into a failure. You lose any unused Tokens on finishing a Rest.
-
-### Danger Sense
-
-*Prerequisites* - Perception d6
-
-An uncanny awareness of wrongness in your surroundings gives you a fraction of a second's warning before disaster. You gain an Advantage on rolls to avoid effects you can see coming, such as visible traps or telegraphed attacks, provided you are not Incapacitated.
-
-### Durable
-
-*Prerequisites* - Strength d6
-
-You have built yourself into something harder to put down than most. Your Knock Out threshold increases by your Strength Max, increasing how much punishment you can absorb before going down.
-
-### Inspiring Leader
-
-*Prerequisites* - Spirit d6, Persuasion 4
-
-With the right words at the right moment, you can shore up the resolve of those around you. After 10 minutes addressing up to six willing characters who can see and hear you, each gains a bonus to their Knock Out threshold equal to your Spirit Max until the end of their next Rest.
-
-### Jack of All Trades
-
-*Prerequisites* - none
-
-You have picked up enough of everything to muddle through almost anything. When making a roll for a skill you have no ranks in, you may add 1 to the result.
-
-
-### Keen Senses
-
-*Prerequisites* - none
-
-One of your senses is sharper than the human baseline. Choose one: sight, hearing, smell, taste, or touch. Rolls relying on that sense gain an Advantage. This Power may be taken again for a different sense each time.
-
-
-### Lucky
-
-*Prerequisites* - none
-
-Fortune has a habit of blessing you. When you roll the lowest possible result on any d6 or greater die, you may reroll it and must use the new result, even if it is the lowest again.
-
-
-### Martial Arts
-
-*Prerequisites* - Agility d6, Unarmed Combat 4
-
-Your body is a weapon you have learned to use with precision and economy. When unarmed or using only light weapons, you may use Agility instead of Strength for attack rolls. Additionally, you may chain one unarmed strike as a bonus action after any successful hit.
-
-### Unhindered Movement
-
-*Prerequisites* - Agility d6
-
-Your body moves with an economy and confidence that ignores the limitations that stop others. Your movement increases, and when not Encumbered (such as by Heavy Armour) you may traverse vertical surfaces and liquids without sinking or falling, provided you start and end your movement on solid ground.
-
-## 6\. Progression
+## 6. Progression
 
 Progression in Crescens is a dynamic and natural part of the game. Rather than levels and fixed milestones, characters grow through training, experience, and the marks the world leaves on them.
 
 There are three ways a character can grow: Stat Increase, Skill Increase, or Training Powers.
 
 ### Stat or Skill Increase
-If a character could earn a Power, they may instead take a Stat Increase. Step up one Statistic one die size. A d3 becomes a d4, a d4 becomes a d6, a d6 becomes a d8, and a d8 becomes a d10, which is the maximum possible for Human characters.
+If a character could earn a Power, they may instead take a Stat Increase. Step up one Statistic one die size. A d4 becomes a d6, a d6 becomes a d8, and a d8 becomes a d10, which is the maximum possible for player characters.
 
-Or, instead of taking a Power, a character may take a Skill Increase, gaining 4 ranks to distribute among any skills of your choice. No single skill may be increased by more than 1 rank above the current highest skill in a single Skill Increase. Skills cannot exceed rank 10.
+Or, instead of taking a Power, a character may take a Skill Increase, gaining 3 ranks to distribute among any skills of your choice. No single skill may be increased by more than 1 rank above the current highest skill in a single Skill Increase. Skills cannot exceed rank 6.
 
-> For example: Tumbleweed is a nature-loving man of the swamp whose highest skill is Knowledge (Nature) at Rank 5. His player, Emily, takes a Stat Increase when her table are rewarded a group power-up in between missions. She cannot increase any skill beyond 6 (1 more than 5). So she increases Knowledge (Nature) by 1, and puts the 3 other ranks elsewhere.
+> For example: Tumbleweed is a nature-loving man of the swamp whose highest skill is Knowledge (Nature) at Rank 3. His player, Emily, takes a Stat Increase when her table are rewarded a group power-up in between missions. She cannot increase any skill beyond 4 (1 more than 3). So she increases Knowledge (Nature) by 1, and puts the 2 other ranks elsewhere.
 
 ### Training Powers
 A character identifies the next Power they wish to make theirs, marking on their sheet as a power "in training". The GM and the player decide how much training, what kind, and any prerequisites that ought to be required for their game and setting, before the Power becomes active. A recommended practice is to have players training Powers that make sense to be slowly building in the background, bringing them online after each monumental story beat, and scattering additional Powers through the narrative as rewards - almost like found treasure. This encourages roleplay as much as mechanical acquisition, and literally empowers the beats of the story.

@@ -17,7 +17,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/powers', powersRoutes);
 
 // Simple Gets
-const assets = ["backgrounds", "equipment", "packs", "races", "skills", "spells"];
+const assets = ["backgrounds", "equipment", "packs", "races", "skills", "spells", "crescens-magic"];
 assets.forEach(asset => {
     app.get("/api/" + asset, SimpleController.get)
 });
