@@ -1,6 +1,6 @@
 # Crescens Combat
 
-Combat in Crescens is meant to feel dramatic, dangerous, and snappy where each blow is felt and characters are not just bags of hit points.
+Combat in Crescens is meant to feel dramatic, dangerous, and snappy where each blow is felt as characters are not just bags of hit points, and rounds are fast and fluid affairs where each character takes one dramatic action.
 
 Rounds are resolved simultaneously. Wounds are specific, immediate and lasting. Death is always a possibility, but being Knocked Out of the fight is what matters most.
 
@@ -102,14 +102,15 @@ Of course, it is probably a lot trickier to target such areas, and the GM may im
 
 ## Range
 
-Positioning for Attacks and other interactions fall into 1 of 4 bands:
+Positioning for Attacks and other interactions fall into bands. Different modules may use differing bands if that better reflects the equipment and features of the module.
 
 | Band | Description |
 | --- | --- |
 | Melee | Within 'reach' of one-another. |
-| Short | Within 15ft to 5 metres. |
-| Medium | Within 30ft to 10 metres. |
-| Long | Within 60ft to 20 metres. |
+| Short | Within 30ft to 10 metres. |
+| Medium | Within 60ft to 20 metres. |
+| Long | Within 160ft to 50 metres. |
+| Extreme | Anything beyond Long. |
 
 ## Injuries
 

@@ -131,7 +131,7 @@ Progression in Crescens is a dynamic and natural part of the game. Rather than l
 There are three ways a character can grow: Stat Increase, Skill Increase, or Training Powers.
 
 ### Stat or Skill Increase
-If a character could earn a Power, they may instead take a Stat Increase. Step up one Statistic one die size. A d4 becomes a d6, a d6 becomes a d8, and a d8 becomes a d10, which is the maximum possible for player characters.
+If a character could earn a Power, they may instead take a Stat Increase. Step up one Statistic one die size. A d4 becomes a d6, a d6 becomes a d8, a d8 becomes a d10, and a d10 becomes a d12 which is the maximum possible for player characters.
 
 Or, instead of taking a Power, a character may take a Skill Increase, gaining 3 ranks to distribute among any skills of your choice. No single skill may be increased by more than 1 rank above the current highest skill in a single Skill Increase. Skills cannot exceed rank 6.
 
@@ -145,3 +145,6 @@ A character identifies the next Power they wish to make theirs, marking on their
 The amount of time needed for a Power is thematic and not fixed. It depends on the pace of the game, your table's position on the arcade-to-simulation scale, and the Power itself. Think of two things: the intensity of training required, and how long it should take. Some Powers demand full-time study, like a profession. Others can be drilled on weekends, or picked at in a quiet hour each day. A character can have multiple Powers in training simultaneously at different intensities, which is entirely encouraged.
 
 Stat and Skill Increases follow the same training logic as Powers: they represent dedicated effort and should be earned through fiction, not handed out arbitrarily. A character training to increase their Strength should be doing something about it.
+
+### Cylcing Optional Rule
+For a more "balanced" progression in high-progression balance-oriented games, GMs and players should consider **Cycling** progression - each time a character earns a progression they take the progression they haven't for the longest - cycling through Stat, Skills and Power.

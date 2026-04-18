@@ -2,9 +2,9 @@
 
 ## 1. What is Crescens?
 
-Crescens is a tabletop roleplaying game (if you're here, you know what that is) designed to feel immersive, taking you out of the experience aas little as possible. Its mechanics should become a natural extension of the fiction, instead of a "game" layer imposed on top of a narrative. When a character is hurt, they are hurt in a cummulative and meaningful way. When a character grows, it is because they have done something to grow.
+Crescens is a tabletop roleplaying game (if you're here, you know what that is) designed to feel immersive, taking you out of the experience as little as possible. Its mechanics should become a natural extension of the fiction, instead of a "game" layer imposed on top of a narrative. When a character is hurt, they are hurt in a cummulative and meaningful way. When a character grows, it is because they have done something to grow.
 
-Whether it is more OSR than new-school is for you to make.
+It has been design with love from both OSR and new schools of thought - aiming for both narrative and tactical play.
 
 Crescens is also designed to be setting agnostic. The core rules here describe characters and what they can do, with core examples of systems designed to be expanded in modules that best enable the setting and theme they're for.
 
@@ -14,7 +14,7 @@ Bundled with these core rules are the Magic and Swordplay modules for Heroic Fan
 
 Three ideas sit at the heart of Crescens.
 
-**Vectors of approach** - A player describes *what* a character attempts to do, and the mecahnics of the game - the Statistics, Skills and Powers - describe *how*. The system is purposefully inteded to not pigeon-hole actions, but simple enable actions and generate the narrative behind them. A character can use their Intimidate skill to browbeat someone through physical menace with Strength, or manipulate someone through Subterfuge and Intelligence - quietly revealing what they know. A character could performs through dexterous acrobatics or through sheer magnetic oration. The mechanics follow the fiction, not the other way around.
+**Vectors of approach** - A player describes *what* a character attempts to do, and the mechanics of the game - the Statistics, Skills and Powers - describe *how*. The system is purposefully inteded to not pigeon-hole actions, but simple enable actions and generate the narrative behind them. For a character that wants to *intimidate* - a character could use their Intimidate skill to browbeat someone through physical menace with Strength. But they could also intimidate someone through Subterfuge and Intelligence quietly revealing blackmail they know. A character could intimidate through dexterous acrobatics showing up another, or through sheer overbearing oration with their spirit and persuasion. The fiction leads the mechanics.
 
 **Verisimilitude** The rules generally apply descriptors rather than numbers, trying to create scenarios better able to reflect a lived reality. Damage leaves specific marks on specific people through Injuries, instead of HP. A character is hurt in ways that matter to what they do next, not in ways that merely subtract from a number until the number reaches zero. Skills represent learnable things and are open ended. Every Statistic is intended to be broad enough to apply to any skill.
 
