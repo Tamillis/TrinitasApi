@@ -50,78 +50,62 @@ A Target Number represents the difficulty of a task. The GM sets this based on t
 
 | Difficulty | Target Number |
 |---|---|
-| Medium | 5 |
+| Medium | 4 |
 | Hard | 8 |
 | Very Hard | 12 |
 | Legendary | 15 |
 | Myth | 20 |
 
-Note: there is no "easy" category. Such activity should be an automatic success.
+Note: there is no "easy" category. Such activity should not be considered for a roll.
 
-A character with a d6 Statistic and rank 2 in the relevant skill has a maximum possible roll of 8 and an average of 5.5, meaning Hard tasks are barely in reach without help or exceptional circumstances. This is intentional. Most people need help or to manipulate their situation to overcome unusual odds. This is where Advantages and Disadvantages come in.
+A character with a d6 Statistic and rank 2 in the relevant skill has a maximum possible roll of 8 and an average of 5.5, meaning Hard tasks are barely in reach without help or exceptional circumstances. This is intentional. Most people need help or to manipulate their situation to overcome unusual odds. This is where Advantages and Disadvantages come in, which players are encouraged to seek out.
 
 Conversely highly skilled and/or high stat characters will *always* succeed on Medium or even Hard tasks, as such exemplars should.
 
+#### Opposed Rolls
+Opposed actions, where two characters work against each other directly, do not use a TN. They are resolved as **Opposed Rolls**: both roll and add relevant skills, and the higher result wins. Ties go to the character who initiated the action, unless the GM rules otherwise.
+
 ### Advantages and Disadvantages
 
-When circumstances favour a roll, the GM may grant an Advantage: a step the statistic die up one size on the chain for that roll.
+When circumstances favour a roll, the GM or a Power may grant an Advantage: a step the statistic die up one size on the chain for that roll.
 
-Similarly, when circumstances hinder a roll, the GM may impose a Disadvantage: step the statistic die down one size.
+Similarly, when circumstances hinder a roll, a Disadvantage can apply: step the statistic die down one size.
 
 Multiple sources of Advantage and Disadvantage stack, stepping the die further up or down the chain. A character with two sources of Advantage on a d6 roll uses a d10. Advantage and Disadvantage from multiple sources cancel each other out one for one before the die is stepped in either direction.
 
-### Margin of Success
-
-When a roll succeeds, how much it succeeds by matters. The margin of success is the amount by which the roll exceeds the Target Number. The GM uses this to determine not just whether something happened, but how well.
-
-In combat, margin of success directly determines the severity of wounds dealt. See *combat.md* for the full rules.
+If you reach the end of the chain (d2 / d20), stop.
 
 ### When Not to Roll
+A roll is called for when failure is plausible and consequential. A character picking a complex lock under fire with inadequate tools rolls, but one with the right tools and all the time in the world doesn't: even for a difficult lock. Now if the latter character had to pick that lock in the next 30 seconds because the guard is coming, then you have consequences and a roll should be made to see if they pick it in time.
 
-Not every action needs a die. Rolling dice is for moments of genuine uncertainty with meaningful consequences on either side. 
+In other words: rolling dice is for moments of genuine uncertainty with meaningful consequences on either side.
 
 - If a character could not reasonably fail, do not roll.
 - If failure would produce nothing interesting, do not roll.
-- If the only purpose of a roll is to slow things down, do not roll.
-- If the difficult is easier than Medium, do not roll.
-
-Some guidelines:
-
-A trained character performing a routine task in calm circumstances does not roll. A character picking a simple lock with the right tools and no pressure simply picks it.
-
-A roll is called for when failure is plausible, consequential, and interesting. A character picking a complex lock under fire with inadequate tools rolls, because every possible outcome matters.
-
-Opposed actions, where two characters work against each other directly, are resolved as contested rolls: both roll and add relevant skills, and the higher result wins. Ties go to the character who initiated the action, unless the GM rules otherwise.
+- If the only consequence of a roll would be to slow things down, do not roll.
+- If the GM does not call for a roll, do not roll.
 
 The GM should always ask: what happens if this fails? If the answer is nothing of consequence, skip the roll.
 
 ## 3. Statistics
 
-Statistics represent the broad physical and mental dimensions of a character - but think of them less as rigid categories and more as vectors of approach. A silver-tongued negotiator and an iron-fisted bruiser might both use Intimidation to get what they want; the statistic simply reflects how. When building your character and facing challenges, ask not which statistic owns a skill, but what kind of person your character is and how that shapes everything they do.
+Statistics represent the broad physical and mental dimensions of a character - but think of them less as buttons to press and more as vectors of approach. A silver-tongued negotiator and an iron-fisted bruiser might both use Persuasion to get what they want; one with Intelligence and the other with Strength. The statistic simply reflects how. When facing challenges, ask what kind of person your character is and how that shapes everything they do.
 
-### Strength
+The 5 statistics are:
 
-Raw physical power: lifting, forcing, breaking, enduring, and hitting hard, and representing the physical capacity to absorb punishment. Strength is the statistic of people who solve problems by applying their body directly to them.
-
-### Agility
-
-Speed, precision, and physical grace: moving well, striking accurately, performing with your body, and reacting quickly. Agile characters win through finesse rather than force.
-
-### Perception
-
-Awareness, both physical and social: noticing things, reading situations, sensing what others miss, and reacting to the world as it actually is rather than as you expect it to be. Perception is the statistic of characters who pay attention.
-
-### Intelligence
-
-The processing and recall of information: learning, reasoning, strategising, applying knowledge, and working things out. Intelligent characters think their way through problems, whether through scholarship, cunning, or careful analysis.
-
-### Spirit
-
-Spirit is will, connection, and inner force. It is the act of resisting, persevering, and relating to others. Most importantly, it is the ability to engage with things beyond the mundane. It also represents the will to keep going when the body wants to stop.
+| Statistic | Description |
+| --- | --- |
+| Strength | Raw physical power: lifting, forcing, breaking, enduring, and hitting hard, and representing the physical capacity to absorb punishment. Strength is the statistic of people who solve problems by applying their body directly to them. |
+| Agility | Speed, precision, and physical grace: moving well, striking accurately, performing with your body, and reacting quickly. Agile characters win through finesse rather than force. |
+| Perception | Awareness, both physical and social: noticing things, reading situations, sensing what others miss, and reacting to the world as it actually is rather than as you expect it to be. Perception is the statistic of characters who pay attention.
+| Intelligence | The processing and recall of information: learning, reasoning, strategising, applying knowledge, and working things out. Intelligent characters think their way through problems, whether through scholarship, cunning, or careful analysis.
+| Spirit | Spirit is will, connection, and inner force. It is the act of resisting, persevering, and relating to others. Most importantly, it is the ability to engage with things beyond the mundane. It also represents the will to keep going when the body wants to stop.
 
 ## 4. Skills
 
-Skills are the specific things your character has learned to do. A skill rank of 0 means untrained - you can attempt most things, rolling your statistic die alone, but you bring no particular competence to the task. Skill ranks from 1 to 10 add directly to your roll as a flat bonus, with 10 representing the absolute limit of human mastery.
+Skills are the specific things your character has learned to do.
+
+A skill rank of 0 means untrained - you can attempt most things, rolling your statistic die alone, but you bring no particular competence to the task. Skill ranks from 1 to 10 add directly to your roll as a flat bonus, with 10 representing the absolute limit of human mastery.
 
 A skill is always paired with a statistic, but the pairing is not fixed. The same skill might be rolled against different statistics depending on how the character approaches the task. Intimidation through physical menace uses Strength. Intimidation through revealed knowledge uses Intelligence. The GM and player decide together which statistic fits the approach taken.
 
@@ -180,30 +164,3 @@ The following examples use core skills, but the same logic applies to custom ski
 ### Injuries
 
 When a character is wounded in combat, they may acquire Injuries: Descriptors (and Locations) describing a kind of wound that applies negative skill ranks to relevant actions. A rank 2 Gashed Leg, for example, applies a -2 penalty to any roll where that leg is meaningfully involved, like scaling that wall. Injuries accumulate, and enough of them will Knock a character Out of the fight entirely, until they Recover. See *combat.md* for the full Injury and Recovery system.
-
-## 5. Glossary
-- **Advantage** - a beneficial circumstance that steps the relevant statistic die one size up the dice chain for a single roll.
-- **Agility** - the statistic representing speed, precision, and physical grace.
-- **Ancestry** - a character's lineage and inherited nature, expressed through Powers in setting modules.
-- **Background** - a character's life before the adventure, providing suggested skills and starting equipment.
-- **Contested Roll** - a roll made directly against another character, where both roll and the higher result wins.
-- **Dice Chain** - the sequence of dice used in Crescens: d3, d4, d6, d8, d10, d12.
-- **Disadvantage** - an adverse circumstance that steps the relevant statistic die one size down the dice chain for a single roll.
-- **Game Master (GM)** - the player who describes the world, portrays other characters, sets Target Numbers, and adjudicates the rules.
-- **Injury** - a negative skill rank applied to relevant actions as a result of being wounded. Injuries accumulate and can put a character Out.
-- **Intelligence** - the statistic representing the processing and recall of information.
-- **Knocked Out** - the condition of a character who has accumulated Injuries equal to or exceeding their Knock Out Limit, rendering them unable to act until aided.
-- **Knock Out Limit** - the total accumulated Injury rank a character can sustain before going Out, determined by the maximum face values of their Strength and Spirit dice.
-- **Margin of Success** - the amount by which a roll exceeds its Target Number, used to determine how well something was accomplished.
-- **Perception** - the statistic representing awareness, both physical and social.
-- **Power** - a specific mechanical ability that goes beyond what statistics and skills alone provide, representing something a character can do that most people cannot.
-- **Prerequisites** - the statistics, skills, or other Powers a character must have before training a given Power.
-- **Role** - the two starting Powers chosen during character creation that make a character mechanically distinct.
-- **Skill** - a specific learned capability, represented as a rank from 0 to 10 added as a flat bonus to relevant rolls.
-- **Skill Increase** - a progression option in which a character gains 4 ranks to distribute among skills, with no single skill increased by more than 1 above the current highest.
-- **Spirit** - the statistic representing will, connection, and inner force.
-- **Stat Increase** - a progression option in which a character steps one statistic die one size up the dice chain.
-- **Statistic** - one of five broad dimensions of a character's capability, expressed as a die size and used as the base of all rolls.
-- **Strength** - the statistic representing raw physical power.
-- **Target Number (TN)** - the number a roll must meet or exceed to succeed, set by the GM based on the difficulty of the task.
-- **Trained** - having at least rank 1 in a skill, meaning the character adds their skill rank to relevant rolls. Some checks may call for only trained characters to attempt them.
