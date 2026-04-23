@@ -163,4 +163,4 @@ The following examples use core skills, but the same logic applies to custom ski
 
 ### Injuries
 
-When a character is wounded in combat, they may acquire Injuries: Descriptors (and Locations) describing a kind of wound that applies negative skill ranks to relevant actions. A rank 2 Gashed Leg, for example, applies a -2 penalty to any roll where that leg is meaningfully involved, like scaling that wall. Injuries accumulate, and enough of them will Knock a character Out of the fight entirely, until they Recover. See *combat.md* for the full Injury and Recovery system.
+When a character is wounded in combat, they may acquire Injuries: Descriptors (and Locations) describing a kind of wound that applies negative skill ranks to relevant actions. A rank 2 Gashed Leg, for example, applies a -2 penalty to any roll where that leg is meaningfully involved, like scaling that wall. Injuries accumulate, and enough of them will take them to their Knock Out Limit, removing them from the fight entirely until they Recover. See *crescens combat* for the full Injury and Recovery system.

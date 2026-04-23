@@ -2,11 +2,13 @@
 
 Combat in Crescens is meant to feel dramatic, dangerous, and snappy where each blow is felt as characters are not just bags of hit points, and rounds are fast and fluid affairs where each character takes one dramatic action.
 
-Rounds are resolved simultaneously. Wounds are specific, immediate and lasting. Death is always a possibility, but being Knocked Out of the fight is what matters most.
+Rounds are resolved simultaneously. Wounds are specific, immediate and lasting. Death is always a possibility, but distinct from being Knocked Out of the fight - which is what matters most.
 
 ## Rounds and Actions
 
-Combat is played out in **Rounds**, each representing roughly five seconds of dramatic action (whatever period works for that moment). Every character in a Round has one **Action**. All characters act simultaneously and there is no turn-order based initiative system.
+Combat is played out in **Rounds**, each representing roughly five seconds of dramatic action (whatever period works for that moment). Every character in a Round has one **Action**. If a character has access to any, a character can also take one Bonus Action per Round. 
+
+All characters act simultaneously and there is no turn-order based initiative system.
 
 ### How a Round Works
 
@@ -88,7 +90,7 @@ Reference the Injury table for that Damage Type with the damage rolled to genera
 
 ## Armour
 
-Armour does not make you harder to hit. It makes hits hurt less. When a character wearing armour is struck, the **armour value** reduces the attacker's Damage.
+Armour makes hits hurt less. When a character wearing armour is struck, the **armour value** reduces the attacker's Damage.
 
 Armour values run from 1 to 6 with specific values detailed in the equipment module you use. Some modules, such as noir investigations, might not bother with armour at all (what's the point if everyone is in civilian clothes or uniforms and the main weapon is a sidearm?).
 
@@ -201,8 +203,27 @@ If the total ranks of all Injuries reach your character's Limit - they are Knock
 | 5 | Pulped Organs |
 | 6+ | Traumatic Amputation |
 
-#### ACID, POISON, COLD, LIGHTNING, DARK, LIGHT
+#### Acid or Poison
+| Damage | Descriptor |
+|---|---|
+| 1 | Stinging |
+| 2 | Burning |
+| 3 | Peeling skin |
+| 4 | Melting flesh |
+| 5 | Organ failure |
+| 6+ | Organic Erasure |
+
+#### COLD, LIGHTNING, DARK, LIGHT
 *WIP*
+
+## Knocked Out
+
+A character's **Knock Out Limit**, a.k.a. simply **Limit**, is the total negative Injury rank they can bear before going down. It is equal to the maximum face value of their Strength die plus the maximum face value of their Spirit die; known as Strength Max and Spirit Max.
+
+When the total rank of all a character's Injuries meets or exceeds their Knock Out Limit, they are **Knocked Out**. They collapse and cannot take Actions. 
+
+### Unconsciouss
+Knocked Out characters are not necessarily Unconscious; they are simply out of the fight. The GM or player may describe a Knock Out as most thematically valid as being Unconsciouss, otherwise characters are free to slowly crawl and mock through gritted teeth, or take whatever other non-participatory action they wish.
 
 ## Fatal Injuries and Dying
 
@@ -212,21 +233,13 @@ At the end of a Round, each Fatal Injury ticks up 1 rank if the character fails 
 
 If a Fatal Injury reaches rank 7, this kills them.
 
-Having at least one Fatal Injury means the character is **Dying**.
+Having at least one Fatal Injury means the character is **Dying**. As such, a character can be Dying without being Knocked Out, or Knocked Out without Dying.
 
-A character can be Dying without being Knocked Out, or Knocked Out without Dying.
-
-They may still act, still fight, still drag themselves toward the door - but they are on a clock, and the clock is the wound itself getting worse. If Unconsciousness is the best call, only then are they unconscious.
+A Dying character may still act, still fight, still drag themselves toward the door - but they are on a clock, and the clock is the wound itself getting worse.
 
 ### Healing a Fatal Injury
 
 **Heal** - as an Action, a character with a Fatal Injury can make a First Aid Skill Check to **Heal** one Fatal Injury of their choice against a TN equal to the current rank of the Injury + the number of Fatal Injuries that character has (so if you have 1 Rank 4 Fatal Injury, the TN is 5). On a success, the Injury is no longer Fatal, no longer accumulating Ranks.
-
-## Knocked Out
-
-A character's **Knock Out Limit**, a.k.a. simply **Limit**, is the total negative Injury rank they can bear before going down. It is equal to the maximum face value of their Strength die plus the maximum face value of their Spirit die; known as Strength Max and Spirit Max.
-
-When the total rank of all a character's Injuries meets or exceeds their Knock Out Limit, they are **Knocked Out**. They collapse and cannot take Actions. They are not necessarily Unconscious; they are simply out of the fight. This can be as dramatic and loud, or sudden and quiet, as the player wants.
 
 ### The Lasting Injury
 When a character is Knocked Out, they gain a Lasting Injury. Roll on the table below after a fight has finished (only once, no matter how many times they get Knocked Out).
@@ -297,12 +310,6 @@ When the outcome of simultaneous movement is genuinely unclear, the characters i
 
 Moving through difficult terrain costs double movement. Climbing or swimming costs quadruple. Impassable terrain must be circumnavigated.
 
-## Mounted Combat
-
-Fighting from the back of a mount is unstable work for the untrained. When mounted, a character is **Unstable** unless they have a relevant Power or skill.
-
-When your mount moves, it carries you with it. Since movement resolves last, any Actions taken from the back of a mount occur before it moves, unless you use a **Combined Charge**: both you and your mount use your Actions, the mount moves toward a target, and at the end of that movement you make one weapon attack with an Advantage against that target.
-
 ## Conditions
 
 **Blinded** - the character cannot see. They automatically fail any roll requiring sight, and attacks relying on sight are made at two Disadvantages.
@@ -337,4 +344,4 @@ When your mount moves, it carries you with it. Since movement resolves last, any
 
 **Unconscious** - the character is unaware of their surroundings, drops whatever they are holding, falls Prone, and automatically fails any roll requiring awareness or physical response.
 
-**Unstable** - the character has Disadvantage on ranged attacks and cannot attack beyond normal range. Typically caused by riding a mount or operating in an earthquake.
+**Unstable** - the character has a Disadvantage on attacks. Typically caused by riding a mount or standing on a rolling ship's deck.
