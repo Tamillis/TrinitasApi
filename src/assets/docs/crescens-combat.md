@@ -287,11 +287,11 @@ Some Powers and abilities recover **Per Fight** - they refresh at the end of a c
 
 A **Rest** is a full night's sleep or equivalent period of genuine recuperation, typically eight hours. At the end of a Rest:
 
-- All Per Fight abilities also refresh.
 - The character makes a Recovery Roll if necessary.
 - The character clears the effects of most temporary conditions.
+- Many Powers and Module rules also key off of "Per Rest".
 
-Characters who go without a Rest accumulate **Exhaustion** Injuries at the GM's discretion. The specific rank and pace depends on the circumstances; a forced march is different from a sleepless night of study.
+Characters who go without a Rest accumulate **Exhaustion** Injuries at the GM's discretion. The specific rank and pace depends on the circumstances; a forced march is different from a sleepless night of study. Typically 1 Rank of Exhaustion Injury per "exhausting" activity. A forced march? 1 Rank. A forced march while also carrying a wounded ally the entire way? 2 Ranks. Etc.
 
 ### Recovering Injuries
 Injuries recover slowly and imperfectly. Each wound has a rank, and that rank must come down through rest, treatment, or magic (if there is any) before it stops affecting the character. Primarily this is done during a Rest with a Recovery Roll:

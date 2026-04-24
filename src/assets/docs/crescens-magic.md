@@ -17,24 +17,13 @@ Characters gain access to magic by learning Magic Powers - each of which denotes
 
 Each power notes what magic Stat & Skill it uses.
 
-Each Power lists kinds of effects it can produce at certain **Magnitudes** - with players using the Magnitude Calculation below to help create consistent magical effects known as Spells.
+Each Power lists kinds of effects it can produce under Manifestations.
 
-Magnitude corresponds to the Rank in the skill used by that Magic Power needed to cast a spell. The better your skill in a sphere of magic - the more you're able to manipulate the magic you know into complex and/or powerful effects.
+A spell's **Magnitude** corresponds to the rough power of that spell, and also the Rank needed in the skill used by that Magic Power to cast the spell. The better your skill in a sphere of magic - the more you're able to manipulate the magic you know into complex and/or powerful effects. See Magnitude Calculation below.
 
-*Note*: a player and GM may decide a particular character is channeling a particular Magic Power differently, and dictate a different Stat and/or Skill to use for that Power - so long as they employ the Power accordingly. This should be fixed at the point of taking the Power.
+*Note*: a player and GM may decide a particular character is channeling a particular Magic Power differently, and dictate a different Stat and/or Skill to use for that Power - so long as they employ the Power accordingly. 
 
-#### Example - Pyromancy
-
-*Prerequisites* - Arcane 1 / Elementalism 1
-
-*Casting* - Mind (Intelligence) if using Arcane, Will (Spirit) if using Elementalism
-
-*Damage Type*: Fire.
-
-*Common Conditions* - Burning, Pained, Blinded (by smoke)
-
-You learn the magic of manifesting and shaping heat. You can create any effect involving fire, intense heat, or amplifying smoke; such as creating bolts of fire, breathing flames, igniting objects, cooling or heating areas, creating walls of smoke, or cauterizing wounds.
-
+When a character takes a Magic Power, they should fix which Statistic and Skill they use for that power and this should not change, not at least without significant effort.
 
 ### Magic Effects - Spells
 The player defines a magical effect they attempt each time they use a Power. These are often known as "spells", and player's are encouraged to record their character's spells on their sheet when they determine one, so the GM and Player have a recorded agreement of what a spell is, what its magnitude is, and broadly what its effects are.
@@ -42,58 +31,56 @@ The player defines a magical effect they attempt each time they use a Power. The
 ### Casting Magic - Stat & Skill
 Casting Magic, like any other Action, is a Roll combining a Stat with a Skill.
 
-A character can power their magic using their Mind (Intelligence) or using their Will (Spirit), relying on Mana or Strain respectively.
+Scholars of magic broadly define two ways of accessing magic: with the **Mind** (use your character's *Intelligence*) or with **Will** (use your character's *Spirit*). Mind casting relys on a character's **Mana** supply, whereas Will casting simply forces magic through the character's body, putting it under **Strain**.
 
-They cast magic using one of the five new magic Skills: Arcane, Elementalism, Faith, Verdance and Witchcraft.
+They then cast particular magical powers using one of the five new magic Skills: Arcane, Elementalism, Faith, Verdance and Witchcraft on a per-power basis.
 
 #### Mana
-Intelligence casting treats magic as a finite resource of calculated formulas. It uses a Mana pool equal to the character's Intelligence die max. Casting an effect costs Mana equal to its Magnitude. This Mana is reliable, recovering fully per Rest.
+Intelligence casting treats magic as a finite resource of calculated formulas. It uses a Mana pool equal to the character's Intelligence die max that represents both their character's natural well of magical energy as well as their mind's ability to keep doing calculations accurately. The mind is a muscle, and it too gets tired. Casting an effect costs Mana equal to its Magnitude. This Mana is reliable, recovering fully per Rest.
 
 #### Strain
-Spirit casting is powering magic with one's raw life force. Instead of using Mana, such casters risk Strain.
+Spirit casting is powering magic with one's raw life force, tempering the raw force of magic with the body itself. Instead of using Mana, such casters risk Strain.
 
-After manifesting an effect, a Spirit caster must roll their Spirit die plus their casting Skill against a Target Number (TN) dictated by the Magnitude of the effect + the number of spells the character is currently maintaing including this one. For example, the first Magnitude 3 spell a character casts with Will is a TN of 4. If they cast a magnitude 5 spell while maintaining 3 other spells - that's a TN of 9.
+After manifesting an effect, a Spirit caster must roll their Spirit die plus their casting Skill against a Target Number (TN) dictated by the Magnitude of the effect + the number of spells the character is currently maintaing, including this one. For example, the first Magnitude 3 spell a character casts with Will is a TN of 4. If they cast a magnitude 5 spell while maintaining 3 other spells - that's a TN of 9.
 
-On success or failure, the spell effect occurs.
+Regardless of success or failure, the spell effect occurs. But a failure results in a Strain Injury of a Rank equal to the Magnitude (appropriately described). These injuries can represent mental fatigue, back-fire burns, neural scarring or other more esoteric blow-back effects. They apply their Rank as a negative modifier to all subsequent Will casting rolls.
 
-Failure results in a Strain Injury of a Rank equal to the Magnitude (appropriately described). These injuries can represent mental fatigue, back-fire burns, neural scarring or other more esoteric blow-back effects. They apply their Rank as a negative modifier to all subsequent Will casting rolls.
+Strain Injuries are never fatal.
 
-Strain Injuries are non-fatal by default.
-
-**Spirit Burn** - alternatively, before rolling, a character can opt to "spirit burn", dropping their Spirit die a step down the chain to automatically succeed a Strain check. Their Spirit returns to normal after a Rest.
+**Spirit Burn** - a character can opt to "spirit burn", dropping their Spirit die a step down the chain to turn a failed Strain check into a success. Their Spirit returns to normal after a Rest.
 
 ### Magnitude Calculation
 To help gauge if a magical effect's magnitude, use these tables to generate Modifiers and add them up on a base cost of 1 (rounding down).
 
 Modifier | Range
 --- | ---
-+0 | Touch or Self.
-+0.5 (per target) | Target up to 30ft
-+1 (per target) | Target up to 60ft
-+2 (per target) | Target up to 100ft
--1 (per target) | Require a To Hit check vs the target's evasion.
-+2 | Small Area: 10ft radius / 15ft cone / 30ft x 5ft line
-+3 | Large Area: 30ft radius / 30ft cone / 60ft x 10ft line
++0 | **Touch** or **Self**.
+(per target) +0.5 | **Target** up to 30ft
+(per target) +1 | **Target** up to 60ft
+(per target) +2 | **Target** up to 100ft
+-1 | **Aimed** - require a To Hit check for all targets vs each target's evasion. No effect on a miss.
++2 | **Small Area**: 10ft radius / 15ft cone / 30ft x 5ft line
++3 | **Large Area**: 30ft radius / 30ft cone / 60ft x 10ft line
 
 Modifier | Potency
 --- | ---
-+0 | Utility: Light, sound, minor movement, +1 to a skill roll, 1 Damage Attack.
-+1 | Standard: Healing (instant remove 1 Injury Rank OR remove Fatal), apply / remove 1 Round condition on a target (Stun/Blind/Immobilise...), d4 Damage Attack.
-+2 | Powerful: Superior Healing (remove d3 Injury Ranks AND remove Fatal), apply / remove condition on a target Per Fight (Stun/Blind/Immobilise...), d8 Damage Attack.. +2 to a skill.
-+4 | Extreme: Remove Injury completely, d12 damage, total transformation, reviving the recently dead. +3 to a skill
++0 | **Utility**: Light, sound, minor movement, +1 to a skill roll, 1 Damage Attack.
++1 | **Standard**: Healing (instant remove 1 Injury Rank OR remove Fatal), apply / remove 1 Round condition on a target (Stun/Blind/Immobilise...), d4 Damage Attack.
++2 | **Powerful**: Superior Healing (remove d3 Injury Ranks AND remove Fatal), apply / remove condition on a target Per Fight (Stun/Blind/Immobilise...), d8 Damage Attack.. +2 to a skill.
++4 | **Extreme**: Remove Injury completely, d12 damage, total transformation, reviving the recently dead. +3 to a skill
 
 Modifier | Duration
 --- | ---
-+0 | Instantaneous: The effect happens and ends.
-+2 | Sustained: Lasts as long as your focus (per fight).
-+3 | Daylong: Lasts until next Rest.
--1 | Concentration: either of Sustained or Daylong can be reduced with Concentration - where if it is broken by another character's skill check, the spell ends early - and other concentration-requiring spells cannot be done.
-+4 | Semi-Permanent: The change is physical or fixed in reality until the power source fades or a long time passes such as a Downtime
++0 | **Instantaneous**: The effect happens and ends.
++2 | **Sustained**: Lasts as long as your focus (per fight).
++3 | **Daylong**: Lasts until next Rest.
+-1 | **Concentration**: either of Sustained or Daylong can be reduced with Concentration - where if it is broken by another character's skill check, the spell ends early - and other concentration-requiring spells cannot be done.
++4 | **Semi-Permanent**: The change is physical or fixed in reality until the power source fades or a long time passes such as a Downtime
 
 Wanting to do something quickly as a Bonus Action should only be possible for "small" effects, and confer a +1 modifier.
 
 ### Example Spells
-#### "Fireball" (Pyromancy - Will/Elementalism)
+#### "Fireball" (Pyromancy)
 **Base**: 1
 
 **Range**: Small Area (10ft radius) = +2
@@ -104,7 +91,7 @@ Wanting to do something quickly as a Bonus Action should only be possible for "s
 
 *Total Magnitude* = 4 (so this spell requires Elementalism 4 and a TN 5+ Strain Check.)
 
-#### "Magic Shield" (Aegis - Mind/Arcane)
+#### "Magic Shield" (Aegis)
 **Base**: 1
 
 **Range**: Self = +0
