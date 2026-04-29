@@ -7,7 +7,7 @@ Verisimilitude, lethality, growth. Setting-agnostic core + modules. No classes. 
 - `core.md` — basics, stats, skills, glossary
 - `character-creation.md` — full pipeline + 12 backgrounds + 12 powers
 - `combat.md` — full combat system
-- `magic.md` - initial magic module. Introduces new Magic casting skills: Arcane, Faith, Witchcraft, Verdance, Elementalism
+- `magic.md` - initial magic module. Introduces new Magic casting skills: Arcane, Faith, Witchcraft, Verdance, Elementalism, and points based spell creation where Powers are schools of magic ("pyromancy", "telekenisis" etc)
 
 ## Pending
 - `running-the-game.md`
@@ -89,22 +89,6 @@ Bonus Actions: Go Prone, Stand, Quick Use
 ### Attack Action
 Declare **Attacker's Intent** (attacking what, where). Roll combat skill + stat vs target's Defence. Success - roll damage → generate Injury of "descriptor + rank". Use Intent and example damage-type based tables to define Descriptor. Damage roll is rank.
 
-#### Damage Tables
-
-BLUDGEONING: 0=Glancing Blow/1, 1-2=Heavy Bruising/2, 3-4=Deep Bruising/3, 5-6=Bone Fracture/4, 7-8=Broken Bones/5, 9+=Shattered/6
-
-SLASHING: 0=Superficial Cut/1, 1-2=Gash/2, 3-4=Deep Laceration/3, 5-6=Severed Muscle/4, 7-8=Arterial Cut/5, 9+=Dismemberment/6
-
-PIERCING: 0=Graze/1, 1-2=Puncture/2, 3-4=Deep Puncture/3, 5-6=Impalement/4, 7-8=Organ Damage/5, 9+=Transfixion/6
-
-FIRE: 0=Singed/1, 1-2=Scorched/2, 3-4=Burns/3, 5-6=Deep Burns/4, 7-8=Charred/5, 9+=Immolation/6
-
-PSYCHIC (mind, no location): 0=Unsettled/1, 1-2=Rattled/2, 3-4=Fractured Thoughts/3, 5-6=Dissociation/4, 7-8=Mind Shattered/5, 9+=Ego Death/6
-
-FORCE (systemic, no location): 0=Unsettled/1, 1-2=Weakened/2, 3-4=Fraying/3, 5-6=Deteriorating/4, 7-8=Unravelled/5, 9+=Unmade/6
-
-PENDING: Thunder, Acid, Poison, Cold, Lightning, Dark, Light
-
 ### Defence
 Powers can shift Evasion to Strength/Perception/Intelligence/Spirit base.
 
@@ -145,7 +129,7 @@ Bleeding(rank), Blinded, Charmed, Deafened, Dying, Exhausted(rank=Injury), Flank
 ---
 
 ## Damage Types
-Physical: Bludgeoning, Slashing, Piercing, Thunder
+Physical: Bash, Slash, Pierce, Sonic
 Organic: Acid, Poison, Psychic
 Energy: Fire, Cold, Lightning
 Mystical: Dark, Light, Force
@@ -165,11 +149,10 @@ Stat Increase and Skill Increase are NOT Powers - but part of progression.
 ---
 
 ## Terminology
-- No "short/long rest" → Per Fight / Rest
 - No "HP" → Injuries + Knock Out Limit
 - No "initiative" → simultaneous, contested Agility roll only when order matters
 - No "Necrotic/Radiant" → Dark/Light
 - No "Unconscious/Dying" conflated → distinct conditions
 - No "Defence stat" → Defend action + passive Defence
 - No em dashes in rules text (AI tell)
-- No numbered lists in prose rules text
+- No numbered lists in prose
