@@ -130,19 +130,10 @@ The following are the suggested core skills of Crescens. They are a starting poi
 - **Subterfuge** - forgery, lock-picking, spying, and other quieter criminal arts.
 - **Wilderness** - surviving and navigating wild places, tracking, finding food and shelter, and engaging with the natural world.
 
-### Combat Skills
-As combat is a more fine-grained mode of play, so too are Combat Skills a bit more fine-grained than general skills. When creating Custom skills, please bare this in mind. "Fighting", is not a valid skill. "These nun-chuks I got from my Grandpa" is also probably a bit too specific. Use the below as your metric.
-
-- **Blocking** - the use of shields and weapons with the Block property.
-- **Bludgeoning** - clubs, axes, and the application of blunt force.
-- **Bowyer** - bows and crossbows.
-- **Duelling** - swords and other technical one-handed weapons.
-- **Firearms** - muskets, pistols, and munitions.
-- **Great Weapon Fighting** - two-handed weapons such as zweihanders and war mauls.
-- **Knife Fighting** - knives, shivs, and other small blades.
-- **Spear Fighting** - spears and polearms.
-- **Throwing** - javelins, slings, throwing knives, and darts.
-- **Unarmed Combat** - fighting with your body as the weapon.
+Core Crescencs allows for three broad fighting skills:
+- **Weaponry** - melee weapons from knives to batons to full-on swords
+- **Shooting** - ranged weaponry from archery to modern firearms
+- **Martial Arts** - unarmed combat techniques
 
 ### Defining Your Own Skills
 
