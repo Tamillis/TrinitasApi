@@ -133,11 +133,13 @@ Some Powers list core skills as prerequisites. If a character has a custom skill
 | **Second Wind** | Spirit d6 | At the end of a fight, reduce 1 Injury gained in that fight by 1 Rank. |
 | **Spirited** | Spirit d6 | Your Knock Out threshold increases by your Spirit Max. You can repeat this Power. |
 | **Swift** | Agility d6 | Your Move increases to 45ft. |
-| **Telepathy** | Spirit d8, Insight 3 | You can communicate silently with any willing character you can see in your language of choice. You may also attempt to read surface thoughts of an unwilling character as an Action. Make an Opposed Spirit Roll to succeed. |
+| **Telepathy*** | Spirit d8, Insight 3 | You can communicate silently with any willing character you can see in your language of choice. You may also attempt to read surface thoughts of an unwilling character as an Action. Make an Opposed Spirit Roll to succeed. |
 | **Toughness** | Strength d6 | Use your Strength die for Evasion rolls instead of Agility, toughing-out blows. |
 | **Unhindered Movement** | Agility d6 | If not Encumbered, you traverse vertical surfaces and liquids without falling/sinking if you start/end on solid ground. |
 | **Waterborne** | None | Swimming does not reduce your Movement. You can hold your breath for up to 10 minutes. |
 | **Willpower** | Spirit d6 | Use your Spirit die for Evasion rolls instead of Agility, putting mind over matter. |
+
+*Telepathy may not be appropriate for your table's setting, check with your GM.
 
 ## Progression
 
