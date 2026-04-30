@@ -16,7 +16,7 @@ app.use('/api/docs', docRoutes);
 app.use('/api/auth', authRoutes);
 app.use('/api/powers', powersRoutes);
 
-// Simple Gets
+// Simple Trinitas Gets
 const assets = ["backgrounds", "equipment", "packs", "races", "skills", "spells", "crescens-magic"];
 assets.forEach(asset => {
     app.get("/api/" + asset, SimpleController.get)

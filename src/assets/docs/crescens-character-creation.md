@@ -1,79 +1,48 @@
 # Character Creation
 
-A Crescens character is built from their Statistics, Skills and Powers. Ancestry and Background informs Statistics and Skills, and a character's "role" is defined by the Powers they choose.
+A Crescens character is built from their Statistics, Skills and Powers.
 
-These determines what your character can do well (or poorly), who they are and how they move through the world.
+To help choose and ground these, determine your character's Ancestry, Background and Role.
 
-Character Creation should be followed in order, and let each step shape the next.
+## Ancestry
 
-## 1. Statistics
+Your ancestry describes where your character comes from: their heritage and physical biology.
 
-Statistics represent the broad physical and mental dimensions of a character. Think of them less as rigid categories and more as so-called "vectors of approach" where any Statistic can be used with any skill. The Statistic is the What, with the skill being the How.
+In certain Crescens modules, ancestry differences are expressed as dice-chain steps for certain Statistics and ancestry trait Powers you were born with rather than trained into.
 
-Crescens has five statistics:
+Core Crescens, however, only deals with Humans:
 
-- **Strength** represents raw physical power: lifting, forcing, enduring, and hitting hard.
-- **Agility** represents speed, precision, and physical grace: moving well, striking accurately, and performing with your body.
-- **Perception** represents awareness, both physical and social: noticing things, reading situations, and sensing what others miss.
-- **Intelligence** represents the processing and recall of information: learning, reasoning, strategising, and applying knowledge.
-- **Spirit** represents will, connection, and inner force: resisting, persevering, relating to others, and engaging with things beyond the mundane.
+**Human** is the default ancestry of Crescens. You start the game with a Skill Increase (see Progression, below). Roll statistics as normal.
 
 ### Rolling Statistics
+For an explanation of Statistics, see `Core`.
 
 Determine your character's Statistics by:
 - Rolling 7 six-sided dice
 - Discarding the highest and lowest
 - Reading left to right, note your Strength, Agility, Perception, Intelligence and Spirit in that order with the value rolled on the remaining dice.
-- A result of 1-2-3 a d4, 4-5 a d6, and 6 a d8.
+- A result of 1-2 a d4, 3-4-5 a d6, and 6 a d8.
 
-(If a you as a player are truly unhappy with your result, you may swap one result with another.)
+You may swap one result with another.
 
-Statistics are expressed as dice as when a statistic is called upon, you roll that die. The maximum face value of your statistic die represents your peak capability in that domain, known as your Statistic Max, which is used for certain rules like getting Knocked Out (see combat).
+Statistics can and should improve through play as your character progresses, as represented by the Statistic Increase progression choice. This is up to a maximum of d12 unless a Power enables a Statistic to go "Superhuman". See **Progression** below.
 
-Statistics can and should improve through play as your character improves, up to a maximum of d10. See **Progression** below.
+#### Note Derived Statistics
 
-#### Evasion
-A character's **Evasion** is how hard they are to hit in combat. This is equal to the midpoint of their Agility Statistic die, rounded down.
+Make a note of the core derived statistics of a character:
+- **Evasion** - their Agility Stat Average
+- **Knock Out Limit** - their Strength Stat Max + Spirit Stat Max
 
-| Agiliy | Evasion |
-|---|---|
-| d4 | 2 |
-| d6 | 3 |
-| d8 | 4 |
-| d10 | 5 |
-| d12 | 6 |
+## Background
 
-Powers exist that replace Evasion with a different statistic for determining a character's ability to not take damage, reflecting characters who survive through toughness (Strength), foresight (Perception), prediction (Intelligence), or sheer will (Spirit); rather than speed.
-
-#### Limit
-A character's **Limit**, a.k.a. "Knock Out Limit" is the amount of Injury Ranks they can take before becoming Knocked Out - unable to participate in combat anymore.
-
-## 2. Skills
-
-Skills are the specific things your character is good at. Where statistics describe the broad kind of person you are, skills describe what you have actually learned to do. A skill rank of 0 means untrained - you can still attempt most things, but you roll your statistic alone. A skill rank of 1 to 6 adds directly to your roll as a flat bonus.
-
-At character creation you have **10 ranks** to distribute among skills. No single skill can begin above rank 3.
-
-See (core.md) for the skill list.
-
-## 3. Ancestry
-
-Your ancestry describes where your character comes from: their heritage and physical biology. In Crescens, ancestry traits are expressed as Powers you were born with rather than trained into, and are handled by setting modules. (See Roles below).
-
-In a world where all characters are human, ancestry requires no mechanical differentiation. If everyone shares the same baseline, the baseline is simply the game, and no special rules are needed. In settings with multiple ancestries, the relevant module will provide ancestry Powers appropriate to that world, and may even make changes to Character Creation itself.
-
-**Human** is the default ancestry of Crescens. It is recommended they take a Skill Increase instead of an Ancestry Trait Power (if you are playing with any) to reflect their adaptability and range.
-
-## 4. Background
-
-Your background describes who your character was before the adventure began. It provides suggested skills reflecting your former life, and a starting kit of equipment that grounds you in the world. Suggested skills are not mandatory, if you can justify an alternative that fits your background's fiction, discuss it with your GM.
+Your background describes who your character was before the adventure began. It provides suggested Skills reflecting their former life, and a starting kit of equipment.
 
 The Core Backgrounds applicable to nearly any setting are:
 
-| Background | Description | Skills | Equipment |
+| Background | Description | Suggested Skills | Equipment |
 | --- | --- | --- | --- |
 | **Privileged** | Born into comfort and high social standing; instinctively understands how power and social circles operate. | Charm, Knowledge (History) | Fine clothing, signet ring/mark of station, personal servant, large sum of money, letter of introduction. |
-| **Labourer** | Experienced in hard physical work; understands how things are built, grown, and maintained through manual toil. | Unarmed Combat, Crafting | Sturdy worn clothing, trade tools, small sum of money, letter from employer/guild. |
+| **Labourer** | Experienced in hard physical work; understands how things are built, grown, and maintained through manual toil. | Animal Handling, Crafting | Sturdy worn clothing, trade tools, small sum of money, letter from employer/guild. |
 | **Poor** | Grew up in a world not made for them; survived through wit, stubbornness, and the ability to make something from nothing. | Subterfuge, Wilderness | Threadbare practical clothing, item of personal significance, almost no money, a debt owed to them. |
 | **Merchant** | Understands the price of everything; experienced in negotiation, moving goods, and the thin line between profit and ruin. | Charm, Persuasion | Decent travelling clothes, scales, well-kept ledger, medium sum of money, outstanding contract/promissory note. |
 | **Performer** | Experienced in commanding attention and evoking emotion; understands crowds, timing, and the courage of the stage. | Art, Charm | Costume/performance outfit, instrument or prop, practical clothes, small/medium sum of money, letter from admirer/patron. |
@@ -83,68 +52,116 @@ The Core Backgrounds applicable to nearly any setting are:
 | **Wanderer** | Always on the move; familiar with the freedom of the road and the reality of being a stranger in every place. | Wilderness, Animal Handling | Practical travelling clothes, bedroll, week of rations, optimistic map, small sum of money, memento. |
 | **Criminal** | Operates in the gray area between legality and necessity; possesses knowledge of how locks, people, and systems fail. | Subterfuge, Deception | Dark practical clothing, lockpicks, weapon of debatable legality, medium sum of money, favor/debt note. |
 | **Scholar** | Dedicated to deep, specific study at the cost of time and relationships; possesses specialized knowledge others overlook. | Knowledge (Arcane, Nature, Occult, or Religion), Logic | Ink-stained clothing, writing materials, two reference texts, small sum of money, academic letter/thesis. |
-| **Military** | Served a larger institution; understands how to follow orders, fight, and how systems function when ideals fade. | Intimidation, a combat skill | Former uniform, service weapon, bedroll, small/medium sum of money, discharge papers/commendation. |
+| **Military** | Served a larger institution; understands how to follow orders, fight, and how systems function when ideals fade. | Intimidation, Weaponry | Former uniform, service weapon, bedroll, small/medium sum of money, discharge papers/commendation. |
 
-## 5. Role
+Suggested Skills are not mandatory, you can choose skills freely.
 
-Your Role represents the particular shape of your capability at the start of play: not a class, not a profession, but a small cluster of Powers that make you distinct. To help solidfy your Role: name it. 
+### Choose Skills
+At character creation you have **8 Ranks** to distribute among skills of your choice. No single skill can begin above Rank 3.
+
+The skills of `Core` being:
+- **Animal Handling**
+- **Art**
+- **Charm**
+- **Crafting**
+- **Deception**
+- **First Aid**
+- **Insight**
+- **Intimidation**
+- **Knowledge** (one of)
+- **Logic**
+- **Persuasion**
+- **Piloting**
+- **Martial Arts**
+- **Search**
+- **Shooting**
+- **Stealth**
+- **Subterfuge**
+- **Wilderness**
+- **Weaponry**
+
+## Your Role
+
+Your Role represents the particular shape of your capability at the start of play: like a class, profession, or job of your own definition. Solidify your Role by naming it.
 
 > For example:
-> - Ferromancer
+> - Feral Guide
 > - A Noble Rebel
-> - A Former Pirvateer
-> - An Outback ranger
+> - A Former Privateer
+> - An Outback Ranger
 > - A Priestess of forgotten Gods
-> - The scoundrel of the Saloon
+> - The Scoundrel of the Saloon
 
-Powers are specific mechanical abilities that go beyond what statistics and skills alone provide. They are things you can do that most people simply cannot. At character creation, choose **2 Powers**.
+Powers are specific mechanical abilities that go beyond statistics and skills. They are things you can do that most people simply cannot.
 
-Most Powers are available from the Modules you use for your game. See the 100+ provided with the Fantasy Module, for example.
+Most Powers are available from the Modules you use for your game.
 
-12 Core Powers are also detailed below, which are setting agnostic and suitable for any game of Crescens.
+A number of Core Powers are also detailed below, which are setting agnostic and suitable for any game of Crescens.
 
-There are no restrictions beyond any prerequisites listed on the Power itself. Two characters with completely different Powers are two completely different people, regardless of similar statistics or skills: and similarly two characters sharing a Power or two will have different statistics, skills and entirely different approaches.
+There are no restrictions on Powers beyond any prerequisites listed on the Power itself.
 
-Some Powers list core skills as prerequisites. If a character has a custom skill that covers the same territory as a core skill listed as a prerequisite, the GM may rule that it satisfies the requirement. A character with a custom skill called "Street Fighting" might reasonably satisfy a prerequisite for Unarmed Combat. A character with "Court Etiquette" might satisfy one for Charm.
+Some Powers list core skills as prerequisites. If a character has a custom skill that covers the same territory as a core skill listed as a prerequisite, the GM may rule that it satisfies the requirement. 
+
+> A character with a custom skill called "Street Fighting" might reasonably satisfy a prerequisite for Martial Arts. A character with "Court Etiquette" might satisfy one for Charm.
 
 ### Example Core Powers
 
 | Name | Prerequisites | Description |
 | --- | --- | --- |
 | **Action Surge** | None | Once per Fight, you can push past your limits. You may take one additional Action this Round. |
-| **Blind Fighting** | Perception d8, Insight 4 | Within Close Range you sense anything not behind total cover, ignore the effects of darkness and obscuration, and cannot be surprised. |
-| **Camouflage** | Stealth 4 | As an Action, if you press yourself against a solid surface or go prone and hold still, you gain Advantage on Stealth rolls for as long as you remain motionless. |
+| **Armour Expert** | None | While wearing armour, gain +1 to your Evasion. |
+| **Artisan Expert** | Crafting 3 | Once per scene, you may spend 10 minutes on a Crafting or Knowledge (Engineering) roll to automatically treat the result as your die's maximum value. |
+| **Blind Fighting** | Perception d8, Insight 3 | Within Close Range you sense anything not behind total cover, ignore the effects of darkness and obscuration, and cannot be surprised. |
+| **Camouflage** | Stealth 3 | As a Bonus Action, if you press yourself against a solid surface or go prone and hold still, you gain an Advantage on Stealth rolls for as long as you remain motionless. |
 | **Cursed** | None | When you roll the lowest result on any d6 or greater, gain a Token of Misfortune. Spend a Token as a Bonus Action to turn an enemy's success into a failure. Tokens reset after a Rest. |
 | **Danger Sense** | Perception d6 | You gain an Advantage on rolls to avoid visible effects (traps, visible attacks) provided you are not Incapacitated. |
-| **Durable** | Strength d6 | Your Knock Out threshold increases by your Strength Max. |
-| **Inspiring Leader** | Spirit d6, Persuasion 4 | After 10 minutes addressing up to six characters, each gains a bonus to their Knock Out threshold equal to your Spirit Max until their next Rest. |
+| **Explorer** | Perception d6 | You ignore difficult terrain. When in wilderness, your first attack each Fight gains an Advantage, you cannot be surprised, and when scavenging you find twice the resources. |
+| **Foresight** | Perception d6 | Use your Perception die for Evasion rolls instead of Agility, observing attack-patterns. |
+| **Fortitude** | Strength d6 | Your Knock Out threshold increases by your Strength Max. You can repeat this Power. |
+| **Improved Recovery** | Spirit d6 | After a Rest, you may recover a total of 5 Injury ranks distributed however you choose, up to 2 ranks per Injury. |
+| **Inspiration** | Spirit d6 | Once per Fight, as a Bonus Action, you can inspire an ally that can see you. That ally gains an Advantage on their next roll. |
+| **Inspiring Orator** | Spirit d6, Persuasion 3 | After 10 minutes addressing up to six characters, each gains a bonus to their Knock Out threshold equal to your Spirit Average until their next Rest. |
 | **Jack of All Trades** | None | When making a roll for a skill you have no ranks in, you may add 1 to the result. |
-| **Keen Senses** | None | Choose one sense (sight, hearing, etc.). Rolls relying on that sense gain an Advantage. Can be taken multiple times. |
-| **Lucky** | None | When you roll the lowest result on any d6 or greater, you may reroll it and must use the new result. |
-| **Martial Arts** | Agility d6, Unarmed Combat 4 | Use Agility instead of Strength for unarmed/light weapon attacks. You can chain one unarmed strike as a Bonus Action if you hit with a melee Attack. |
+| **Keen Senses** | None | Choose one sense (sight, hearing, etc.). Rolls relying on that sense gain an Advantage. Can be taken multiple times, once for each sense. |
+| **Learned** | None | When you make a Knowledge roll, do so at an Advantage. |
+| **Linguist** | None | You speak and read an additional language fluently. This Power can be taken multiple times, once per language. |
+| **Lucky** | None | Once per Fight, when you roll the lowest result on any d6 or greater, you may reroll it and must use the new result. |
+| **Martial Arts** | Agility d6, Martial Arts 3 | Use Agility instead of Strength for unarmed/light weapon attacks. You can chain one unarmed strike as a Bonus Action if you hit with a melee Martial Arts Attack. |
+| **Night Vision** | Perception d6 | You can see clearly in low light and dim conditions. You treat total darkness as heavily obscured rather than blinding. |
+| **Nimble** | Agility d6 | You can move through spaces occupied by hostile characters freely. You gain an Advantage on rolls to escape a Grapple and on rolls to Grapple others. |
+| **Prediction** | Intelligence d6 | Use your Intelligence die for Evasion rolls instead of Agility, predicting attacks. |
+| **Second Wind** | Spirit d6 | At the end of a fight, reduce 1 Injury gained in that fight by 1 Rank. |
+| **Spirited** | Spirit d6 | Your Knock Out threshold increases by your Spirit Max. You can repeat this Power. |
+| **Swift** | Agility d6 | Your Move increases to 45ft. |
+| **Telepathy** | Spirit d8, Insight 3 | You can communicate silently with any willing character you can see in your language of choice. You may also attempt to read surface thoughts of an unwilling character as an Action. Make an Opposed Spirit Roll to succeed. |
+| **Toughness** | Strength d6 | Use your Strength die for Evasion rolls instead of Agility, toughing-out blows. |
 | **Unhindered Movement** | Agility d6 | If not Encumbered, you traverse vertical surfaces and liquids without falling/sinking if you start/end on solid ground. |
+| **Waterborne** | None | Swimming does not reduce your Movement. You can hold your breath for up to 10 minutes. |
+| **Willpower** | Spirit d6 | Use your Spirit die for Evasion rolls instead of Agility, putting mind over matter. |
 
-## 6. Progression
+## Progression
 
-Progression in Crescens is a dynamic and natural part of the game. Rather than levels and fixed milestones, characters grow through training, experience, and the marks the world leaves on them.
+Progression in Crescens is a dynamic and natural part of playing the game.
 
 There are three ways a character can grow: Stat Increase, Skill Increase, or Training Powers.
 
 ### Stat or Skill Increase
-If a character could earn a Power, they may instead take a Stat Increase. Step up one Statistic one die size. A d4 becomes a d6, a d6 becomes a d8, a d8 becomes a d10, and a d10 becomes a d12 which is the maximum possible for player characters.
+If a character could earn a Power, they may instead take a **Stat Increase**. Step up one Statistic one die size. A d4 becomes a d6, a d6 becomes a d8, a d8 becomes a d10, and a d10 becomes a d12 which is the maximum possible for player characters.
 
-Or, instead of taking a Power, a character may take a Skill Increase, gaining 3 ranks to distribute among any skills of your choice. No single skill may be increased by more than 1 rank above the current highest skill in a single Skill Increase. Skills cannot exceed rank 6.
+Or, instead of taking a Power, a character may take a **Skill Increase**, gaining 3 ranks to distribute among any skills of your choice. No single skill may be increased by more than 1 rank above the current highest skill in a single Skill Increase. Skills cannot exceed rank 6.
 
-> For example: Tumbleweed is a nature-loving man of the swamp whose highest skill is Knowledge (Nature) at Rank 3. His player, Emily, takes a Stat Increase when her table are rewarded a group power-up in between missions. She cannot increase any skill beyond 4 (1 more than 3). So she increases Knowledge (Nature) by 1, and puts the 2 other ranks elsewhere.
+> For example: Tumbleweed is a nature-loving man of the swamp whose highest skill is Knowledge (Nature) at Rank 3. His player, Emily, takes a Skill Increase when her table are rewarded a group power-up in between missions. She cannot increase any skill beyond 4 (1 more than 3). So she increases Knowledge (Nature) by 1, and puts the 2 other ranks elsewhere.
 
 ### Training Powers
-A character identifies the next Power they wish to make theirs, marking on their sheet as a power "in training". The GM and the player decide how much training, what kind, and any prerequisites that ought to be required for their game and setting, before the Power becomes active. A recommended practice is to have players training Powers that make sense to be slowly building in the background, bringing them online after each monumental story beat, and scattering additional Powers through the narrative as rewards - almost like found treasure. This encourages roleplay as much as mechanical acquisition, and literally empowers the beats of the story.
+A character identifies the next Power they wish to make theirs, marking on their sheet as a power "in training". The GM and the player decide how much training, what kind, and any prerequisites that ought to be required for their game and setting, before the Power becomes active. A recommended practice is to have players training Powers that make sense to be slowly building in the background, bringing them online after each monumental story beat, and scattering additional Powers through the narrative as rewards - almost like found treasure.
 
 > For example: a player at the start of a campaign chapter declares their character is training Blind Fighting. During rests and downtimes, they describe how she puts on a blindfold and drills, sparring with allies, reaching for arrows out of the air, spending hours meditating in darkness. As they reach the chapter's climax, the GM describes how all that training clicks in the final fight, and she gains Blind Fighting. With the defeat of their quarry, an unexpected figure offers a boon, and she gains a second Power entirely.
 
-The amount of time needed for a Power is thematic and not fixed. It depends on the pace of the game, your table's position on the arcade-to-simulation scale, and the Power itself. Think of two things: the intensity of training required, and how long it should take. Some Powers demand full-time study, like a profession. Others can be drilled on weekends, or picked at in a quiet hour each day. A character can have multiple Powers in training simultaneously at different intensities, which is entirely encouraged.
+The amount of time needed for a Power is thematic and not fixed. Think of two things: the intensity of training required, and how long it should take. Some Powers demand full-time study, like a profession. Others can be drilled on weekends, or picked at in a quiet hour each day.
 
-Stat and Skill Increases follow the same training logic as Powers: they represent dedicated effort and should be earned through fiction, not handed out arbitrarily. A character training to increase their Strength should be doing something about it.
+A character can have multiple Powers in training simultaneously at different intensities, which is entirely encouraged.
 
-### Cylcing Optional Rule
+Stat and Skill Increases follow the same training logic as Powers: they represent dedicated effort and should be earned. A character training to increase their Strength should be exercising, etc.
+
+### Cycling Optional Rule
 For a more "balanced" progression in high-progression balance-oriented games, GMs and players should consider **Cycling** progression - each time a character earns a progression they take the progression they haven't for the longest - cycling through Stat, Skills and Power.

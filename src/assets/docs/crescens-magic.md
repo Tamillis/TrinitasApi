@@ -1,10 +1,10 @@
-## Magic
+# Module: Magic
 
 This is a magic module for Crescens, providing rules and Powers that enable fantasy magic.
 
 Magic is accessed through Magic Powers which are thematic groupings of domains of magic, where each Power grants access to the broad ability to "do magic". A character with the Pyromancy Power can manifest any fire-based effect they can imagine, provided they have the Elementalism Skill Rank to meet the required Magnitude their described spell would have and the Strain doesn't overwhelm them (see below).
 
-### Spheres of Magic - Skills
+## Spheres of Magic - Skills
 Magic is categorised into five distinct disciplines known as Spheres, where each is a new Skill
 - The **Arcane** - which relies on logical formulas, adjusting variables on the fly and the manipulation of raw magical force or other fundamental energies.
 - **Faith** - Divine magic which channels the power of divinity - be those personal Gods, forces of the Universe or something else, through devotion and divine fiat.
@@ -12,7 +12,7 @@ Magic is categorised into five distinct disciplines known as Spheres, where each
 - **Verdance** - primal magic which taps into the natural flow and raw power of life
 - **Elementalism** - the magic of the planet - air, earth, fire, water and metal.
 
-### Magic Powers
+## Magic Powers
 Characters gain access to magic by learning Magic Powers - each of which denotes a different school of magic they become able to employ to create magical effects.
 
 Each power notes what magic Stat & Skill it uses.
@@ -25,20 +25,20 @@ A spell's **Magnitude** corresponds to the rough power of that spell, and also t
 
 When a character takes a Magic Power, they should fix which Statistic and Skill they use for that power and this should not change, not at least without significant effort.
 
-### Magic Effects - Spells
+## Magic Effects - Spells
 The player defines a magical effect they attempt each time they use a Power. These are often known as "spells", and player's are encouraged to record their character's spells on their sheet when they determine one, so the GM and Player have a recorded agreement of what a spell is, what its magnitude is, and broadly what its effects are.
 
-### Casting Magic - Stat & Skill
+## Casting Magic - Stat & Skill
 Casting Magic, like any other Action, is a Roll combining a Stat with a Skill.
 
 Scholars of magic broadly define two ways of accessing magic: with the **Mind** (use your character's *Intelligence*) or with **Will** (use your character's *Spirit*). Mind casting relys on a character's **Mana** supply, whereas Will casting simply forces magic through the character's body, putting it under **Strain**.
 
 They then cast particular magical powers using one of the five new magic Skills: Arcane, Elementalism, Faith, Verdance and Witchcraft on a per-power basis.
 
-#### Mana
+### Mana
 Intelligence casting treats magic as a finite resource of calculated formulas. It uses a Mana pool equal to the character's Intelligence die max that represents both their character's natural well of magical energy as well as their mind's ability to keep doing calculations accurately. The mind is a muscle, and it too gets tired. Casting an effect costs Mana equal to its Magnitude. This Mana is reliable, recovering fully per Rest.
 
-#### Strain
+### Strain
 Spirit casting is powering magic with one's raw life force, tempering the raw force of magic with the body itself. Instead of using Mana, such casters risk Strain.
 
 After manifesting an effect, a Spirit caster must roll their Spirit die plus their casting Skill against a Target Number (TN) dictated by the Magnitude of the effect + the number of spells the character is currently maintaing, including this one. For example, the first Magnitude 3 spell a character casts with Will is a TN of 4. If they cast a magnitude 5 spell while maintaining 3 other spells - that's a TN of 9.
@@ -79,8 +79,8 @@ Modifier | Duration
 
 Wanting to do something quickly as a Bonus Action should only be possible for "small" effects, and confer a +1 modifier.
 
-### Example Spells
-#### "Fireball" (Pyromancy)
+## Example Spells
+### "Fireball" (Pyromancy)
 **Base**: 1
 
 **Range**: Small Area (10ft radius) = +2
@@ -91,7 +91,7 @@ Wanting to do something quickly as a Bonus Action should only be possible for "s
 
 *Total Magnitude* = 4 (so this spell requires Elementalism 4 and a TN 5+ Strain Check.)
 
-#### "Magic Shield" (Aegis)
+### "Magic Shield" (Aegis)
 **Base**: 1
 
 **Range**: Self = +0
@@ -102,7 +102,7 @@ Wanting to do something quickly as a Bonus Action should only be possible for "s
 
 *Total Magnitude*: 3 (so this spell requires Arcane 3 and costs 3 Mana.)
 
-### Magical Attacks
+## Magical Attacks
 For spells that target specific Characters dealing Damage or causing some hostile condition - you make an Attack as normal. 
 
 - For targetted spells - the caster rolls their Stat plus their Casting Skill against the target's Defence
@@ -112,5 +112,5 @@ On a spell's success, the caster rolls for damage to generate an Injury or appli
 
 Magical damage types are suggested per Power. Arcane magic typically deals Force or Lightning damage. Faith magic deals Light or Fire damage. Witchcraft often manifests as Dark, Psychic, or Poison damage. Verdance and Elementalism often utilizes Cold, Fire, or physical elements like Bludgeoning (Stone) or Slashing (Wind).
 
-### Powers and Progression
+## Powers and Progression
 Training in magic follows the standard progression rules of Crescens. Increasing a casting Skill or Stat, or learning a Magic Power, requires in-fiction time and dedicated practice. As a character's skill grows, their ability to handle higher Magnitude effects increases, allowing them to naturally progress from simple sparks to city-leveling infernos, and as their understanding of various Powers grows, so does the breadth of their repertoire.

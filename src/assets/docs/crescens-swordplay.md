@@ -1,4 +1,4 @@
-# Swordplay Module
+# Module: Swordplay
 
 A module for grounded martial combat. Compatible with any Crescens setting where personal weapons and armour are the primary tools of violence: historical, fantasy, or otherwise.
 
@@ -194,16 +194,27 @@ Use Agility instead of Strength for unarmed attacks. Unarmed damage increases to
 ### Energy and Stamina
 
 **Iron Stamina**
-Prerequisites: Strength d6 or Spirit d6
+
+*Prerequisites*: Strength d6 or Spirit d6
+
 Your Energy pool increases by 3.
 
 **Battle Flow**
-Prerequisites: Any Combat Skill rank 4
+
+*Prerequisites*: Any Combat Skill rank 4
+
 When you reduce an enemy to Knocked Out or kill them outright, recover 2 Energy. This may not exceed your maximum Energy.
 
 **Efficient Fighter**
-Prerequisites: Any Combat Skill rank 3
+
+*Prerequisites*: Any Combat Skill rank 3
+
 The Energy cost of Press and Feint is reduced to 0. You have internalised these manoeuvres so thoroughly they no longer drain you.
+
+TODO
+**Rage**
+
+Once per Fight when not wearing Encumbring Armour. You have advantage on Strength Checks and Fortitude Saves. You cannot Concentrate for the purposes of other powers. You have resistance to bludgeoning, piercing, and slashing damage. When you make a melee weapon attack using Strength, increase the damage by 1.
 
 ### Defence and Evasion
 

@@ -1,4 +1,4 @@
-# Crescens: Core
+# Crescens Core
 
 Crescens is a tabletop roleplaying game (if you're here, you know what that is).
 
@@ -84,6 +84,33 @@ A character's Statistics range from d4 to d12 (d4 to d8 in character-creation), 
 
 A d4 is considered "poor" capability, a d6 "average", a d8 "talented", a d10 "exceptional" and a d12 "genius".
 
+The maximum face value of a statistic die represents a character's peak capability in that domain, known as their **Stat Max**, which is used for certain rules like determining Knock Out Limit (see Derived Stats below).
+
+The Average value of a statistic die is it's mid-value rounded-down, known as their **Stat Average**. 
+
+| Statistic Die | Stat Average | Stat Max |
+|---|---| --- |
+| d4 | 2 | 4 |
+| d6 | 3 | 6 |
+| d8 | 4 | 8 |
+| d10 | 5 | 10 |
+| d12 | 6 | 12 |
+
+### Derived Statistics
+In Core, there are two derived statistics - statistics calculated from the 5 primary ones.
+
+#### Evasion
+A character's **Evasion** is how hard they are to hit in combat.
+
+This is equal to their Agility Stat Average.
+
+Powers exist that replace Evasion with a different statistic for determining a character's ability to not take damage, reflecting characters who survive through toughness (Strength), foresight (Perception), prediction (Intelligence), or sheer will (Spirit); rather than speed.
+
+#### Knock Out Limit
+A character's **Knock Out Limit**, a.k.a. simply "Limit", is the amount of Injury Ranks they can take before becoming Knocked Out - unable to participate in combat anymore.
+
+It is equal to their Strength Max + Spirit Max.
+
 ## Skills
 
 Skills are trained capabilities in fields of expertise that your character has learned to do. They are from Rank 0 to Rank 6. A Skill rank adds directly to your roll when you are using that Skill.
@@ -109,12 +136,13 @@ The following are the core skills of Crescens. They are a starting point, player
 - **Knowledge** - a specific field of learning. When taking this skill, choose one field. Knowledge may be taken multiple times for different fields. Examples include:
   - Science
   - Culture
+  - Language
   - Engineering
   - History
   - Medicine
   - Nature
   - Occult
-  - Religion. 
+  - Religion
 - **Logic** - applying reasoned thinking, strategy, tactics, and the piecing together of evidence.
 - **Persuasion** - the art of turning people around to your point of view.
 - **Piloting** - driving vehicles, sailing watercraft, and navigating by map.
@@ -144,6 +172,11 @@ Injuries are descriptions and locations for a kind of wound that applies a minus
 > Velma has a rank 2 'Gashed Leg' and a rank 1 'Bruised Knuckles', for example. If she were to scale a wall, either could hinder, so she applies a -2 penalty to the roll for the higher of the two ranks.
 
 Injuries accumulate, and enough of them will take a character to their Knock Out Limit, removing them from the fight entirely until they Recover. See `Combat` rules for the full Injury and Recovery system.
+
+## Equipment
+WIP
+
+Medicine Kit - 10 uses, one use to auto Stabilize or grant a Recovery Roll (once per Rest per character).
 
 ## Design Philosophy
 This section contains no rules, just the thought behind some of them. Feel free to go to the next page if you're looking for further rules.
