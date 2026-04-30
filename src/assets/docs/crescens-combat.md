@@ -1,8 +1,8 @@
 # Crescens Combat
 
-Combat in Crescens is meant to feel dramatic, dangerous, and snappy where each blow is felt as characters are not just bags of hit points, and rounds are fast and fluid affairs where each character takes one dramatic action.
+Combat in Crescens is meant to feel dramatic, dangerous, and snappy. Characters feel each blow thanks to the Injuries system, adding drama and danger, and rounds are fast and fluid affairs where each character takes only one action and players are constantly engaged with what is happening and each other.
 
-Rounds are resolved simultaneously. Wounds are specific, immediate and lasting. Death is always a possibility, but distinct from being Knocked Out of the fight - which is what matters most.
+Rounds are resolved simultaneously. Wounds are specific, immediate and lasting. Death is always a possibility, but distinct from being Knocked Out of the fight. One can be Out but not Unconscious, Dying but not Out, and Unconscious without necessarily Dying - and every fight has the possibility of consequences thanks to Lasting Injuries.
 
 ## Rounds and Actions
 
@@ -225,6 +225,8 @@ When the total rank of all a character's Injuries meets or exceeds their Knock O
 ### Unconsciouss
 Knocked Out characters are not necessarily Unconscious; they are simply out of the fight. The GM or player may describe a Knock Out as most thematically valid as being Unconsciouss, otherwise characters are free to slowly crawl and mock through gritted teeth, or take whatever other non-participatory action they wish.
 
+Other Powers and effects may cause a character to become Unconsciouss - unable to participate in the fight anymore without necessarily being at or over their limit, or dying.
+
 ## Fatal Injuries and Dying
 
 When a character suffers an Injury of rank 4 or greater, the GM should consider marking it as **Fatal**. An Arterial Cut to the throat, a Transfixion through the chest, bones shattered in a critical location - these are wounds that kill if left unaddressed.
@@ -241,7 +243,7 @@ A Dying character may still act, still fight, still drag themselves toward the d
 
 **Heal** - as an Action, a character with a Fatal Injury can make a First Aid Skill Check to **Heal** one Fatal Injury of their choice against a TN equal to the current rank of the Injury + the number of Fatal Injuries that character has (so if you have 1 Rank 4 Fatal Injury, the TN is 5). On a success, the Injury is no longer Fatal, no longer accumulating Ranks.
 
-### The Lasting Injury
+### Lasting Injuries
 When a character is Knocked Out, they gain a Lasting Injury. Roll on the table below after a fight has finished (only once, no matter how many times they get Knocked Out).
 
 Roll a d20.
@@ -272,9 +274,9 @@ Roll a d6.
 
 ## Death
 
-Death in Crescens comes from injuries becoming too great to bear.
+Death in Crescens comes from injuries becoming too great to bear. There are three main causes of death:
 
-- A **rank 6 single Injury** - if a character takes a Rank 6 Injury in one go, this Kills them instantly. The GM may grant them a Dramatic Death.
+- A **rank 6 single Injury** - if a character takes a Rank 6 Injury in one go, this Kills them instantly. The GM may grant them a Dramatic Death (see Lasting Injuries result 1).
 - Any Fatal Injury accumulates to Rank "7" - as this is impossible.
 
 ## Recovery
