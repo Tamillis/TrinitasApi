@@ -174,9 +174,38 @@ Injuries are descriptions and locations for a kind of wound that applies a minus
 Injuries accumulate, and enough of them will take a character to their Knock Out Limit, removing them from the fight entirely until they Recover. See `Combat` rules for the full Injury and Recovery system.
 
 ## Equipment
-WIP
+Some example setting-agnostic equipment. Specific Equipment can be found in Modules.
 
-Medicine Kit - 10 uses, one use to auto Stabilize or grant a Recovery Roll (once per Rest per character).
+### Adventuring Gear
+
+| Name | Cost | Weight | Description |
+| --- | --- | --- | --- |
+| **Sleeping Kit** | Cheap | Light | Compact rest equipment. Required for a comfortable Rest in the field. |
+| **Illumination** | Negligible | Negligible | An item that lights an area within Close Range for several hours. |
+| **Rope** | Cheap | Moderate | 15 metres of strong cordage of setting-appropriate material. Supports climbing, binding, rigging, and improvisation. |
+| **Rations** | Cheap | Light | One day of portable food. Running out has consequences at GM discretion. |
+| **Water Container** | Cheap | Light | Holds enough water or equivalent for one day. |
+| **Pack** | Cheap | Light | Lets you carry gear properly. Without one, the GM may rule certain loads impractical. |
+| **Bag or Sack** | Negligible | Negligible | A rough container for loose items. No straps. |
+| **Crowbar** | Cheap | Moderate | Grants an Advantage on Strength rolls to force open doors, containers, or similar. |
+| **Climbing Gear** | Cheap | Light | A hook, spike set, or equivalent for anchoring a line to a surface or ledge. |
+| **Restraints** | Modest | Light | Binds a captured character. A restrained character must succeed on a Strength roll to break free. |
+| **Signalling Device** | Cheap | Negligible | A mirror, flare, transmitter, or equivalent. Visible at Long Range under appropriate conditions. |
+| **Marking Kit** | Cheap | Negligible | Chalk, paint, tape, or equivalent. Useful for marking paths, surfaces, or leaving signs. |
+
+### Tools
+
+| Name | Cost | Weight | Description |
+| --- | --- | --- | --- |
+| **Medicine Kit** | Modest | Light | 10 uses. Spend one use to automatically Stabilise a character or grant them a Recovery Roll. Once per Rest per character. |
+| **Lock-picking Tools** | Modest | Negligible | 10 uses. Required for Subterfuge rolls to overcome locks, security systems, or physical access controls. Loses 1 charge on a critical failure. |
+| **Forgery Kit** | Modest | Light | Required for Deception rolls involving forged documents, false credentials, or fabricated records. |
+| **Disguise Kit** | Modest | Light | Required for Deception rolls involving physical disguise. Grants an Advantage when used with sufficient time and preparation. |
+| **Note-Taking Kit** | Cheap | Negligible | Required for producing written documents, logs, or equivalent records. |
+| **Trade Tools** | Modest | Moderate | A set of tools for a given trade or craft. Required for Crafting rolls in that trade. Specify type on acquisition. |
+| **Long-Range Viewer** | Expensive | Light | Extends effective sight to Long Range for Perception rolls relying on vision. |
+| **Navigation Aid** | Modest | Negligible | A compass, star chart, nav computer, or equivalent. Grants an Advantage on Wilderness rolls involving navigation. |
+| **Blank Map or Chart** | Cheap | Negligible | Suitable for recording terrain, layouts, or routes as discovered. |
 
 ## Design Philosophy
 This section contains no rules, just the thought behind some of them. Feel free to go to the next page if you're looking for further rules.
