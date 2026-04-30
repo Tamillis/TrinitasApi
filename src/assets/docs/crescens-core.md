@@ -137,9 +137,13 @@ Players may define their own custom skills, following the same principle: a sing
 
 ## Injuries
 
-When a character is hurt, they acquire Injuries. Injuries work like negative skills, detracting from rolls.
+When a character is hurt, they acquire Injuries. Injuries work like negative skills, detracting from rolls. The Rank of an Injury is set by the damage that caused it.
 
-descriptors and locations describing a kind of wound that applies negative skill ranks to relevant actions. A rank 2 Gashed Leg, for example, applies a -2 penalty to any roll where that leg is meaningfully involved, like scaling that wall. Injuries accumulate, and enough of them will take them to their Knock Out Limit, removing them from the fight entirely until they Recover. See *crescens combat* for the full Injury and Recovery system.
+Injuries are descriptions and locations for a kind of wound that applies a minus modifier to a roll. If a character has multiple Injuries at various Ranks, use the highest most relevant.
+
+> Velma has a rank 2 'Gashed Leg' and a rank 1 'Bruised Knuckles', for example. If she were to scale a wall, either could hinder, so she applies a -2 penalty to the roll for the higher of the two ranks.
+
+Injuries accumulate, and enough of them will take a character to their Knock Out Limit, removing them from the fight entirely until they Recover. See `Combat` rules for the full Injury and Recovery system.
 
 ## Design Philosophy
 This section contains no rules, just the thought behind some of them. Feel free to go to the next page if you're looking for further rules.
