@@ -24,4 +24,4 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: ~/scripts/${{ github.event.repository.name }}/deploy.sh
+          script: bash ~/scripts/${{ github.event.repository.name }}/deploy.sh
