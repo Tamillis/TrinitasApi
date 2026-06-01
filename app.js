@@ -10,20 +10,19 @@ const app = express();
 app.use(express.json());
 
 
+// Main Routes
 app.use('/api/docs', docRoutes);
-
-// Full Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/powers', powersRoutes);
 
-// Simple Trinitas Gets
+// Simple Asset Gets - TODO - put trinitas under /api/trinitas/{{asset names}}
 const assets = ["backgrounds", "equipment", "packs", "races", "skills", "spells"];
 assets.forEach(asset => {
     app.get("/api/" + asset, SimpleController.get)
 });
 
 //sense check
-app.get('/api/debug', (req, res) => res.json({msg: "API is awake!"}));
+app.get('/api/debug', (req, res) => res.json({ msg: "API is awake!" }));
 
 // Error Handling
 app.use((err, req, res, next) => {

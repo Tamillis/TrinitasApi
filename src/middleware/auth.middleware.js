@@ -1,5 +1,7 @@
 import jwt from 'jsonwebtoken';
 import user from '../contracts/user.contract.js';
+import path from 'path';
+import { docsRepository } from '../repositories/docs.repo.js';
 
 /** @typedef {import('../contracts/user.contract.js').UserContract} UserContract */
 
@@ -37,5 +39,33 @@ export const identify = (req, res, next) => {
         }
     }
 
+    next();
+}
+
+export const validateDocPath = (req, res, next) => {
+    
+    const { docId } = req.body;
+
+    if (!docId) {
+        return res.status(400).json({ error: 'Parameter docId is required.' });
+    }
+
+    // Strict Validation, filepath exists or not
+    const targetFilePath = docsRepository.getFilePathById(docId);
+    
+    if (!targetFilePath) {
+        return res.status(403).send('Access Denied.')
+    }
+    
+    console.log("targetFilePath", targetFilePath);
+
+    // Double-check file safety to prevent any path escaping
+    const rootDir = docsRepository.getRootDir();
+    const resolvedTarget = path.resolve(targetFilePath);
+    if (!resolvedTarget.startsWith(rootDir)) {
+        return res.status(403).send('Access Denied.')
+    }
+
+    req.safeDocPath = resolvedTarget;
     next();
 }

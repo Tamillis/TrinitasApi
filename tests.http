@@ -55,4 +55,14 @@ Authorization: Bearer {{authToken}}
 GET {{baseUrl}}/races
 
 ### Get a document
-GET {{baseUrl}}/docs/core.md
+GET {{baseUrl}}/docs/test.md
+
+### Edit a document
+POST {{baseUrl}}/docs
+Content-Type: {{contentType}}
+Authorization: Bearer {{authToken}}
+
+{
+    "docId": "test",
+    "content": "This has been edited by the test! *clap*"
+}
