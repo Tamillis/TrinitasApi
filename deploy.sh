@@ -11,4 +11,4 @@ else
     git pull origin main
 fi
 
-pm2 reload trinitas-api --update-env
+pm2 reload TrinitasApi --update-env
