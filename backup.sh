@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# TODO: fix this again and set up cron job to run as this is severely out of date
+
 # Configuration
 REPO_DIR="/home/peter/TrinitasApi"
 SOURCE_ASSETS="$REPO_DIR/src/assets"

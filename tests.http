@@ -57,6 +57,15 @@ GET {{baseUrl}}/races
 ### Get a document
 GET {{baseUrl}}/docs/test.md
 
+### Get the doc map
+GET {{baseUrl}}/docs/nav
+
+### Get the asset map
+GET {{baseUrl}}/assets/nav
+
+### Get a specific asset
+GET {{baseUrl}}/assets/crescens/core
+
 ### Edit a document
 POST {{baseUrl}}/docs
 Content-Type: {{contentType}}

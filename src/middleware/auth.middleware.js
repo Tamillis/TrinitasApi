@@ -2,6 +2,7 @@ import jwt from 'jsonwebtoken';
 import user from '../contracts/user.contract.js';
 import path from 'path';
 import { docsRepository } from '../repositories/docs.repo.js';
+import { assetRepository } from '../repositories/assets.repo.js';
 
 /** @typedef {import('../contracts/user.contract.js').UserContract} UserContract */
 
@@ -67,5 +68,33 @@ export const validateDocPath = (req, res, next) => {
     }
 
     req.safeDocPath = resolvedTarget;
+    next();
+}
+
+export const validateAssetPath = (req, res, next) => {
+    
+    const { assetKey } = req.body;
+
+    if (!assetKey) {
+        return res.status(400).json({ error: 'Parameter assetKey is required.' });
+    }
+
+    // Strict Validation, filepath exists or not
+    const targetAssetPath = assetRepository.getAssetPath(docId);
+    
+    if (!targetAssetPath) {
+        return res.status(403).send('Access Denied.')
+    }
+    
+    console.log("targetAssetPath", targetAssetPath);
+
+    // Double-check file safety to prevent any path escaping
+    const rootDir = assetRepository.getRootDir();
+    const resolvedTarget = path.resolve(targetAssetPath);
+    if (!resolvedTarget.startsWith(rootDir)) {
+        return res.status(403).send('Access Denied.')
+    }
+
+    req.safeAssetPath = resolvedTarget;
     next();
 }

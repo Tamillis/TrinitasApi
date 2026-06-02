@@ -2,7 +2,7 @@ import express from 'express';
 import authRoutes from './src/routes/auth.routes.js';
 import powersRoutes from './src/routes/powers.routes.js';
 import docRoutes from './src/routes/docs.routes.js';
-import { SimpleController } from './src/controllers/simple.controller.js';
+import assetRoutes from './src/routes/assets.routes.js';
 
 const app = express();
 
@@ -14,12 +14,8 @@ app.use(express.json());
 app.use('/api/docs', docRoutes);
 app.use('/api/auth', authRoutes);
 app.use('/api/powers', powersRoutes);
+app.use('/api/assets', assetRoutes);
 
-// Simple Asset Gets - TODO - put trinitas under /api/trinitas/{{asset names}}
-const assets = ["backgrounds", "equipment", "packs", "races", "skills", "spells"];
-assets.forEach(asset => {
-    app.get("/api/" + asset, SimpleController.get)
-});
 
 //sense check
 app.get('/api/debug', (req, res) => res.json({ msg: "API is awake!" }));

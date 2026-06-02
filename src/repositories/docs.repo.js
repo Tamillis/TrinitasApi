@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-const ROOT_DOCS_PATH = path.resolve(process.cwd(), './src/assets/docs');
+const ROOT_DOCS_PATH = path.resolve(process.cwd(), './src/docs');
 
 const buildDocsMap = (rootDir, dir, baseMap = {}) => {
     if (!dir) dir = rootDir;
@@ -49,5 +49,13 @@ export const docsRepository = {
     async updateFile(filePath, content) {
         await fs.promises.writeFile(filePath, content, 'utf8');
         return true;
+    },
+
+    /**
+     * Returns an array of all available document IDs
+     * @returns {string[]}
+     */
+    getAllDocIds() {
+        return Object.keys(allowedDocsMap);
     }
 };
