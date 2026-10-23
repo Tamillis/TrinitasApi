@@ -2,7 +2,7 @@
 
 Crescens is a tabletop roleplaying game (if you're here, you know what that is).
 
-It has been design with love from both OSR and new schools of thought - aiming for both narrative and tactical play.
+It has been designed with love from both OSR and new schools of thought - aiming for both narrative and tactical play.
 
 Crescens is designed to be setting agnostic. The core rules here describe characters and what they can do, with core examples of systems designed to be expanded in modules that best enable the setting and theme they're for.
 
@@ -25,7 +25,7 @@ Crescens uses a chain of dice to represent capability going from d2 to d20. Ever
 #### Rolling unusual dice
 A d2 can be "rolled" with a coin (heads 2, tails 1), or with a regular d6 with 1-2-3 being 1 and 4-5-6 being 2. A d3 can also be rolled with a regular d6: 1-2 for 1, 3-4 for 2 and 5-6 for 3.
 
-A d16 is a bit tricky to roll but can be simulated with a d8 and a "double-it" die: any other die. If the Double-It die is above it's average (so a 4-5-6 on a d6), add 8 to the first d8 for your result, otherwise just use the initial d8 result.
+A d16 is a bit tricky to roll but can be simulated with a d8 and any other die. If the second die is above it's average (so a 4-5-6 on a d6), add 8 to the first d8 for your result, otherwise just use the initial d8 result.
 
 ### Target Numbers (TN)
 
@@ -73,11 +73,11 @@ The 5 statistics are:
 
 | Statistic | Description |
 | --- | --- |
-| Strength | Raw physical power: lifting, forcing, breaking, enduring, and hitting hard, and representing the physical capacity to absorb punishment. |
-| Agility | Speed, precision, and physical grace: moving well, striking accurately, performing with your body, and reacting quickly. |
-| Perception | Awareness, both physical and social: noticing things, reading situations, sensing what others miss, and reacting to the world as it actually is rather than as you expect it to be. |
 | Intelligence | The processing and recall of information: scholarship, cunning, careful analysis, and working things out. |
-| Spirit | Spirit is will, connection, and inner force. It is the act of resisting, persevering, and relating to others. Most importantly, it is the ability to engage with things beyond the mundane. It also represents the will to keep going when the body wants to stop.
+| Perception | Awareness, both physical and social: noticing things, reading situations, sensing what others miss, and reacting to the world as it actually is rather than as you expect it to be. |
+| Strength | Raw physical power: lifting, forcing, breaking, enduring, and hitting hard, and representing the physical capacity to absorb punishment. |
+| Spirit | Spirit is will, connection, and inner force. It is the act of resisting, persevering, and relating to others. Most importantly, it is the ability to engage with things beyond the mundane. It also represents the will to keep going when the body wants to stop. |
+| Agility | Speed, precision, and physical grace: moving well, striking accurately, performing with your body, and reacting quickly. |
 
 ### Statistic Dice
 A character's Statistics range from d4 to d12 (d4 to d8 in character-creation), and characters can temporarily or permanently increase or decrease their Stats along the chain as well - such as through Encumbrance reducing their Agility, or Stat Increase during progression increasing a statistic 1 step.
@@ -125,7 +125,7 @@ A skill and statistic pairings are not fixed. The same skill might be rolled aga
 
 The following are the core skills of Crescens. They are a starting point, players, GMs and Modules add to and change this list. 
 
-- **Animal Handling** - understanding and being understood by animals, and riding them.
+- **Animal Handling** - understanding and coercing animals, riding them and corralling them.
 - **Art** - playing music, singing, performing, painting, and other creative expression.
 - **Charm** - proper etiquette, pleasing performance, and social grace.
 - **Crafting** - the making of objects, from tools to fine work.
@@ -161,7 +161,7 @@ If combat is a large part of your table's game, consider using a combat-focused 
 #### Custom Skills
 Players may define their own custom skills, following the same principle: a single evocative phrase describing a specific area of capability. 
 
-> Do not create skills that are a superset of a Statistic, like "athletics" as a superset of Strength, as these are not the fields-of-expertise a Skill is supposed to be, and prevents the free association of Statistics and Skills.
+> Do not create skills that are a superset of a Statistic, like "athletics" as a superset of Strength, as these are not the fields-of-expertise a Skill is supposed to be.
 
 ## Injuries
 
@@ -214,23 +214,21 @@ Three ideas sit at the heart of Crescens.
 
 **Vectors of approach** - A player describes *what* a character attempts to do, and the mechanics of the game - the Statistics, Skills and Powers - describe *how*. The system is purposefully inteded to not pigeon-hole actions, but simple enable actions and generate the narrative behind them. For a character that wants to *intimidate* - a character could use their Intimidate skill to browbeat someone through physical menace with Strength. But they could also intimidate someone through Subterfuge and Intelligence quietly revealing blackmail they know. A character could intimidate through dexterous acrobatics showing up another, or through sheer overbearing oration with their spirit and persuasion. The fiction leads the mechanics.
 
-**Verisimilitude** The rules generally apply descriptors rather than numbers, trying to create scenarios better able to reflect a lived reality. Damage leaves specific marks on specific people through Injuries, instead of HP. A character is hurt in ways that matter to what they do next, not in ways that merely subtract from a number until the number reaches zero. Skills represent learnable things and are open ended. Every Statistic is intended to be broad enough to apply to any skill.
+**Verisimilitude** The rules generally apply descriptors rather than numbers, trying to create scenarios better able to reflect a lived reality. Damage leaves specific marks on specific people through Injuries, instead of HP. A character's hurts matter to what they do next in ways subjective instead of being a dwindling number pool and an on-off switch. Skills represent learnable things and are open ended. Every Statistic is intended to be broad enough to apply to any skill.
 
-**Impact** Crescens is not a game where the heroes are invulnerable. Violence has consequences. Going into a fight unprepared or badly outmatched, or just letting it go on too long, is dangerous. Injuries will start to drag as each wound slows you down, until either you or your enemy are Knocked Out.
+**Impact** Crescens is not a game where the heroes are invulnerable. Violence has consequences. Going into a fight unprepared or badly outmatched, or just letting it go on too long, is dangerous. Injuries will start to drag as each wound slows you down, until either you or your enemy are Knocked Out. Similarly, the large range in rollable skill values encourages players to dig into the scene and create the advantages they need to succeed, or really feel the disadvantages they suffer. And when they outclass a task and are almost guaranteed to succeed apart from a critical failure, it feels earned to succeed, or fate on a failure - both adding impact.
 
 ### When Not to Roll
 Rolling is only intended to be called for when needed, and not to be a barrier to story or conversely a player tool to force a GM's hand.
 
-A roll is called for when failure is plausible and consequential. A character picking a complex lock under fire with inadequate tools rolls, but one with the right tools and all the time in the world doesn't: even for a difficult lock. Now if the latter character had to pick that lock in the next 30 seconds because the guard is coming, then you have consequences and a roll should be made to see if they pick it in time.
+A roll is called for when failure is plausible and consequential. A character with the right tools and all the time in the world doesn't roll to pick the lock: even for a difficult one. Now if the character had to pick that lock in the next 30 seconds because the guard is coming, then you have consequences and a roll should be made to see if they pick it in time.
 
 In other words: rolling dice is for moments of genuine uncertainty with meaningful consequences on either side.
 
 - If a character could not reasonably fail, do not roll.
 - If failure would produce nothing interesting, do not roll.
-- If the only consequence of a roll would be to slow things down, do not roll.
+- If the only consequence of a roll would be to slow things down, do not roll, just narrate the slow-down. Let the story breathe.
 - If the GM does not call for a roll, do not roll.
-
-The GM should always ask: what happens if this fails? If the answer is nothing of consequence, skip the roll.
 
 ### Social Skills and Statistics
 
