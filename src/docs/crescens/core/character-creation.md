@@ -114,6 +114,7 @@ Some Powers list core skills as prerequisites. If a character has a custom skill
 | **Camouflage** | Stealth 3 | As a Bonus Action, if you press yourself against a solid surface or go prone and hold still, you gain an Advantage on Stealth rolls for as long as you remain motionless. |
 | **Cursed** | None | When you roll the lowest result on any d6 or greater, gain a Token of Misfortune. Spend a Token as a Bonus Action to turn an enemy's success into a failure. Tokens reset after a Rest. |
 | **Danger Sense** | Perception d6 | You gain an Advantage on rolls to avoid visible effects (traps, visible attacks) provided you are not Incapacitated. |
+| **Die Hard** | Spirit d6 | You gain an Advantage on Fatal Rolls provided you are not Unconscious. |
 | **Explorer** | Perception d6 | You ignore difficult terrain. When in wilderness, your first attack each Fight gains an Advantage, you cannot be surprised, and when scavenging you find twice the resources. |
 | **Foresight** | Perception d6 | Use your Perception die for Evasion rolls instead of Agility, observing attack-patterns. |
 | **Fortitude** | Strength d6 | Your Knock Out threshold increases by your Strength Max. You can repeat this Power. |
