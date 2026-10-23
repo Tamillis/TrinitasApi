@@ -180,6 +180,7 @@ Some example setting-agnostic equipment. Specific Equipment can be found in Modu
 
 | Name | Cost | Weight | Description |
 | --- | --- | --- | --- |
+| **Reinforced Clothing** | Expensive | Heavy | Grants an Armour value of 2. |
 | **Sleeping Kit** | Cheap | Light | Compact rest equipment. Required for a comfortable Rest in the field. |
 | **Illumination** | Negligible | Negligible | An item that lights an area within Close Range for several hours. |
 | **Rope** | Cheap | Moderate | 15 metres of strong cordage of setting-appropriate material. Supports climbing, binding, rigging, and improvisation. |
