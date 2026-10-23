@@ -204,7 +204,17 @@ Reference the Damage table for that Damage Type for ideas for Injury descriptors
 | 5 | Debilitating continuous fits |
 | 6+ | Cooked organs |
 
-#### DARK, LIGHT
+#### DARK
+| Damage | Descriptor |
+|---|---|
+| 1 | Disturbed thoughts |
+| 2 | Unresponsive digits |
+| 3 | Arthritic Weakness |
+| 4 | Palpitating heart, unresponsive limbs |
+| 5 | Failing senses and organs |
+| 6+ | Rigor mortis |
+
+#### LIGHT
 *WIP* - adding one each time I edit this doc
 
 ### Targeting Unarmoured Locations
@@ -255,7 +265,7 @@ Knocked Out characters are not necessarily Unconscious; they are simply out of t
 
 Other Powers and effects may cause a character to become Unconsciouss - unable to participate in the fight anymore without necessarily being at or over their limit, or dying.
 
-## Fatal Injuries and Death Rolls
+## Fatal Injuries and Fatal Rolls
 
 When a character suffers an Injury of rank 4 or greater, wounds that could kill if left unaddressed, the GM should consider marking it as **Fatal**.
 
@@ -263,29 +273,20 @@ When a character suffers an Injury of rank 4 or greater, wounds that could kill 
 
 At the end of a Round, for each Fatal Injury the character makes a **Death Roll**.
 
-> **Death Roll** = Spirit Roll vs a TN of the Rank of the Fatal Injury + the number of Fatal Injuries they have (including this one). 
+> **Fatal Roll** = Spirit Roll vs a TN of the Rank of the Fatal Injury + the number of other Fatal Injuries they have. 
 
-If they have 1 rank 4 Fatal Injury, the TN is 5. If they have a rank 5 Fatal Injury, and 3 Fatal Injuries in total, that Death TN is 8. A roll is made for each Fatal Injury at the end of a Round.
+If they have 1 rank 4 Fatal Injury, the TN is 4 (a 50/50 for average Spirit characters). If they have a rank 5 Fatal Injury, and 3 Fatal Injuries in total, that Death TN is 7 (5 + 2 from other fatal injuries). A roll is made for each Fatal Injury at the end of a Round.
 
 On a success, nothing happens. On a failure, that Fata Injury increases Rank by 1.
 
 If a Fatal Injury reaches Rank 7 (an impossible rank), the character dies. The GM may decide they have some time to say last words, or they may die instantly.
 
 ### Dying
-Having at least one Fatal Injury means the character is **Dying** - i.e. making Death Rolls. 
+Having at least one Fatal Injury means the character is **Dying** - i.e. making Fatal Rolls. 
 
 As such, it is possible for a character to be Dying without being Knocked Out, or Knocked Out without Dying. This also does not necessarily correspond to being Unconscious either.
 
 A Dying character may still act, still fight, still drag themselves toward the door - but they are on a clock, and the clock is the wound itself getting worse.
-
-## Example Combat
-4 players and their GM are playing a simple game only utilising Core, where the player characters are 4 individuals investigating strange circumstances in the endless night of a nordic winter.
-
-They've chased clues to a quiet industrial estate, and the side door they've chosen for their approach yawns black, the inside truly dark. They step inside, but Casey trips on a forgotten pipe, making a loud clatter. A deep below echoes from within, and skittering sounds all along the walls and roof, even behind them. The GM says that combat is about to begin.
-
-The GM sets up the field.
-
-### Round 1
 
 ### Lasting Injuries
 When a character is Knocked Out, they gain a Lasting Injury. Roll on the table below after a fight has finished (only once, no matter how many times they get Knocked Out).
@@ -395,3 +396,24 @@ Moving through difficult terrain costs double movement. Climbing or swimming cos
 **Unconscious** - the character is unaware of their surroundings, drops whatever they are holding, falls Prone, and automatically fails any roll requiring awareness or physical response.
 
 **Unstable** - the character has a Disadvantage on attacks. Typically caused by riding a mount or standing on a rolling ship's deck.
+
+## Example Combat
+Four players and their GM are playing a simple game using only Core. Their characters have followed strange reports to a disused water-treatment plant in the endless night of a Nordic winter. In a room full of sweating pipes, Casey knocks a loose wrench to the floor. Something answers from inside the walls. A pipe bursts, and a pale, many-jointed creature spills out onto the concrete.
+
+The service corridor is thirty feet away. The creature is already within reach of Casey, and the emergency shutter at the corridor entrance is open. For this example, the creature has Evasion 3, attacks with Strength d8 + Weaponry 2, and its claws deal d6 Slashing damage. Casey has Evasion 3, Strength d8, and Weaponry 1. Rowan is close enough to Assist her; his Evasion is 4 and his Spirit is d6.
+
+
+### Round 1
+The GM says the creature is lunging for Casey. Casey declares an Attack, slashing across its bulk with her knife. Rowan declares Assist: he swings a work light into its face to give Casey an opening. Jules and Morgan each declare Move, heading for the service corridor.
+
+Resolve the engagement between Casey and the creature. Rowan's Assist gives Casey an Advantage, stepping her Strength die from d8 to d10. She rolls a 4 and adds Weaponry 1, for 5 against the creature's Evasion 3: a Hit. Her knife deals d6 Slashing damage; she rolls 3, giving the creature Rank 3 Lacerations along its side. It shrieks and recoils, but keeps coming.
+
+The creature's attack resolves at the same time. It rolls 5 on its d8 and adds Weaponry 2, for 7 against Casey's Evasion 3: a Hit. Its claws deal 2 damage, giving Casey a Rank 2 Gash across her shoulder. That Injury applies -2 to rolls where the shoulder matters. Jules and Morgan then Move 30 feet toward the corridor.
+
+
+### Round 2
+The creature twists and lashes out at Rowan. The GM declares an attack on him. Everyone declares Move toward the corridor. Morgan is at the shutter control and declares a Quick Use as a Bonus Action: she will drop the shutter as the group passes through.
+
+The creature rolls a 5 and adds 2, hitting Rowan's Evasion 4. Its claws deal 4 damage, giving him a Rank 4 Severed Muscle injury in his thigh. The GM rules that the wound is Fatal: blood pours through Rowan's trousers as the group Moves 30 feet. Morgan uses her Bonus Action to drop the shutter as the others clear it. The creature slams into the other side, claws scraping beneath the door. The group is through, but the chase has only just begun.
+
+At the end of the Round, Rowan makes his first Fatal Roll. Its TN is 4: the Fatal Injury's Rank 4, with no other Fatal Injuries to add. He rolls 3 on his Spirit d6 and fails, so the injury increases to Rank 5. Casey's shoulder hurts; Rowan is bleeding badly, and another failed Fatal Roll will raise the wound to Rank 6. On the next Round, someone can use an Action to Stabilise him with First Aid against TN 5 (Rank 5 + no other Fatal Injuries), while the others hold off the creature or keep moving. If they leave him untreated, Rowan makes another Fatal Roll at the end of that Round; if he fails again at Rank 6, he dies. The group did not need to kill the creature to win this exchange, but now they must decide what getting away is worth.
