@@ -80,7 +80,7 @@ The 5 statistics are:
 | Agility | Speed, precision, and physical grace: moving well, striking accurately, performing with your body, and reacting quickly. |
 
 ### Statistic Dice
-A character's Statistics range from d4 to d12 (d4 to d8 in character-creation), and characters can temporarily or permanently increase or decrease their Stats along the chain as well - such as through Encumbrance reducing their Agility, or Stat Increase during progression increasing a statistic 1 step.
+A character's Statistics range from d4 to d12 (d4 to d8 in character-creation), and characters can temporarily or permanently increase or decrease their Stats along the chain as well - such as drinking a concoction boosting Strength or a Stat Increase during progression increasing a statistic 1 step.
 
 A d4 is considered "poor" capability, a d6 "average", a d8 "talented", a d10 "exceptional" and a d12 "genius".
 
