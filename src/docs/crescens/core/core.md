@@ -176,11 +176,22 @@ Injuries accumulate, and enough of them will take a character to their Knock Out
 ## Equipment
 Some example setting-agnostic equipment. Specific Equipment can be found in Modules.
 
+### Generic Weapons and Armour
+
+| Name | Cost | Weight | Description |
+| --- | --- | --- | --- |
+| **Reinforced Clothing** | Modest | Light | Grants an Armour value of 1. |
+| **Amoured Padding** | Modest | Medium | Grants an Armour value of 2. |
+| **Military Protection** | Expensive | Heavy | Grants an Armour value of 3. |
+| **Fist** | Free | - | Deals 1d2 Bludgeoning damage at melee range |
+| **Knife** | Modest | Light | Deals 1d3 Slashing damage at melee range |
+| **Club** | Cheap | Light | Deals 1d3 Bludgeoning damage at melee range |
+| **Gun** | Expensive | Moderate | Deals 2d3 Piercing damage at Medium range |
+
 ### Adventuring Gear
 
 | Name | Cost | Weight | Description |
 | --- | --- | --- | --- |
-| **Reinforced Clothing** | Expensive | Heavy | Grants an Armour value of 2. |
 | **Sleeping Kit** | Cheap | Light | Compact rest equipment. Required for a comfortable Rest in the field. |
 | **Illumination** | Negligible | Negligible | An item that lights an area within Close Range for several hours. |
 | **Rope** | Cheap | Moderate | 15 metres of strong cordage of setting-appropriate material. Supports climbing, binding, rigging, and improvisation. |
