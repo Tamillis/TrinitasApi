@@ -17,12 +17,12 @@ Core Crescens, however, only deals with Humans:
 ### Rolling Statistics
 Determine your character's Statistics by:
 - Rolling 5 six-sided dice
-- Reading left to right, note your Strength, Agility, Perception, Intelligence and Spirit in that order with the value rolled on the remaining dice.
+- Reading top to bottom, note your Intelligence, Perception, Strength, Spirit and Agility in that order with the value rolled on the remaining dice.
 - A result of 1-2 a d4, 3-4 a d6, and 5-6 a d8.
 
-You may swap one result with another.
+You may then swap one result with another.
 
-Statistics can and should improve through play as your character progresses, as represented by the Statistic Increase progression choice. This is up to a maximum of d12 unless a Power enables a Statistic to go "Superhuman". See **Progression** below.
+Statistics can and should improve through play as your character progresses, as represented by the Statistic Increase progression choice. This is up to a maximum of d12 unless a Power and your GM's setting enables a Statistic to go "Superhuman". See **Progression** below.
 
 #### Note Derived Statistics
 
@@ -54,7 +54,7 @@ The Core Backgrounds applicable to nearly any setting are:
 Suggested Skills are not mandatory, you can choose skills freely.
 
 ### Choose Skills
-At character creation you have **8 Ranks** to distribute among skills of your choice. No single skill can begin above Rank 3.
+At character creation you have **8 Ranks** to distribute among skills of your choice. No single skill can begin above Rank 3. You should put 2-4 ranks into your Background's suggested skills.
 
 The skills of `Core` being:
 - **Animal Handling**
@@ -69,12 +69,13 @@ The skills of `Core` being:
 - **Logic**
 - **Persuasion**
 - **Piloting**
-- **Martial Arts**
 - **Search**
-- **Shooting**
 - **Stealth**
 - **Subterfuge**
 - **Wilderness**
+
+- **Martial Arts**
+- **Shooting**
 - **Weaponry**
 
 ## Your Role
@@ -93,7 +94,7 @@ Powers are specific mechanical abilities that go beyond statistics and skills. T
 
 Most Powers are available from the Modules you use for your game.
 
-A number of Core Powers are also detailed below, which are setting agnostic and suitable for any game of Crescens.
+A number of Core Powers are also detailed below, which are setting agnostic and suitable for any game of Crescens (powers with * require GM setting approval).
 
 There are no restrictions on Powers beyond any prerequisites listed on the Power itself.
 
